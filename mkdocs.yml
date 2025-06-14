@@ -1,0 +1,27 @@
+# Site information
+site_name: DCC-EX MkDocs Testing
+site_url: https://dcc-ex.com/mdkocs-test/
+site_description: Initial testing of MkDocs for DCC-EX documentation
+repo_url: https://github.com/DCC-EX/mkdocs-test
+repo_name: GitHub
+edit_uri: edit/main/docs/
+
+# Theme configuration
+theme:
+  name: material
+  favicon: static/images/logos/favicon.ico
+  logo: static/images/logos/logo.png
+  language: en
+
+# Navigation structure
+nav:
+  - Home: index.md
+
+# Plugins
+plugins:
+  - search # Material client-side search using Lunr.js
+  - git-revision-date-localized # Auto date each page from last Git commit
+
+# Copyright info
+copyright: |
+  &copy; 2025 <a href="https://dcc-ex.com/" target="_blank" rel="noopener">DCC-EX</a>

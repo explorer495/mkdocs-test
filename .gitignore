@@ -1,0 +1,13 @@
+# IDE files
+.vscode
+
+# Python environments
+venv
+venv/
+
+# Random OS files
+.DS_store
+Thumbs.db
+
+# MkDocs build directory
+site/
