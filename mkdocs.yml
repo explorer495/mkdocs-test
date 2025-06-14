@@ -14,13 +14,15 @@ theme:
   language: en
 
 # Navigation structure
-nav:
-  - Home: index.md
+# This is provided by the awesome-nav plugin instead
+# nav:
+#   - Home: 'index.md'
 
 # Plugins
 plugins:
   - search # Material client-side search using Lunr.js
   - git-revision-date-localized # Auto date each page from last Git commit
+  - awesome-nav: # Enable awesome-nav plugin to support dynamic page structure
 
 # Copyright info
 copyright: |

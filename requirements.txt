@@ -1,4 +1,5 @@
 mkdocs==1.6.1
+mkdocs-awesome-nav==3.1.2
 mkdocs-ezglossary-plugin==2.0.0
 mkdocs-git-revision-date-localized-plugin==1.4.7
 mkdocs-material==9.6.14

@@ -27,6 +27,7 @@ This is the simple working list of requirements to evaluate against:
 
 [MkDocs website](https://www.mkdocs.org/)
 [MkDocs Material theme](https://squidfunk.github.io/mkdocs-material/)
+[MkDocs Awesome Nav plugin](https://lukasgeiter.github.io/mkdocs-awesome-nav/)
 
 ## MkDocs requirements
 
