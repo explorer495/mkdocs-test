@@ -12,9 +12,20 @@ theme:
   favicon: static/images/logos/favicon.ico
   logo: static/images/logos/logo.png
   language: en
+  palette:
+    - scheme: dccex
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+extra_css:
+  - static/css/dccex_theme.css
 
 # Navigation structure
-# This is provided by the awesome-nav plugin instead
+# This is provided by the awesome-nav plugin instead (see .nav.yml in each directory)
 # nav:
 #   - Home: 'index.md'
 
