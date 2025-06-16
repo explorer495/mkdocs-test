@@ -12,6 +12,9 @@ theme:
   favicon: static/images/logos/favicon.ico
   logo: static/images/logos/logo.png
   language: en
+  features:
+    content.code.select
+    content.code.copy
   palette:
     - scheme: dccex-light
       primary: '#00353D'
@@ -42,3 +45,9 @@ plugins:
 # Copyright info
 copyright: |
   &copy; 2025 <a href="https://dcc-ex.com/" target="_blank" rel="noopener">DCC-EX</a>
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
