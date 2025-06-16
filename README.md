@@ -137,3 +137,10 @@ For example, you don't need  "what's on this page" when each page only has one t
 Keeping pages task-oriented automatically helps stuff become intelligible and commands that play together get discussed together in context but leave out the discussion of parameters that are unnecessary, irrelevant, or could be added later.
 
 For things like the diy build, the things like mega, esp32  csb1, nucleo really need to show on only one small page where you select the one you are interested in... we should avoid anything that smells like  " on a csb1 you do it like this but on an stm32 you do it like that"
+
+## Recommended VSCode Extensions for Markdown
+
+I highly recommend including three Markdown related VSCode extensions to help keep consistent formatting:
+
+- Markdown Preview Mermaid Support by Matt Bierner - enables previewing Mermaid diagrams in VSCode
+- markdownlint by David Anson - helps keep consistent, good formatting in Markdown files (like flake8 for Python)

@@ -5,7 +5,7 @@ However, it is simple to partition myAutomation.h into separate files for the co
 
 To include your additional files, use the c++ preprocessor #include control in myAutomation.h to insert the file contents exactly as if you had typed them into myAutomation.h
 
-```
+```cpp
 // Include my roster file
 #include "myRoster.h"
 // Include my turnout definitions
@@ -13,5 +13,5 @@ To include your additional files, use the c++ preprocessor #include control in m
 // Special animation
 #include "myCowOnElectricFence.h"
 ```
+
 A note to hardened C++ programmers... do not be tempted to add include guards to your .h files.
- 

@@ -9,7 +9,6 @@ edit_uri: edit/main/docs/
 # Theme configuration
 theme:
   name: material
-  # custom_dir: docs/static
   favicon: static/images/logos/favicon.ico
   logo: static/images/logos/logo.png
   language: en
@@ -18,14 +17,10 @@ theme:
     content.code.copy
   palette:
     - scheme: dccex-light
-      primary: '#00353D'
-      accent: '#009FB5'
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - scheme: dccex-dark
-      primary: '#009FB5'
-      accent: '#00CEF7'
       toggle:
         icon: material/weather-night
         name: Switch to light mode
