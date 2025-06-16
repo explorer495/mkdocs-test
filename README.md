@@ -35,12 +35,29 @@ MkDocs does require Python in order to be previewed and built locally, and all t
 
 Previewing and building locally is recommended to be done in a virtual environment, with requirements installed.
 
-Linux/macOS:
+macOS:
 
 ```bash
 virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
+
+Linux:
+
+You have pthon3 and the python3-venv installed with  packet manager of your choice
+
+``` bash
+cd mkdocs-test
+mkdir venv
+python3 -m venv venv
+. ./venv/bin/activate
+```
+Now you should have a prompt that starts with "(venv)"
+
+``` bash
+pip3 install -r requirements.txt
+
 ```
 
 Windows:
