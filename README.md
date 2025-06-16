@@ -33,7 +33,7 @@ This is the simple working list of requirements to evaluate against:
 
 MkDocs does require Python in order to be previewed and built locally, and all testing is being performed with Python 3.13.
 
-** Minimum python version seems to be 3.10 **
+**Minimum python version seems to be 3.10**.
 
 Previewing and building locally is recommended to be done in a virtual environment, with requirements installed.
 
@@ -55,6 +55,7 @@ mkdir venv
 python3.10 -m venv venv # 3.10 or later
 . ./venv/bin/activate
 ```
+
 Now you should have a prompt that starts with "(venv)"
 
 ``` bash

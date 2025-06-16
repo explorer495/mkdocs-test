@@ -1,6 +1,7 @@
 nav:
   - Home: index.md
   - EXRAIL Cookbook: exrail
+  - Products: products
   - Reference Manuals : reference
   - Experimenting with MkDocs: experimenting
   
