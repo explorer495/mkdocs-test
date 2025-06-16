@@ -13,11 +13,15 @@ theme:
   logo: static/images/logos/logo.png
   language: en
   palette:
-    - scheme: dccex
+    - scheme: dccex-light
+      primary: '#00353D'
+      accent: '#009FB5'
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
-    - scheme: slate
+    - scheme: dccex-dark
+      primary: '#009FB5'
+      accent: '#00CEF7'
       toggle:
         icon: material/weather-night
         name: Switch to light mode
