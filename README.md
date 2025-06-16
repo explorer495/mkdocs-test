@@ -73,7 +73,7 @@ MkDocs also has a feature to deploy to GitHub pages without using a workflow:
 mkdocs gh-deploy
 ```
 
-# Design Principles for DCC-EX (Pete)
+## Design Principles for DCC-EX (Pete)
 
 - Must have at least a basic DCC-EX look/feel colour theme
 - Must have useful search capability
@@ -108,7 +108,8 @@ I'm leaning towards the user journey type idea I started with which is what drov
 
 Which ever way we go, we absolutely must reduce the amount of text we've used. No waffle. A wall of text is not only hard to read, but makes it hard to maintain.
 
-## additional comments (cf early discord chat, Chris)
+## Additional comments (cf early discord chat, Chris)
+
 I think part of the problem was we used too many things like callouts and side notes and tried too hard to create massively long discussions showing every possible way of doing obscure stuff... 
 
 For example, you don't need  "what's on this page" when each page only has one thing.
