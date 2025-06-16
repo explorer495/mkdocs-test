@@ -42,6 +42,7 @@ plugins:
 copyright: |
   &copy; 2025 <a href="https://dcc-ex.com/" target="_blank" rel="noopener">DCC-EX</a>
 markdown_extensions:
+  - attr_list # Enabled setting attributes in markdown eg. image width
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
