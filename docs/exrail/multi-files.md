@@ -13,3 +13,5 @@ To include your additional files, use the c++ preprocessor #include control in m
 // Special animation
 #include "myCowOnElectricFence.h"
 ```
+A note to hardened C++ programmers... do not be tempted to add include guards to your .h files.
+ 
