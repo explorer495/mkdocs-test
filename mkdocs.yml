@@ -12,6 +12,9 @@ theme:
   favicon: static/images/logos/favicon.ico
   logo: static/images/logos/logo.png
   language: en
+  features:
+    content.code.select
+    content.code.copy
   palette:
     - scheme: dccex-light
       primary: '#00353D'
