@@ -63,6 +63,14 @@ plugins:
   - awesome-nav: # Enable awesome-nav plugin to support dynamic page structure
 
 # Other plugins to experiment with
+  # - rss: # RSS Feed for your news section
+  #     feed_url: /feed.xml # Path to your RSS feed file (relative to site_url)
+  #     feed_description: Latest news and updates from My Awesome Open Source Project
+  #     abstract_chars: 200 # Number of characters for the abstract in the feed
+  #     match_path: 'news/.*' # ONLY include pages under the 'news/' directory
+  #     pretty_print: true
+  #     date_from_meta: # Read date from Markdown front matter
+  #       as_datetime: true
   # - ezglossary: # Auto-generated keyword index/glossary
   #     ignore_case: true # Ignore case when matching terms
   #     inline_refs: list # Start with short refs
