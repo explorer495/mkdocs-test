@@ -130,7 +130,7 @@ Which ever way we go, we absolutely must reduce the amount of text we've used. N
 
 ## Additional comments (cf early discord chat, Chris)
 
-I think part of the problem was we used too many things like callouts and side notes and tried too hard to create massively long discussions showing every possible way of doing obscure stuff... 
+I think part of the problem was we used too many things like callouts and side notes and tried too hard to create massively long discussions showing every possible way of doing obscure stuff...
 
 For example, you don't need  "what's on this page" when each page only has one thing.
 
@@ -138,7 +138,7 @@ Keeping pages task-oriented automatically helps stuff become intelligible and co
 
 For things like the diy build, the things like mega, esp32  csb1, nucleo really need to show on only one small page where you select the one you are interested in... we should avoid anything that smells like  " on a csb1 you do it like this but on an stm32 you do it like that"
 
-## Recommended VSCode Extensions for Markdown
+## Recommended VSCode Extensions for Markdown (Pete)
 
 I highly recommend including three Markdown related VSCode extensions to help keep consistent formatting:
 

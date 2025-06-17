@@ -13,8 +13,15 @@ theme:
   logo: static/images/logos/logo.png
   language: en
   features:
-    content.code.select
-    content.code.copy
+    - content.code.select # Select for code blocks
+    - content.code.copy # Copy button for code blocks
+    - content.code.annotate # Annotate code blocks
+    - content.tooltips # Add tooltips
+    - header.autohide # Autohide header on longer pages
+    - navigation.footer # Show previous/next buttons in footer
+    - navigation.tabs # Top level navigation on header for tabs
+    - search.highlight # Highlight search results
+    - search.suggest # Provide search suggestions
   palette:
     - scheme: dccex-light
       toggle:
@@ -24,8 +31,25 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+  # extra:
+  #   consent: # Deal with cookies we may use related to Google analytics etc.
+  #     actions:
+  #       - accept
+  #       - manage
+  #       - reject
+  #     title: Who likes cookies?
+  #     description: >-
+  #       We use delicious cookies to monitor repeated visits and preferences, primarily to measure the effectiveness of our
+  #       documentation and whether users find what they're looking for.
+  #       With your consent, we'd like to keep making our documentation better.
+
+# Extra CSS attributes for colour scheme etc.
 extra_css:
   - static/css/dccex_theme.css
+
+# Extra JavaScript
+# extra_javascript:
+#   - static/scripts/dccex_scripts.js
 
 # Navigation structure
 # This is provided by the awesome-nav plugin instead (see .nav.yml in each directory)
@@ -38,13 +62,48 @@ plugins:
   - git-revision-date-localized # Auto date each page from last Git commit
   - awesome-nav: # Enable awesome-nav plugin to support dynamic page structure
 
+# Other plugins to experiment with
+  # - ezglossary: # Auto-generated keyword index/glossary
+  #     ignore_case: true # Ignore case when matching terms
+  #     inline_refs: list # Start with short refs
+  #     tooltip: full
+
 # Copyright info
 copyright: |
   &copy; 2025 <a href="https://dcc-ex.com/" target="_blank" rel="noopener">DCC-EX</a>
+
+# Markdown extensions to enhance content
 markdown_extensions:
   - attr_list # Enabled setting attributes in markdown eg. image width
-  - pymdownx.superfences:
+  - pymdownx.superfences: # Enhanced code blocks
       custom_fences:
-        - name: mermaid
+        - name: mermaid # Enable Mermaid JS diagrams
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+
+# List of other extensions to experiment with
+  # - admonition # For callouts (Note, Warning, Tip, etc.)
+  # - attr_list # For adding attributes to Markdown elements (e.g., for custom styles)
+  # - def_list
+  # - md_in_html # Allows Markdown syntax inside raw HTML blocks
+  # - footnotes # Standard footnotes
+  # - pymdownx.details # For collapsible content blocks (e.g., accordions)
+  # - pymdownx.caret # For superscript (e.g., I^2^C)
+  # - pymdownx.tilde # For subscript (e.g., H~2~O)
+  # - pymdownx.mark # For highlighting text ==like this==
+  # - pymdownx.critic # For revision markups
+  # - pymdownx.superfences: # Enhanced code blocks
+  #     custom_fences:
+  #       - name: mermaid # For diagrams using Mermaid-JS syntax
+  #         class: mermaid
+  #         format: !!python/name:mermaid2.fence_mermaid_custom
+  # - pymdownx.tabbed: # For creating tabbed content
+  #     alternate_style: true
+  # - pymdownx.highlight: # For syntax highlighting of code
+  #     anchor_linenums: true
+  #     line_spans: __span
+  #     pygments_lang_class: true
+  # - pymdownx.inlinehilite # For inline code highlighting
+  # - pymdownx.snippets # For including content from other files (simple includes)
+  # - toc: # Table of Contents extension
+  #     permalink: true # Add a permanent link to headings
