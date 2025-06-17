@@ -6,12 +6,21 @@ repo_url: https://github.com/DCC-EX/mkdocs-test
 repo_name: GitHub
 edit_uri: edit/main/docs/
 
+# Validation options
+validation:
+  links:
+    absolute_links: relative_to_docs
+    anchors: warn
+    unrecognized_links: warn
+
 # Theme configuration
 theme:
   name: material
   favicon: static/images/logos/favicon.ico
   logo: static/images/logos/logo.png
   language: en
+  icon:
+    repo: fontawesome/brands/github
   features:
     - content.code.select # Select for code blocks
     - content.code.copy # Copy button for code blocks
@@ -50,6 +59,12 @@ extra_css:
 # Extra JavaScript
 # extra_javascript:
 #   - static/scripts/dccex_scripts.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord # Discord link in footer
+      link: https://discord.gg/y2sB4Fp
+      name: Join us on Discord
 
 # Navigation structure
 # This is provided by the awesome-nav plugin instead (see .nav.yml in each directory)

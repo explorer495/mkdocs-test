@@ -1,2 +1,3 @@
-# experimantal images 
-![this is odd](images(1).png)
+# Experimental images
+
+![this is odd](/static/images/experiment/images(1).png)

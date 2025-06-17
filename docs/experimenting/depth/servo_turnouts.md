@@ -8,7 +8,7 @@ Test, test, test your servo parameters prior to connecting to an actual turnout/
 
 Treat each servo and turnout as an individual as not all servos (or turnouts/points for that matter) are created equal. An angle that works with one servo and associated turnout will not necessarily provide the exact same result with another. Differences in servo brands, mounting methods, and even normal manufacturing tolerances will need to be factored in to the servo angles in use.
 
-The EX-Toolbox Android application provides a servo movement testing tool to help you discover the necessary values for the angles below. 
+The EX-Toolbox Android application provides a servo movement testing tool to help you discover the necessary values for the angles below.
 
 Use flexible wire to connect your servo arm to the turnout/point. Using a flexible connection between the turnout and the servo mechanism means if anything does go wrong such as the turnout getting jammed or an incorrect servo angle being sent, it reduces the chance of damaging the turnout or servo.
 
@@ -16,7 +16,7 @@ Use flexible wire to connect your servo arm to the turnout/point. Using a flexib
 
 Define servo based turnouts using EXRAIL.
 
-```
+```cpp
 SERVO_TURNOUT(id, vpin, active_angle, inactive_angle, profile, "description")
 ```
 
@@ -34,6 +34,6 @@ description = A human-friendly description of the turnout that will appear in Wi
 
 An example definition for a servo connected to the second control pins of the first PCA9685 connected to the CommandStation, using the slow profile for prototypical operation:
 
-```
+```cpp
 SERVO_TURNOUT(200, 101, 450, 110, Slow, "Coal yard exit")
 ```
