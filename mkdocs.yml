@@ -30,6 +30,7 @@ theme:
     - navigation.footer # Show previous/next buttons in footer
     - navigation.tabs # Top level navigation on header for tabs
     - search.highlight # Highlight search results
+    - search.share # Enable share button for copying search links
     - search.suggest # Provide search suggestions
   palette:
     - scheme: dccex-light
@@ -76,7 +77,27 @@ extra:
 plugins:
   - search # Material client-side search using Lunr.js
   - git-revision-date-localized # Auto date each page from last Git commit
-  - awesome-nav: # Enable awesome-nav plugin to support dynamic page structure
+  - awesome-nav # Enable awesome-nav plugin to support dynamic page structure
+  - blog: # Enable built-in blog
+      blog_dir: news
+      blog_toc: true
+      post_dir: "{blog}/articles"
+      post_date_format: medium
+      post_excerpt: required
+      post_url_date_format:  yyyy/MM
+      archive: false
+      categories: true
+      categories_toc: true
+      categories_allowed:
+        - General DCC-EX News
+        - EX-CommandStation
+        - EX-Installer
+        - EX-IOExpander
+        - EX-Turntable
+        - EX-FastClock
+        - EX-DCCInspector
+        - EX-CSB1
+        - DCCEXProtocol
 
 # Other plugins to experiment with
   # - rss: # RSS Feed for your news section
