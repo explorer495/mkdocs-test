@@ -1,8 +1,8 @@
 nav:
   - Home: index.md
-  - EXRAIL Cookbook: exrail
+  - News: news
   - Products: products
+  - EXRAIL: exrail
   - Reference Manuals : reference
   - Experimenting with MkDocs: experimenting
-  - DCC-EX News: news
   

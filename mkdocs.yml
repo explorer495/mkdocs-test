@@ -124,6 +124,7 @@ markdown_extensions:
         - name: mermaid # Enable Mermaid JS diagrams
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.inlinehilite
 
 # List of other extensions to experiment with
   # - admonition # For callouts (Note, Warning, Tip, etc.)
