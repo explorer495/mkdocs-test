@@ -56,7 +56,6 @@ theme:
 # Extra CSS attributes for colour scheme etc.
 extra_css:
   - static/css/dccex_theme.css
-  - static/css/material_overrides.css
 
 # Extra JavaScript
 # extra_javascript:

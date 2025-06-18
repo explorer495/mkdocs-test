@@ -1,4 +1,24 @@
-# Experimenting with code block colours
+# CSS and Format Experimentation - Heading 1
+
+Some text here for the page intro.
+
+## Heading 2
+
+Some text here for a heading 2 section.
+
+### Heading 3
+
+Some more text here for a heading 3 subsection.
+
+#### Heading 4
+
+Maybe a heading 4 subsection.
+
+##### Heading 5
+
+Cater for heading 5 as well.
+
+## Code blocks - H2
 
 Adding a full code block of C++ to test colours and syntax high lighting.
 
