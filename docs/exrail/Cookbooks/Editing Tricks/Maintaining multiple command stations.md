@@ -6,7 +6,7 @@ setups, perhaps because you are testing a new release on a sepaerate CPU or need
 The C++ compiler pre-processor is available to select various parts of your myAutomation.h based on definitions created in your config.h or those created by defines.he which automates the detection of the CPU type of your command station. 
 
 For example:
-```
+```cpp
 #if defined(ARDUINO_ARCH_AVR)
   // on my Mega, I have signal1 on pins (30,31,32)
   ALIAS(mysignal1,30)

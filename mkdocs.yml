@@ -58,7 +58,8 @@ extra_css:
   - static/css/dccex_theme.css
 
 # Extra JavaScript
-# extra_javascript:
+extra_javascript:
+  - static/scripts/search-helper.js
 #   - static/scripts/dccex_scripts.js
 
 extra:
