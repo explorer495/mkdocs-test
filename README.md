@@ -140,7 +140,7 @@ For things like the diy build, the things like mega, esp32  csb1, nucleo really 
 
 ## Recommended VSCode Extensions for Markdown (Pete)
 
-I highly recommend including three Markdown related VSCode extensions to help keep consistent formatting:
+I highly recommend including two Markdown related VSCode extensions to help keep consistent formatting:
 
 - Markdown Preview Mermaid Support by Matt Bierner - enables previewing Mermaid diagrams in VSCode
 - markdownlint by David Anson - helps keep consistent, good formatting in Markdown files (like flake8 for Python)
