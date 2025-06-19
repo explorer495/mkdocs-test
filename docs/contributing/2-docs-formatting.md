@@ -1,22 +1,40 @@
-# CSS and Format Experimentation - Heading 1
+# Documentation Formatting Guide
 
-Some text here for the page intro.
+This guide outlines the various page formatting options available for our documentation along with guidelines on page naming, directory structure, and so forth.
 
-## Heading 2
+## Headings
 
-Some text here for a heading 2 section.
+Headings are simply defined by one or more leading ``#``, noting you can only have one top level heading on a page, which is the page title.
 
-### Heading 3
+The top level heading defines how the page appears in menus, so for this page this is the top level heading:
 
-Some more text here for a heading 3 subsection.
+```markdown
+# Contributing to Documentation
+```
 
-#### Heading 4
+## This is Heading 2
 
-Maybe a heading 4 subsection.
+```markdown
+## This is Heading 2
+```
 
-##### Heading 5
+### This is Heading 3
 
-Cater for heading 5 as well.
+```markdown
+### This is Heading 3
+```
+
+#### This is Heading 4
+
+```markdown
+#### This is Heading 4
+```
+
+##### This is Heading 5
+
+```markdown
+##### This is Heading 5
+```
 
 ## Code blocks - H2
 
