@@ -4,6 +4,8 @@ This page outlines what you need in order to contribute to the documentation, al
 
 The documentation is hosted using GitHub Pages and is written in Markdown format, using MkDocs to publish the content. We use the MkDocs Material theme to give us the framework for the look and feel of the website, along with a number of other useful plugins and extensions to enhance the content.
 
+**Important! Once up and running with the information on this page, please ensure you are familiar with **
+
 ## How to Contribute
 
 For contributions from the general public, we recommend forking the [GitHub repository](https://github.com/DCC-EX/dcc-ex.github.io) and submitting pull requests for the DCC-EX Documenter team to review and merge.

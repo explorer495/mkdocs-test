@@ -126,6 +126,8 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.inlinehilite
+  - toc: # Table of Contents extension
+      permalink: true # Add a permanent link to headings
 
 # List of other extensions to experiment with
   # - admonition # For callouts (Note, Warning, Tip, etc.)
