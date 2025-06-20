@@ -2,11 +2,11 @@
 
 This guide outlines the standards to adhere to for page naming, directory structure, and other related items, along with guides on how to use the various markdown attributes and other MkDocs Material extensions we have enabled to enhance the documentation.
 
-## Standards
+## Mandatory Standards
 
 We try to keep as few mandatory standards as possible, but these items must be adhered to in order for our documentation to be maintainable.
 
-### General Content Standard
+### General Content
 
 When creating content, remember to keep the target user in mind at all times, with a strong preference to Conductor level users. A significant (and growing) proportion of our user base do not understand software, nor a lot of electronics or embedded systems. Use terminology they are likely understand.
 
@@ -53,32 +53,42 @@ Headings are simply defined by one or more leading ``#``, noting you can only ha
 The top level heading defines how the page appears in menus, so for this page this is the top level heading:
 
 ```markdown
-# Contributing to Documentation
+# Standards and Formatting Guide
 ```
 
-## This is Heading 2
+Further, this general section on "Headings" is a second level heading:
 
 ```markdown
-## This is Heading 2
+## Headings
 ```
 
-### This is Heading 3
+Following are how to define the lower level headings with a demo of each.
+
+### Heading Level 3
 
 ```markdown
-### This is Heading 3
+### Heading Level 3
 ```
 
-#### This is Heading 4
+#### Heading Level 4
 
 ```markdown
-#### This is Heading 4
+#### Heading Level 4
 ```
 
-##### This is Heading 5
+##### Heading Level 5
 
 ```markdown
-##### This is Heading 5
+##### Heading Level 5
 ```
+
+## Internal and External Links
+
+There are three types of links you can use:
+
+- Section links - link to another section heading on the same page
+- Document links - link to another document, or a section heading on another document
+- External links - link to an external website
 
 ## Code blocks
 
