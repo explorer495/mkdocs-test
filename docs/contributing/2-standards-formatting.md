@@ -28,15 +28,19 @@ The top level directories under the "docs" directory determine the tabs or horiz
 
 If a new top level directory is to be added, it needs to be added to the "/docs/.nav.yml" file in the appropriate order. Files and directories created within existing top level directories will automatically be added to the menus (see [Page Naming and Titles](#page-naming-and-titles) for page ordering).
 
-### Page and Section Links
+## Page and Section Links
 
-All links to other pages and sections should be relative, not absolute. We have enabled a setting to ensure links are relative to the "docs" directory, and enable permalinks for headings to support this:
+There are three types of links you can use:
 
-```markdown
-[Link to How to Contribute](/contributing/1-contribute-docs.md#how-to-contribute)
-```
+- Section links - link to another section heading on the same page
+- Document links - link to another document, or a section heading on another document
+- External links - link to an external website
 
-Results in: [Link to How to Contribute](/contributing/1-contribute-docs.md#how-to-contribute)
+All internal links to other pages and sections should be relative, not absolute. We have enabled a setting to ensure links are relative to the "docs" directory, and enable permalinks for headings to support this.
+
+External links must be absolute.
+
+### Section Links
 
 Links to sections on the same page should just use the permalink section heading name:
 
@@ -45,6 +49,32 @@ Links to sections on the same page should just use the permalink section heading
 ```
 
 Results in: [Link to this section](#page-and-section-links)
+
+### Document Links
+
+```markdown
+[Link to Contributing to Documentation Page](/contributing/1-contribute-docs.md)
+```
+
+Results in: [Link to Contributing to Documentation Page](/contributing/1-contribute-docs.md)
+
+```markdown
+[Link to How to Contribute Section](/contributing/1-contribute-docs.md#how-to-contribute)
+```
+
+Results in: [Link to How to Contribute Section](/contributing/1-contribute-docs.md#how-to-contribute)
+
+### External Links
+
+```markdown
+[Link to Google Search](https://www.google.com)
+```
+
+Results in: [Link to Google Search](https://www.google.com)
+
+## Search Links
+
+**Chris to insert search link info here.**
 
 ## Headings
 
@@ -81,14 +111,6 @@ Following are how to define the lower level headings with a demo of each.
 ```markdown
 ##### Heading Level 5
 ```
-
-## Internal and External Links
-
-There are three types of links you can use:
-
-- Section links - link to another section heading on the same page
-- Document links - link to another document, or a section heading on another document
-- External links - link to an external website
 
 ## Code blocks
 
