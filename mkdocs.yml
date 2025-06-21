@@ -41,17 +41,6 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
-  # extra:
-  #   consent: # Deal with cookies we may use related to Google analytics etc.
-  #     actions:
-  #       - accept
-  #       - manage
-  #       - reject
-  #     title: Who likes cookies?
-  #     description: >-
-  #       We use delicious cookies to monitor repeated visits and preferences, primarily to measure the effectiveness of our
-  #       documentation and whether users find what they're looking for.
-  #       With your consent, we'd like to keep making our documentation better.
 
 # Extra CSS attributes for colour scheme etc.
 extra_css:
@@ -66,6 +55,16 @@ extra:
     - icon: fontawesome/brands/discord # Discord link in footer
       link: https://discord.gg/y2sB4Fp
       name: Join us on Discord
+  # consent: # Deal with cookies we may use related to Google analytics etc.
+  #   actions:
+  #     - accept
+  #     - manage
+  #     - reject
+  #   title: Who likes cookies?
+  #   description: >-
+  #     We use delicious cookies to monitor repeated visits and preferences, primarily to measure the effectiveness of our
+  #     documentation and whether users find what they're looking for.
+  #     With your consent, we'd like to keep making our documentation better.
 
 # Navigation structure
 # This is provided by the awesome-nav plugin instead (see .nav.yml in each directory)

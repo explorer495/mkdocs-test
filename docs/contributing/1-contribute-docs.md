@@ -14,11 +14,12 @@ If you wish to contribute more fully and become a part of the DCC-EX Documenter 
 
 ## MkDocs Links
 
-Here are some handy links with more info on MkDocs, the MkDocs Material theme, and the MkDocs Awesome Nav plugin we use to create the menu structure dynamically:
+Here are some handy links with more info on MkDocs, the MkDocs Material theme, the MkDocs Awesome Nav plugin we use to create the menu structure dynamically, and the MkDocs RSS Plugin used to publish our DCC-EX News feed:
 
 - [MkDocs website](https://www.mkdocs.org/)
 - [MkDocs Material theme](https://squidfunk.github.io/mkdocs-material/)
 - [MkDocs Awesome Nav plugin](https://lukasgeiter.github.io/mkdocs-awesome-nav/)
+- [MkDocs RSS Plugin](https://guts.github.io/mkdocs-rss-plugin/)
 
 ## What You Need to Install
 
