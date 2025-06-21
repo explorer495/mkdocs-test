@@ -36,9 +36,8 @@ There are three types of links you can use:
 - Document links - link to another document, or a section heading on another document
 - External links - link to an external website
 
-All internal links to other pages and sections should be relative, not absolute. We have enabled a setting to ensure links are relative to the "docs" directory, and enable permalinks for headings to support this.
+All internal links to other pages and sections should be relative to the docs directory. We have enabled a setting to ensure links are correctly copnverted to the correct html href, and enable permalinks for headings to support this.
 
-External links must be absolute.
 
 ### Section Links
 
@@ -64,6 +63,10 @@ Results in: [Link to Contributing to Documentation Page](/contributing/1-contrib
 
 Results in: [Link to How to Contribute Section](/contributing/1-contribute-docs.md#how-to-contribute)
 
+
+Note: when typing a link in VSCode, the intellisense dropdown will help you complete the link by following the path from the project directory. This creates links that start with "/docs" (for example "/docs/contributing/1-contribute-docs.md" ). These links will not work unless you manually detele the /docs prefix.  Its a pain but we have raised a PR for VScode and mkDocs on this.
+
+
 ### External Links
 
 ```markdown
@@ -74,7 +77,20 @@ Results in: [Link to Google Search](https://www.google.com)
 
 ## Search Links
 
-**Chris to insert search link info here.**
+We have added a link feature to directly invoke the mkDocs powerful search dialog. This is particularly useful when you wish to refer to imformation that may be spread over several places and possibly not yet written.
+
+```markdown
+ [Find out about PCA9685 servo controllers](/find/PCA9685)
+```
+ [Find out about PCA9685 servo controllers](/find/PCA9685)
+
+Multi word searches are also accepted
+
+```markdown
+ [hidden turnouts](/find/hidden turnout)
+```
+ [hidden turnouts](/find/hidden turnout)
+
 
 ## Headings
 

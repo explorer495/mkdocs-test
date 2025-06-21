@@ -1,10 +1,11 @@
 # Neopixel signals    
 
-There are two types possible 
+There are two types possible:
+
     - a mast with separate fixed colour pixels for each aspect
     - a mast with one multiple colour pixel for all aspects.
 
-    Bear in mind that a single multicolour neopixel used above might be physically a mulicolour LED (as in a searchlight signal), or 3 individual LEDS wired to a single neopixel controller (as in a 2 or 3 lamp signal).  
+Bear in mind that a single multicolour neopixel used above might be physically a mulicolour LED (as in a searchlight signal), or 3 individual LEDS wired to a single neopixel controller (as in a 2 or 3 lamp signal).  
 
 For separate pixels, the colours should be established at startup and a normal SIGNALH macro used.
 
