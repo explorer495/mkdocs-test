@@ -1,32 +1,6 @@
-# Standards and Formatting Guide
+# Formatting Guide
 
-This guide outlines the standards to adhere to for page naming, directory structure, and other related items, along with guides on how to use the various markdown attributes and other MkDocs Material extensions we have enabled to enhance the documentation.
-
-## Mandatory Standards
-
-We try to keep as few mandatory standards as possible, but these items must be adhered to in order for our documentation to be maintainable.
-
-### General Content
-
-When creating content, remember to keep the target user in mind at all times, with a strong preference to Conductor level users. A significant (and growing) proportion of our user base do not understand software, nor a lot of electronics or embedded systems. Use terminology they are likely understand.
-
-Most importantly, *keep pages concise, to the point, and avoid excess words or waffle*. Not only does this make the key messages hard to read, but maintaining lengthy pages that are a wall of text becomes onerous, daunting, and reduces the likelihood of keeping our documentation current.
-
-### Page Naming and Titles
-
-- All page names must be in lower case and use "-" instead of spaces where appropriate.
-- If specific page ordering is required, simply preface with the appropriate page number eg. "1-standards-formatting.md".
-- The page title is determined by the top level heading, see [Headings](#headings).
-
-### Directory Structure
-
-Note firstly that we use the [MkDocs Awesome Nav plugin](https://lukasgeiter.github.io/mkdocs-awesome-nav/) to control the menu structure, which uses a ".nav.yml" file in any directory where the default needs to be overridden.
-
-The top level directories under the "docs" directory determine the tabs or horizontal menu items on the header bar, with the subsequent directories and files in each of these determining the menu on the left pane.
-
-**Do not adjust the top level directories without consulting the DCC-EX Documenter team, as these fundamentally adjust the user experience.**
-
-If a new top level directory is to be added, it needs to be added to the "/docs/.nav.yml" file in the appropriate order. Files and directories created within existing top level directories will automatically be added to the menus (see [Page Naming and Titles](#page-naming-and-titles) for page ordering).
+This page provides guidelines on how to use the various markdown attributes and other MkDocs Material extensions we have enabled to enhance the documentation.
 
 ## Page and Section Links
 
@@ -37,7 +11,6 @@ There are three types of links you can use:
 - External links - link to an external website
 
 All internal links to other pages and sections should be relative to the docs directory. We have enabled a setting to ensure links are correctly copnverted to the correct html href, and enable permalinks for headings to support this.
-
 
 ### Section Links
 
@@ -63,9 +36,7 @@ Results in: [Link to Contributing to Documentation Page](/contributing/1-contrib
 
 Results in: [Link to How to Contribute Section](/contributing/1-contribute-docs.md#how-to-contribute)
 
-
 Note: when typing a link in VSCode, the intellisense dropdown will help you complete the link by following the path from the project directory. This creates links that start with "/docs" (for example "/docs/contributing/1-contribute-docs.md" ). These links will not work unless you manually detele the /docs prefix.  Its a pain but we have raised a PR for VScode and mkDocs on this.
-
 
 ### External Links
 
@@ -80,17 +51,18 @@ Results in: [Link to Google Search](https://www.google.com)
 We have added a link feature to directly invoke the mkDocs powerful search dialog. This is particularly useful when you wish to refer to imformation that may be spread over several places and possibly not yet written.
 
 ```markdown
- [Find out about PCA9685 servo controllers](/find/PCA9685)
+[Find out about PCA9685 servo controllers](/find/PCA9685)
 ```
- [Find out about PCA9685 servo controllers](/find/PCA9685)
+
+[Find out about PCA9685 servo controllers](/find/PCA9685)
 
 Multi word searches are also accepted
 
 ```markdown
- [hidden turnouts](/find/hidden turnout)
+[hidden turnouts](/find/hidden turnout)
 ```
- [hidden turnouts](/find/hidden turnout)
 
+[hidden turnouts](/find/hidden turnout)
 
 ## Headings
 
