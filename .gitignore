@@ -12,3 +12,6 @@ Thumbs.db
 # MkDocs build directory
 site/
 __pycache__/main.cpython-313.pyc
+
+# some temp files
+SavedFiles

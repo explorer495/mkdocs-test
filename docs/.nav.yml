@@ -3,6 +3,7 @@ nav:
   - News: news
   - Products: products
   - EXRAIL: exrail
+  - EX-FastClock : exfastclock
   - Reference Manuals : reference
   - Experimenting with MkDocs: experimenting
   - Contributing: contributing
