@@ -100,6 +100,30 @@ Following are how to define the lower level headings with a demo of each.
 ##### Heading Level 5
 ```
 
+## Glossary Terms and Linking
+
+To add a term to the glossary, add it in this format:
+
+```markdown
+dcc-ex:term
+: This is a new term being added to the glossary.
+```
+
+To reference the term in a markdown page, use this syntax:
+
+```markdown
+<dcc-ex:term>
+```
+
+This syntax can be embedded pretty much anywhere, including headings.
+
+If you need the term to be capitalised or plural, you can override the displayed text like this:
+
+```markdown
+<dcc-ex:term|Term>
+<dcc-ex:term|terms>
+```
+
 ## Code blocks
 
 When including code blocks, be sure to include an appropriate language for syntax highlighting, and use triple backtick "`" characters to surround the code for highlighting.
