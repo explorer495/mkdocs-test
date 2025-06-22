@@ -34,13 +34,38 @@ The top level directories under the "docs" directory determine the tabs or horiz
 
 If a new top level directory is to be added, it needs to be added to the "/docs/.nav.yml" file in the appropriate order. Files and directories created within existing top level directories will automatically be added to the menus (see [Page Naming and Titles](#page-naming-and-titles) for page ordering).
 
-The agreed upon top level structure to maintain is:
+### Suggested Directory Structure
 
 - Home
+    - index.md - Contains intro information and user journey start points
+    - downloads.md - Maybe downloads here?
 - News
+    - index.md - DCC-EX News articles
+- Getting Started
+    - Choose your level
+    - RTR
+    - DIY
+    - EX-Installer
 - Products
-- EXRAIL
-- EX-FastClock
-- Reference Manuals
-- Experimenting with MkDocs
-- Contributing
+    - EX-CommandStation
+        - EXRAIL
+            - Cookbooks
+        - TrackManager
+    - EX-CommandStation Booster 1 (EX-CSB1)
+    - EX-Motorshield8874
+    - EX-WifiShield-8266
+    - EX-FastClock
+    - EX-IOExpander
+    - EX-Turntable
+- Support
+    - Troubleshooting
+    - Getting Help
+    - Videos
+    - Case Studies
+        - The Big Picture
+- Reference
+    - Throttle commands
+    - EXRAIL commands
+- About
+    - The Team
+    - Contributing
