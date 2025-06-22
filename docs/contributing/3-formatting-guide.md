@@ -51,18 +51,16 @@ Results in: [Link to Google Search](https://www.google.com)
 We have added a link feature to directly invoke the mkDocs powerful search dialog. This is particularly useful when you wish to refer to imformation that may be spread over several places and possibly not yet written.
 
 ```markdown
-[Find out about PCA9685 servo controllers](/find/PCA9685)
+ [Find out about PCA9685 servo controllers](?PCA9685)
 ```
-
-[Find out about PCA9685 servo controllers](/find/PCA9685)
+ [Find out about PCA9685 servo controllers](?PCA9685)
 
 Multi word searches are also accepted
 
 ```markdown
-[hidden turnouts](/find/hidden turnout)
+ [hidden turnouts](?hidden turnout)
 ```
-
-[hidden turnouts](/find/hidden turnout)
+ [hidden turnouts](?hidden turnout)
 
 ## Headings
 

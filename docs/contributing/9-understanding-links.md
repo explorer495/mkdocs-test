@@ -23,4 +23,4 @@ Pending a VSCode or mkDocs fix (both applied for) the only solution is to manual
 
 ## The search link
 
-The search link like `/find/turnout` is passed through unchanged by mkDocs but is intercepted in the browser by our own  [JavaSCript code](/static/scripts/search-helper.js)
+The search link like `?turnout` is passed through unchanged by mkDocs but is intercepted in the browser by our own  [JavaSCript code](/static/scripts/search-helper.js)

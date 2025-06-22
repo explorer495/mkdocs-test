@@ -1,10 +1,10 @@
 # Defining Servo turnouts
 
-Servo turnouts use servos driven through a PCA9685 or EX_IOExtender. (This does not include servos driven from track connected DCC decoders. See [DCC Decoders](/exrail/Cookbooks/Turnouts/Defining-DCC-Turnouts.md))
+Servo turnouts use servos driven through a PCA9685 or EX_IOExtender. (This does not include servos driven from track connected DCC decoders. See [DCC Decoders](/exrail/Cookbooks/Turnouts/02_defining-dcc-turnouts.md))
 
 ## Important considerations for servo operation
 
-Servo turnouts are driven through a PCA9685 servo control board on an EX-IOExpander. Refer to ????????
+Servo turnouts are driven through a [PCA9685](?PCA9685) servo control board on an [EX-IOExpander](?ioexpander).
 
 Test, test, test your servo parameters prior to connecting to an actual turnout/point. If you have defined angles that exceed the physical limits of your turnout, you will likely damage it and/or the servo mechanism.
 
