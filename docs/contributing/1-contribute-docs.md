@@ -14,12 +14,13 @@ If you wish to contribute more fully and become a part of the DCC-EX Documenter 
 
 ## MkDocs Links
 
-Here are some handy links with more info on MkDocs, the MkDocs Material theme, the MkDocs Awesome Nav plugin we use to create the menu structure dynamically, and the MkDocs RSS Plugin used to publish our DCC-EX News feed:
+Here are some handy links with more info:
 
-- [MkDocs website](https://www.mkdocs.org/)
-- [MkDocs Material theme](https://squidfunk.github.io/mkdocs-material/)
-- [MkDocs Awesome Nav plugin](https://lukasgeiter.github.io/mkdocs-awesome-nav/)
-- [MkDocs RSS Plugin](https://guts.github.io/mkdocs-rss-plugin/)
+- [MkDocs website](https://www.mkdocs.org/) - The official MkDocs documentation.
+- [MkDocs Material theme](https://squidfunk.github.io/mkdocs-material/) - The MkDocs Material theme documentation.
+- [MkDocs Awesome Nav plugin](https://lukasgeiter.github.io/mkdocs-awesome-nav/) - MkDocs Awesome Nav plugin is what we use for dynamic page structure.
+- [MkDocs RSS Plugin](https://guts.github.io/mkdocs-rss-plugin/) - The MkDocs RSS Plugin publishes our DCC-EX News feed.
+- [MkDocs ezglossary Plugin](https://realtimeprojects.github.io/mkdocs-ezglossary/) - The MkDocs ezglossary plugin enables our dynamically generated and linked glossary of terms.
 
 ## What You Need to Install
 
