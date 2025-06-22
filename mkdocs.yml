@@ -106,11 +106,11 @@ plugins:
       feed_title: DCC-EX News
       image: static/images/logos/favicon.ico
       pretty_print: true
-
-  # - ezglossary: # Auto-generated keyword index/glossary
-  #     ignore_case: true # Ignore case when matching terms
-  #     inline_refs: list # Start with short refs
-  #     tooltip: full
+  - ezglossary: # Auto-generated keyword index/glossary
+      ignore_case: true # Ignore case when matching terms
+      inline_refs: short # Show term in a tooltip on hover
+      tooltip: full
+      plurals: en
 
 # Copyright info
 copyright: |
@@ -119,12 +119,15 @@ copyright: |
 # Markdown extensions to enhance content
 markdown_extensions:
   - attr_list # Enabled setting attributes in markdown eg. image width
+  - def_list # Enable definition/descriptions lists, required by ezglossary
   - pymdownx.superfences: # Enhanced code blocks
       custom_fences:
         - name: mermaid # Enable Mermaid JS diagrams
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.inlinehilite
+  - pymdownx.tasklist: # Task list with checkbox capability
+      custom_checkbox: true
   - toc: # Table of Contents extension
       permalink: true # Add a permanent link to headings
 
