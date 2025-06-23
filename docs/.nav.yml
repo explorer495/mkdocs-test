@@ -2,7 +2,7 @@ nav:
   - Home: index.md
   - News: news
   - Products: products
-  - EXRAIL: exrail
+  # - EXRAIL: exrail
   - Reference Manuals : reference
   - Glossary: glossary
   - Experimenting with MkDocs: experimenting

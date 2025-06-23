@@ -1,23 +1,23 @@
 
-#Time Control
+# Time Control
 
-
-##EXRAIL Commands
-
+## EXRAIL Commands
 
 Commands have been included in EXRAIL allow events to be controlled by the clock.  The new commands are:
 
 ```cpp
 ONCLOCKTIME( hour, mins)
 ```
+
 and
+
 ```cpp
 ONCLOCKMINS( mins )
 ```
-For details of how to use these commands see the [Clock Control Cookbook](/exrail/Cookbooks/timecontrol.md).
 
+For details of how to use these commands see the [Clock Control Cookbook](/products/ex-commandstation/exrail/Cookbooks/timecontrol.md).
 
-##Testing Timed Sequences
+## Testing Timed Sequences
 
 If one is testing out a sequence using a timed command it can be done quickly without using the clock by entering commands from the System Monitor.  The form of the command is:
 
@@ -25,4 +25,4 @@ If one is testing out a sequence using a timed command it can be done quickly wi
 <JC mmmm ss> 
 ```
 
-Details are again on the [Clock Control Cookbook](/exrail/Cookbooks/timecontrol.md).
+Details are again on the [Clock Control Cookbook](/products/ex-commandstation/exrail/Cookbooks/timecontrol.md).

@@ -1,3 +1,4 @@
 nav:
+  - EX-CommandStation: ex-commandstation
   - EX-FastClock: ex-fastclock
-  - Hardware: hardware
+  - EX-CommandStation Booster 1 (EX-CSB1): ex-csb1
