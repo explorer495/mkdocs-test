@@ -11,7 +11,7 @@ hide:
 
     ---
 
-    Download the latest [EX-Installer](https://github.com/DCC-EX/EX-Installer/releases/latest){ .md-button }
+    [:octicons-arrow-right-24: Get Started](/getting-started/index.md)
 
 - :material-train:{ .lg .middle } __I just want to run my trains__
 
