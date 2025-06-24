@@ -1,4 +1,4 @@
-# <dcc-ex:roster|Roster> for Similar Sound Locos
+# Roster for Similar Sound Locos
 
 The ROSTER command in EXRAIL can be tedious if you have several sound locos with the same function settings. Using a preprocessor definition saves typing.
 
