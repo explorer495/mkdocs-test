@@ -7,13 +7,12 @@ An ABOSLUTE link in html starts with `/`  which makes the browser prepend the we
 To resolve this, you have to use RELATIVE hrefs, in which the link is relative to the current page.  So if you are on page   `blah1/blah2/blah3.html` and you want a link or image in  `static/images/stuff.jpg`  you have to use `href="../../static/images/stuff.jpg"`
 
 So.. RELATIVE HTML links are the only reliable way to work, otherwise your website is borked if you install it in for example `http:://dcc-ex.com/newsite/` 
- 
-## What the mkdocs author sees:
+
+## What the mkdocs author sees
 
 In mkdocs,  the markdown to html generator  passes through RELATIVE links unchanged, this means that you can easily refer to images in the same directory as the current page by just giving the name, or get to any other directory with the appropriate number of ../ to go up the tree.  That's great until you move the current page to another directory so the relative link is no longer going to find the image or page you want.
 
 MkDocs has a solution. When you code what appears to be an absolute link like `/static/images/spaff.png` then the HTM generated will look like `href="../../static/images/spaff.png"`  with the appropriate number of `../` to walk back up the tree from the current file to the docs directory. So basically you code what looks like an ABSOLUTE link, but the html is generated with a relative link. Hooray!
-
 
 BUT there is one annoying little quirk...
 

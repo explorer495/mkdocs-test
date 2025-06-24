@@ -110,11 +110,6 @@ plugins:
       feed_title: DCC-EX News
       image: static/images/logos/favicon.ico
       pretty_print: true
-  - ezglossary: # Auto-generated keyword index/glossary
-      ignore_case: true # Ignore case when matching terms
-      inline_refs: short # Show term in a tooltip on hover
-      tooltip: full
-      plurals: en
 
 # Copyright info
 copyright: |
