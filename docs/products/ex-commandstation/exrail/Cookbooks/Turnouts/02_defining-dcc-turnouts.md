@@ -1,9 +1,9 @@
 # Defining DCC turnouts
 
-DCC <dcc-ex:turnout|Turnout> (or a <dcc-ex:point>) operate by listening to DCC messages sent along the track by the command station.
+DCC Turnouts (or points) operate by listening to DCC messages sent along the track by the command station.
 Each turnout has a DCC address which may be specified as a pair of values (address,subaddress) or a single value linear address. Its generally easier to think in terms of the linear address but it makes no difference whatever to the kind of DCC message sent, other than the conversion from (address,subaddress) to linear is badly thought out and inconsistent between DCC implementations due to historically/histerically ambiguous standards.
 
-## Defining DCC based <dcc-ex:turnout> objects
+## Defining DCC based turnout objects
 
 Define DCC based turnouts using EXRAIL.
 
