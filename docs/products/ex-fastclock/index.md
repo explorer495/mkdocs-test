@@ -1,5 +1,4 @@
-
-#EX-FastClock
+# EX-FastClock
 
 Welcome to the home of EX-FastClock, a fully integrated Fast Clock for **EX-CommandStation**. 
 
