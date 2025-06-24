@@ -4,7 +4,7 @@ This is the EX-CSB1 Getting Started Guide.
 
 ## Features
 
-![EX-CSB1](/static/images/ex-csb1/csb1_power_barrel.png){ width="50%" }
+![EX-CSB1](/_static/images/ex-csb1/csb1_power_barrel.png){ width="50%" }
 
 The DCC-EX EX-CSB1 Command Station/Booster comes ready to use out of the box and has the following features:
 
@@ -15,11 +15,11 @@ The DCC-EX EX-CSB1 Command Station/Booster comes ready to use out of the box and
 - Railsync DCC input – enables Booster or Sniffer modes, which with an EXRAIL script can be automatically engaged on receipt of a signal
 - OLED screen – for diagnostics, status and information display
 
-![EX-CSB1 OLED on startup](/static/images/ex-csb1/oled_startup.png){ width="200" }
+![EX-CSB1 OLED on startup](/_static/images/ex-csb1/oled_startup.png){ width="200" }
 
 ## Connecting
 
-![EX-CSB1 Connector Map](/static/images/ex-csb1/csb1_3d_render_labelled.png){ width="100%" }
+![EX-CSB1 Connector Map](/_static/images/ex-csb1/csb1_3d_render_labelled.png){ width="100%" }
 
 The DCC-EX EX-CSB1 Command Station/Booster needs the minimum following connections to be able to run trains:
 

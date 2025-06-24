@@ -16,8 +16,8 @@ validation:
 # Theme configuration
 theme:
   name: material
-  favicon: static/images/logos/favicon.ico
-  logo: static/images/logos/logo.png
+  favicon: _static/images/logos/favicon.ico
+  logo: _static/images/logos/logo.png
   language: en
   icon:
     repo: fontawesome/brands/github
@@ -48,11 +48,11 @@ theme:
 
 # Extra CSS attributes for colour scheme etc.
 extra_css:
-  - static/css/dccex_theme.css
+  - _static/css/dccex_theme.css
 
 # Extra JavaScript
 extra_javascript:
-  - static/scripts/search-helper.js
+  - _static/scripts/search-helper.js
 
 extra:
   social:
@@ -108,7 +108,7 @@ plugins:
         datetime_format: "%Y-%m-%d"
       feed_description: Latest news and updates from the DCC-EX team
       feed_title: DCC-EX News
-      image: static/images/logos/favicon.ico
+      image: _static/images/logos/favicon.ico
       pretty_print: true
   - open-in-new-tab:
       add_icon: true

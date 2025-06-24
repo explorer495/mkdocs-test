@@ -5,7 +5,7 @@ hide:
 
 # DCC-EX News
 
-![DCC-EX News](/static/images/logos/product-logo-news.png){ width="400px" }
+![DCC-EX News](/_static/images/logos/product-logo-news.png){ width="400px" }
 
 ## Get this in your RSS feed
 
