@@ -53,6 +53,7 @@ We have added a link feature to directly invoke the mkDocs powerful search dialo
 ```markdown
  [Find out about PCA9685 servo controllers](?PCA9685)
 ```
+
  [Find out about PCA9685 servo controllers](?PCA9685)
 
 Multi word searches are also accepted
@@ -60,6 +61,7 @@ Multi word searches are also accepted
 ```markdown
  [hidden turnouts](?hidden turnout)
 ```
+
  [hidden turnouts](?hidden turnout)
 
 ## Headings
@@ -100,26 +102,14 @@ Following are how to define the lower level headings with a demo of each.
 
 ## Glossary Terms and Linking
 
-To add a term to the glossary, add it in this format:
+Glossary plugins seem to be either very complicated to implement, or don't yield the results we're looking for. Instead, we have opted for a simple DIY glossary to define the terms, and provide a search link to enable users to find where they have been used in the documentation.
+
+To add a term to the glossary, use the search URL syntax and a second level heading:
 
 ```markdown
-dcc-ex:term
-: This is a new term being added to the glossary.
-```
+## [Term](?term)
 
-To reference the term in a markdown page, use this syntax:
-
-```markdown
-<dcc-ex:term>
-```
-
-This syntax can be embedded pretty much anywhere, including headings.
-
-If you need the term to be capitalised or plural, you can override the displayed text like this:
-
-```markdown
-<dcc-ex:term|Term>
-<dcc-ex:term|terms>
+This is a new term being added to the glossary.
 ```
 
 ## Code blocks
