@@ -1,7 +1,7 @@
 nav:
-  - EX-FastClock: index.md
-  - Overview: 01-overview.md
-  - Hardware: 02-hardware.md
-  - Configuration: 03-configuration.md
-  - Timed Events: 04-timecontrol.md
+  - Welcome: 01-welcome.md
+  - Overview: 02-overview.md
+  - Hardware: 03-hardware.md
+  - Configuration: 04-configuration.md
+  - Timed Events: 05-timecontrol.md
 
