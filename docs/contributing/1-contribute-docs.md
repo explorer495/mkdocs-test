@@ -4,7 +4,9 @@ This page outlines what you need in order to contribute to the documentation, al
 
 The documentation is hosted using GitHub Pages and is written in Markdown format, using MkDocs to publish the content. We use the MkDocs Material theme to give us the framework for the look and feel of the website, along with a number of other useful plugins and extensions to enhance the content.
 
-**Important! Once up and running with the information on this page, please ensure you are familiar with **
+**Important! Once up and running with the information on this page, please ensure you are familiar with general markdown syntax.**
+
+Refer to the [Markdown Guide](https://www.markdownguide.org/).
 
 ## How to Contribute
 
@@ -19,8 +21,8 @@ Here are some handy links with more info:
 - [MkDocs website](https://www.mkdocs.org/) - The official MkDocs documentation.
 - [MkDocs Material theme](https://squidfunk.github.io/mkdocs-material/) - The MkDocs Material theme documentation.
 - [MkDocs Awesome Nav plugin](https://lukasgeiter.github.io/mkdocs-awesome-nav/) - MkDocs Awesome Nav plugin is what we use for dynamic page structure.
-- [MkDocs RSS Plugin](https://guts.github.io/mkdocs-rss-plugin/) - The MkDocs RSS Plugin publishes our DCC-EX News feed.
-- [MkDocs ezglossary Plugin](https://realtimeprojects.github.io/mkdocs-ezglossary/) - The MkDocs ezglossary plugin enables our dynamically generated and linked glossary of terms.
+- [MkDocs RSS plugin](https://guts.github.io/mkdocs-rss-plugin/) - The MkDocs RSS Plugin publishes our DCC-EX News feed.
+- [MkDocs Open in New Tab plugin](https://github.com/JakubAndrysek/mkdocs-open-in-new-tab) - The Open in New Tab plugin ensures all links to external websites open in a new tab to ensure the users' browsing experience in our documentation is consistent.
 
 ## What You Need to Install
 
@@ -77,7 +79,9 @@ Previewing locally is very simple:
 mkdocs serve
 ```
 
-Navigate to the local preview in a browser at <http://localhost:8000/mkdocs-test/>.
+Navigate to the [local preview in a browser](http://localhost:8000/mkdocs-test/).
+
+When finished with the local preview, stop the local server with either ++ctrl+c++ (Windows/Linux) or ++cmd+c++ (macOS).
 
 Building locally is equally as simple:
 

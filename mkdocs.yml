@@ -110,6 +110,8 @@ plugins:
       feed_title: DCC-EX News
       image: static/images/logos/favicon.ico
       pretty_print: true
+  - open-in-new-tab:
+      add_icon: true
 
 # Copyright info
 copyright: |
@@ -124,6 +126,7 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.inlinehilite
+  - pymdownx.keys
   - pymdownx.superfences: # Enhanced code blocks
       custom_fences:
         - name: mermaid # Enable Mermaid JS diagrams
