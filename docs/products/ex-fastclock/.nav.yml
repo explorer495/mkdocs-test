@@ -2,6 +2,10 @@ nav:
   - Welcome: 01-welcome.md
   - Overview: 02-overview.md
   - Hardware: 03-hardware.md
-  - Configuration: 04-configuration.md
-  - Timed Events: 05-timecontrol.md
+  - Calibration : 04-calibration.md
+  - Installation: 05-installation.md
+  - Configuration: 06-configuration1.md
+  - Connect Existing Clock: 07-configuration2.md  
+  - Operation: 10-operation.md
+  - Timed Events: 15-timecontrol.md
 

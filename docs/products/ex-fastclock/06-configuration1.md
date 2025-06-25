@@ -1,6 +1,58 @@
 
-#Configuration options
+#Configuration
 
+The FastClock can either operate in one of three modes:
+
+* Standalone
+* Serial Communication with the CS
+* I2C Communication with the CS.
+
+To indicate which mode is in use it is necessary to edit the config.h file.
+
+
+##Standalone use.
+
+	The config.h file comes pre-configured to use the clock in standalone mode.  No changes are necessary.
+
+##Serial Mode.
+
+	To communicatein Serial mode it is necessary to edit the config.h file and uncomment the following line:
+
+```cpp
+//#define SEND_VIA_SERIAL true
+```
+
+This will load the appropriate code including the Wire library.
+
+##I2C mode
+
+To operate in I2C mode edit the config.h file and uncomment the following lines:
+
+```cpp
+//#define I2CAddress 0x55 // default I2C address
+//#define SEND_VIA_I2C true
+```
+
+In this mode the CS will poll the FastClock to obtain the time.  It is necessary to set the same I2C address here as used in the myHal.cpp file within the CS.  This is set to a default of 0x55 (decimal 85) but can be set to some other value if this conflicts with othere I2C devices on your setup.
+
+##Screen Header
+
+By default the top of the clock screen displays the name of my own layout.  To inset your layout name then change the following line.
+
+```cpp
+char header[HDDR_SIZE] = {"Nantyderry Junction"};
+```
+
+###Configuration
+
+Finally insert the output of the touchscreen configuration program into the file in place of the following two lines.
+
+```cpp
+const byte XP = 7, XM = A1, YP = A2, YM = 6;
+const int TS_LEFT=899,TS_RT=122,TS_TOP=100,TS_BOT=898;
+```
+
+##Configure existing clock
 
 If you already have a FastCLock there are a number of couple of configuration options which allow you to connect your own clock to a  Command Station.
 
