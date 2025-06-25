@@ -53,6 +53,8 @@ extra_css:
 # Extra JavaScript
 extra_javascript:
   - _static/scripts/search-helper.js
+  - _static/scripts/platform.js
+  - _static/scripts/ex-installer-download-helper.js
 
 extra:
   social:
