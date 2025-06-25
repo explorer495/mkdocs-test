@@ -22,7 +22,7 @@ Although EXRAIL has more than 100 individual commands available, it is generally
 
 ## Important Background Information
 
-- EXRAIL scripts are written into a file called myAutomation.h which you can edit with any suitable text editor. You dont need any extra tools installed on your PC that you dont already have in VSCode or the EX-Installer.
+- EXRAIL scripts are written into a file called myAutomation.h which you can edit with any suitable text editor. You don't need any extra tools installed on your PC that you don't already have in VSCode or the EX-Installer.
 - When you upload the command station with the DCC-EX code, myAutomation.h is used by the compiler to configure the software and embed any sequences so that the command station can run without further assistance from your PC. If you change myAutomation.h then you must upload again.
 - EXRAIL can run multiple sequences simultaneously so it's great for annoying Arduino programmers who find that extremly complex to do in C++.
 
@@ -47,7 +47,7 @@ e.g.
   ROUTE(1,"Platform A to mainline")
     THROW(27) // set turnouts
     CLOSE(6)
-    GREEN(101) // change departtire signal
+    GREEN(101) // change departure signal
     DONE 
 ```
 
