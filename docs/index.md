@@ -27,7 +27,7 @@ hide:
 
     Get into EXRAIL
 
-    [:octicons-arrow-right-24: EXRAIL](/products/ex-commandstation/exrail/index.md)
+    [:octicons-arrow-right-24: EXRAIL](/products/ex-commandstation/exrail/1-exrail.md)
 
 - :material-scale-balance:{ .lg .middle } __Open Source, MIT__
 
