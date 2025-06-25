@@ -15,7 +15,7 @@ The software for the  EX-FastClock can be found in the  EX-FastClock repository 
 
 Given that the MCUFREIND style shield is a shield and uses the A4 pin as LCD_RST it is necessary to make a modification to enable the I2C communication.  This involces cutting the A4 pin and soldering a jumper from LCD_RST on the back of the TFT board to the pin that aligns with the UNO RST pin.  However if one is intending to configure the clock as a serial device then this modification is not required.
 
-[Modified LCD Sheild](/_static/images/ex-fastclock/Modification.png)
+![Modified LCD Sheild](/_static/images/ex-fastclock/Modification.png)
 
 This modification allow the A4 & A5 to operate correctly as I2C and was suggested by David Prentice who wrote the MCUFRIEND.kbv library that this project uses.  A discussion on this modification can be found [here](https://forum.arduino.cc/t/mcufriend-kbv-library-for-uno-2-4-2-8-3-5-3-6-3-95-inch-mcufriend-shields/353100/100).
 
