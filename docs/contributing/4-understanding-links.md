@@ -6,7 +6,7 @@ An ABOSLUTE link in html starts with `/`  which makes the browser prepend the we
 
 To resolve this, you have to use RELATIVE hrefs, in which the link is relative to the current page.  So if you are on page   `blah1/blah2/blah3.html` and you want a link or image in  `_static/images/stuff.jpg`  you have to use `href="../../_static/images/stuff.jpg"`
 
-So.. RELATIVE HTML links are the only reliable way to work, otherwise your website is borked if you install it in for example `http:://dcc-ex.com/newsite/` 
+So.. RELATIVE HTML links are the only reliable way to work, otherwise your website is borked if you install it in for example `http:://dcc-ex.com/newsite/`
 
 ## What the mkdocs author sees
 

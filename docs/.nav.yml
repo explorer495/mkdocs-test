@@ -5,6 +5,6 @@ nav:
   - Products: products
   - Reference Manuals : reference
   - Glossary: glossary
-  - Experimenting with MkDocs: experimenting
+  # - Experimenting with MkDocs: experimenting
   - Contributing: contributing
   
