@@ -1,4 +1,4 @@
-## Operation
+# Operation
 
 At startup the clock will calculate a start time based on either a) a coded start time (currently 6:00 a.m.) or b) a run time stored in the EEPROM (see item 2) below.
 
@@ -14,4 +14,3 @@ The clock will start in a paused state and will display the speed rate factor (d
 In Serial Mode, at startup the initial clock time will be sent to the Command Station but when in a paused state no further time commands are sent until the START button is pressed.
 
 In I2C mode the Command Station polls the FastClock at intervals.
-
