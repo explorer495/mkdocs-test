@@ -1,124 +1,100 @@
-﻿
+﻿# Serial Commands
 
 ```<#>```
 
 Request number of simultaneously supported locos
 
-
 ```<!>```
 
 Emergency stop all locos
-
 
 ```<t loco>```
 
 Request loco status
 
-
 ```<t loco tspeed direction>```
 
 Set throttle speed(0..127) and direction (0=reverse, 1=fwd) 
-
 
 ```<t ignore loco tspeed direction>```
 
 (Deprecated) Set throttle speed and direction
 
-
 ```<f loco byte1>```
 
 (Deprecated use F) Set loco function group 
-
 
 ```<f loco group byte2>```
 
 (Deprecated use F) Set loco function group 
 
-
 ```<T>```
 
 List all turnouts
-
 
 ```<T id>```
 
 Delete turnout
 
-
 ```<T id X>```
 
 List turnout details
-
 
 ```<T id T>```
 
 Throw Turnout
 
-
 ```<T id C>```
 
 Close turnout#
-
 
 ```<T id value>```
 
 Close (value=0) ot Throw turnout
 
-
 ```<T id SERVO vpin closedValue thrownValue>```
 
 Create Servo turnout  
-
 
 ```<T id VPIN vpin>```
 
 Create pin turnout
 
-
 ```<T id DCC addr subadd>```
 
-Create DCC turnout 
-
+Create DCC turnout
 
 ```<T id DCC linearAddr>```
 
 Create DCC turnout
 
-
 ```<T id addr subadd>```
 
 Create DCC turnout
-
 
 ```<T id vpin closedValue thrownValue>```
 
 Create SERVO turnout
 
-
 ```<S id vpin pullup>```
 
 Create Sensor
-
 
 ```<S id>```
 
 Delete sensor
 
-
 ```<S>```
 
 List sensors
-
 
 ```<J M>```
 
 List stash values
 
-
 ```<J M stash_id>```
 
 get stash value
-
 
 ```<J M CLEAR ALL>```
 
