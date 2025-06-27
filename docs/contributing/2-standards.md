@@ -31,7 +31,7 @@ The top level directories under the "docs" directory determine the tabs or horiz
 
 **Do not adjust the top level directories without consulting the DCC-EX Documenter team, as these fundamentally adjust the user experience.**
 
-If a new top level directory is to be added, it needs to be added to the "/docs/.nav.yml" file in the appropriate order. Files and directories created within existing top level directories will automatically be added to the menus (see [Page Naming and Titles](#page-naming-and-titles) for page ordering).
+If a new top level directory is to be added, it needs to be added to the "/docs/.nav.yml" file in the appropriate order. Files and directories created within existing top level directories will automatically be added to the menus (see [Page Naming and Titles](#directory-naming-page-naming-and-titles) for page ordering).
 
 ### Suggested Directory Structure
 
