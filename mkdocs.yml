@@ -36,6 +36,7 @@ theme:
     - search.share # Enable share button for copying search links
     - search.suggest # Provide search suggestions
     - toc.follow # Auto scroll sidebar to show active anchor
+    - toc.integrate # Integrate page headings in TOC
   palette:
     - scheme: dccex-light
       toggle:
