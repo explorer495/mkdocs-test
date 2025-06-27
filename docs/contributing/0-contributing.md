@@ -3,15 +3,19 @@
 The DCC-EX Team has several projects and sub teams where you can help donate your epertise. See the sections below for the project or projects you are interested in.
 
 ## Documentation
+
 This [documentation](./1-contribute-docs.md) is written in mkDocs so a knowlege of HTML, CSS or Javascript not necessary.
 
 ## Development
-We use C++, Python, html/css/js, Android and even make up our own languages. If you like dealing with code, there's something for all. See [here](./9-contributing-code.md)
+
+We use C++, Python, HTML/CSS/Javascript, Android, and even make up our own languages. If you like dealing with code, there's something for all. See [here for how to contribute code](./9-contributing-code.md).
 
 ## Web Support
+
 We do our support mostly via Discord, although some users prefer Facebook.
 
 ## Organization/Coordination
+
 If you are good at herding cats in several countries and time zones then we could always do with some help.
 
 ## Code of Conduct

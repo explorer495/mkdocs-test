@@ -1,7 +1,6 @@
 # Facing turnouts
 
-When you have turnouts that face each other, its awkward for the throttle user to have to manually switch 
-both to match each other. By treating the crossover as a single turnout, control is simplified and incorrect combinations are prevented.
+When you have turnouts that face each other, its awkward for the throttle user to have to manually switch both to match each other. By treating the crossover as a single turnout, control is simplified and incorrect combinations are prevented.
 
 To do this, we need to hide one of the turnouts from the user, and make sure that throwing/closing the visible turnout automatically throws/closes the other turnout.
 

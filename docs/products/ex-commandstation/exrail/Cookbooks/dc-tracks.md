@@ -1,9 +1,12 @@
 # Set a track to DC
+
 The command
-- `SET_TRACK(t,mode)` is used to change the way a track is used.
+
+- ``SET_TRACK(t,mode)`` is used to change the way a track is used.
 
 Using a ROUTE or other sequence, you can set a track to the correct DC polarity and specify the loco address that the throttle will use to drive the loco on that track.
-(The throttle doesn't need to know that you are using DC.) 
+
+(The throttle doesn't need to know that you are using DC.)
 
 ```cpp
  ROUTE(77,"Set track A to DC for loco 123")
@@ -26,6 +29,4 @@ ROUTE(78,"Cross from outer to inner")
   DONE
 ```
 
-See also the [facing turnouts](?facing turnouts) cookbook.
-
-
+See also the [facing turnouts](/products/ex-commandstation/exrail/cookbooks/turnouts/11-facing-turnouts.md) cookbook.

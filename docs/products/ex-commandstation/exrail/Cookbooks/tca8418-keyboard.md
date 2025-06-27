@@ -1,4 +1,4 @@
-#TCA8418 keyboard scanner
+# TCA8418 keyboard scanner
 
 The TCA8418 IC from Texas Instruments is a low cost and very capable GPIO and keyboard scanner. Used as a keyboard scanner, it has 8 rows of 10 columns of IO pins which allow encoding of up to 80 buttons. The IC is available on an Adafruit board with Qwiic I2C interconnect called the [Adafruit TCA8418 Keypad Matrix and GPIO Expander Breakout](https://www.adafruit.com/product/4918).
 
@@ -24,7 +24,7 @@ Creates VPINs 300-379 which you can monitor with EX-RAIL, JMRI sensors etc.
 
 With an 8x10 key event matrix, the events are numbered using the Rn row pins and Cn column pins as such:
 
-```
+```console
      C0  C1  C2  C3  C4  C5  C6  C7  C8  C9
     ========================================
  R0|  0   1   2   3   4   5   6   7   8   9
@@ -40,11 +40,11 @@ With an 8x10 key event matrix, the events are numbered using the Rn row pins and
 So if you start with the first pin definition being VPIN 300, R0/C0 will be 300 + 0, and R7/C9 will be 300+79 or 379.
 
 And if needing an Interrupt pin to speed up operations:
+
 ```cpp
 HAL(TCA8418, 300, 80, 0x34, 21)
 ```
 
-*This is not for CSB1 which has no spare pins for interrupts.* 
+*This is not for CSB1 which has no spare pins for interrupts.*
 
 Note that using an interrupt pin speeds up button press acquisition considerably (less than a millisecond vs 10-100), but even with interrupts enabled the code presently checks every 100ms in case the interrupt pin becomes disconnected. Use any available Arduino pin for interrupt monitoring.
-

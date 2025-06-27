@@ -3,7 +3,7 @@
 Buttons and switches are connected to an input vpin, usually on an expander such as an [MCP23017](?MCP23017) which provides a number of input or output pins.
 
 ## Detecting a button press
- 
+
 The ONBUTTON(x) sequence is started when the vpin x is made HIGH by a button press or other sensor being triggered.
 
 ```cpp
@@ -33,6 +33,7 @@ ONSENSOR(106)
   ENDIF
   DONE
 ```
+
 Note: Switches are not suitable for controlling turnouts because the command station cant reach out a finger and change the switch position when the turnout is changed from a throttle or some other EXRAIL script. (Unless of course, you are into animating a servo to do just that!)
 
 You can toggle a turnout with a single button
@@ -47,8 +48,3 @@ Or have 2 buttons
 ONBUTTON(122) THROW(7) DONE
 ONBUTTON(123) CLOSE(7) DONE
 ```
-
-
-
-
-   

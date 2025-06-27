@@ -1,4 +1,4 @@
-# Neopixel signals    
+# Neopixel signals
 
 There are two types possible:
 
@@ -9,7 +9,7 @@ Bear in mind that a single multicolour neopixel used above might be physically a
 
 For separate pixels, the colours should be established at startup and a normal SIGNALH macro used.
 
-```cpp    
+```cpp
 AUTOSTART 
   SIGNALH(1010,1011,1012)
   NEOPIXEL(1010,255,0,0)       
@@ -17,16 +17,17 @@ AUTOSTART
   NEOPIXEL(1012,0,255,0)
   RED(1010)  // force signal state otherwise all 3 lights will be on
   DONE
-```     
+```
 
 For signals with 1 neopixel, the NEOPIXEL_SIGNAL macro will create a signal on one vpin with three separate colours
 
-```cpp     
+```cpp
 NEOPIXEL_SIGNAL(vpin,redfx,amberfx,greenfx)
 ```
-redfx,amberfx,greenfx = colour values   
 
-The fx values above can be created by the NeoRGB macro so a bright red would be ```NeoRGB(255,0,0)```  bright green ```NeoRGB(0,255,0)`` and amber something like ```NeoRGB(255,100,0)```.
+redfx,amberfx,greenfx = colour values
+
+The fx values above can be created by the NeoRGB macro so a bright red would be ``NeoRGB(255,0,0)``  bright green ``NeoRGB(0,255,0)`` and amber something like ``NeoRGB(255,100,0)``.
 NeoRGB creates a single int32_t value so it can be used in several ways as convenient (but can't ve used in an ALIAS command).
 
 ```cpp

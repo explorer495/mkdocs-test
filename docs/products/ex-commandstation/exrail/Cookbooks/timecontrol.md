@@ -1,9 +1,9 @@
 
-#Time Control
+# Time Control
 
 The Command Station has additional commands added to exrail allow events to be controlled by a EX-FastClock.
 
-##Time Command
+## Time Command
 
   The basic form of the clock command is:
 
@@ -45,7 +45,7 @@ DONE
 
 This event could either be run by the clock or could be selected at will from Engine Driver.  To stop the Command Station from running timed commands to switch to manual running, simply pause the clock.
 
-##Repeating Time events
+## Repeating Time events
 
 Some users may wish to repeat an event at the same time every hour - e.g. to play a recording of a clock chime.  It is possible to achieve this as follows:
 
@@ -81,14 +81,14 @@ SEQUENCE(10)
   ....
 DONE
 ```
+
 In that way the Sequence 10 can either be run by the clock, or if the clock is not running may be selected manually from Engine Driver.
 
 NB:  See the following page for details on running sound files.
 
 ( add a refernce )
 
-
-##Testing Timed Sequences
+## Testing Timed Sequences
 
 If one is testing out a sequence using a timed command it can be done quickly without using the clock.  The following command can be entered from the System Monitor:
 
@@ -121,6 +121,3 @@ which requests the latest time from  Command Station which responds with:
 ```cpp
   <jC 375>
 ```
-
-
-

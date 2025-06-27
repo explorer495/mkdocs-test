@@ -22,9 +22,7 @@ SEQUENCE(911)
   RETURN      // return to the calling sequence
 ```
 
-Notes: 
-  You can nest CALLs 4 deep.
-  If the called sequence executes a ```DONE``` statement, the task is terminated and there is no return.
+## Notes
 
-
-
+- You can nest CALLs 4 deep.
+- If the called sequence executes a ```DONE``` statement, the task is terminated and there is no return.

@@ -6,10 +6,12 @@ Flashing is achieved with the command
 BLINK(vpin, onMs, offMs)
 ```
 
-which will start a vpin blinking until such time as it is SET, RESET or set by a signal operation such as RED, AMBER, GREEN. 
-BLINK returns immediately, the blinking is autonomous. 
+which will start a vpin blinking until such time as it is SET, RESET or set by a signal operation such as RED, AMBER, GREEN.
 
-## Always blink AMBER 
+BLINK returns immediately, the blinking is autonomous.
+
+## Always blink AMBER
+
 A signal that always blinks amber could be done like this:
 
 ```cpp
@@ -20,7 +22,8 @@ DONE
 
 The RED or GREEN calls will turn off the amber pin and that will stop the blink automatically.
 
-## Amber and Flashing Amber 
+## Amber and Flashing Amber
+
 A signal that has normal AMBER and flashing AMBER could be done by creating a new macro to implement a FLAMBER(signalid) command
 
 ```cpp
