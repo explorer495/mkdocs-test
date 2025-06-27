@@ -17,10 +17,9 @@ So:
 - If something does need elaboration, link to a relevant reference.
 - Don't document things generally available on the Internet, eg. we don't document MkDocs or the Material theme as there is good documentation available, we only document the context of our use cases.
 
-## Page Naming and Titles
+## Directory Naming, Page Naming, and Titles
 
-- All page names must be in lower case and use "-" instead of spaces where appropriate.
-- A file called "index.md" will render first in the menu but is not necessary.
+- All directory and page names must be in lower case and use "-" instead of spaces.
 - If specific page ordering is required, simply preface with the appropriate page number eg. "1-standards-formatting.md".
 - The page title is determined by the top level heading, see [Headings](/contributing/3-formatting-guide.md#headings).
 
