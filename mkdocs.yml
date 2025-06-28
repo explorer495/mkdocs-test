@@ -56,6 +56,7 @@ extra_javascript:
   - _static/scripts/search-helper.js
   - _static/scripts/platform.js
   - _static/scripts/ex-installer-download-helper.js
+  - _static/scripts/clickable-cards.js
 
 extra:
   social:
@@ -103,7 +104,7 @@ plugins:
         - EX-DCCInspector
         - EX-CSB1
         - DCCEXProtocol
-  - rss:
+  - rss: # Enable RSS feed for the blog/DCC-EX News articles
       match_path: "news/articles/.*"
       date_from_meta:
         as_creation: "date"
@@ -113,9 +114,9 @@ plugins:
       feed_title: DCC-EX News
       image: _static/images/logos/favicon.ico
       pretty_print: true
-  - open-in-new-tab:
+  - open-in-new-tab: # Automatically causes external links to open in a new tab, and shows an arrow icon
       add_icon: true
-  - meta
+  - meta # Enable using .meta.yml to set metadata on all docs in a directory
 
 # Copyright info
 copyright: |
@@ -125,8 +126,8 @@ copyright: |
 markdown_extensions:
   - attr_list # Enabled setting attributes in markdown eg. image width
   - def_list # Enable definition/descriptions lists, required by ezglossary
-  - md_in_html
-  - pymdownx.emoji:
+  - md_in_html # Enable markdown in embedded HTML
+  - pymdownx.emoji: # Enable emojis
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.inlinehilite

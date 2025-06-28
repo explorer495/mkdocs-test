@@ -13,7 +13,9 @@ hide:
 
     ---
 
-    [:octicons-arrow-right-24: Get Started](/getting-started/index.md)
+    Click this card to go to our Getting Started guide.
+
+    [link to getting started will be invisible](/getting-started/index.md)
 
 - :material-train:{ .lg .middle } __I just want to run my trains__
 
@@ -21,7 +23,7 @@ hide:
 
     Link to a ready-to-run page here
 
-    [:octicons-arrow-right-24: Ready to Run](#)
+    [link to ready to run will be invisible](#)
 
 - :simple-automattic:{ .lg .middle } __I want to automate my layout__
 
@@ -29,7 +31,7 @@ hide:
 
     Get into EXRAIL
 
-    [:octicons-arrow-right-24: EXRAIL](/products/ex-commandstation/exrail/1-exrail.md)
+    [link to exrail will be invisible](/products/ex-commandstation/exrail/1-exrail.md)
 
 - :material-scale-balance:{ .lg .middle } __Open Source, MIT__
 
@@ -37,6 +39,6 @@ hide:
 
     Material for MkDocs is licensed under MIT and available on [GitHub]
 
-    [:octicons-arrow-right-24: License](#)
+    [link to blah will be invisible](#)
 
 </div>
