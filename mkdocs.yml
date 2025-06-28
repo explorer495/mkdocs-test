@@ -115,6 +115,7 @@ plugins:
       pretty_print: true
   - open-in-new-tab:
       add_icon: true
+  - meta
 
 # Copyright info
 copyright: |
