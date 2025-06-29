@@ -23,7 +23,7 @@ hide:
 
     Link to a ready-to-run page here
 
-    [link to ready to run will be invisible](#)
+    [link to ready to run will be invisible](/products/ex-csb1/1-ex-csb1.md)
 
 - :simple-automattic:{ .lg .middle } __I want to automate my layout__
 
@@ -33,12 +33,12 @@ hide:
 
     [link to exrail will be invisible](/products/ex-commandstation/exrail/1-exrail.md)
 
-- :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+- :material-download:{ .lg .middle } __Downloads__
 
     ---
 
-    Material for MkDocs is licensed under MIT and available on [GitHub]
+    Go here to get our software.
 
-    [link to blah will be invisible](#)
+    [link to blah will be invisible](/getting-started/downloads.md)
 
 </div>
