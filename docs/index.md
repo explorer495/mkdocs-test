@@ -5,7 +5,7 @@ hide:
   - footer
 ---
 
-# DCC-EX Documentation
+# DCC-EX Model Railroading
 
 DCC-EX is a team of dedicated enthusiasts producing open source **DCC** and **DC solutions** to run your entire model railroad layout.
 
@@ -17,7 +17,7 @@ Our **free and open source** EX-CommandStation is supported by numerous third pa
 
 <div class="grid cards" markdown>
 
-- :material-clock-start:{ .lg .middle } __Getting Started__
+- :material-clock-start:{ .lg .middle } **Getting Started**
 
     ---
 
@@ -25,7 +25,7 @@ Our **free and open source** EX-CommandStation is supported by numerous third pa
 
     [link to getting started will be invisible](/getting-started/01-getting-started.md)
 
-- :material-train:{ .lg .middle } __I just want to run my trains__
+- :material-train:{ .lg .middle } **I just want to run my trains**
 
     ---
 
@@ -33,7 +33,15 @@ Our **free and open source** EX-CommandStation is supported by numerous third pa
 
     [link to ready to run will be invisible](/products/ex-csb1/1-ex-csb1.md)
 
-- :simple-automattic:{ .lg .middle } __I want to automate my layout__
+- :material-connection:{ .lg .middle } **Connect accessories**
+
+    ---
+
+    I want to add signals/turnouts/accessories.
+
+    [link to accessories will be invisible](/products/ex-commandstation/accessories/accessories.md)
+
+- :material-robot:{ .lg .middle } **I want to automate my layout**
 
     ---
 
@@ -41,7 +49,7 @@ Our **free and open source** EX-CommandStation is supported by numerous third pa
 
     [link to exrail will be invisible](/products/ex-commandstation/exrail/1-exrail.md)
 
-- :material-newspaper:{ .lg .middle } __DCC-EX News__
+- :material-newspaper:{ .lg .middle } **DCC-EX News**
 
     ---
 
@@ -49,7 +57,7 @@ Our **free and open source** EX-CommandStation is supported by numerous third pa
 
     [link to news](/news/index.md)
 
-- :material-download:{ .lg .middle } __Downloads__
+- :material-download:{ .lg .middle } **Downloads**
 
     ---
 
