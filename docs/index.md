@@ -47,7 +47,7 @@ You can use the quick links below to find out more about our products, or naviga
 
     [link to accessories will be invisible](/products/ex-commandstation/accessories/accessories.md)
 
-- :material-robot:{ .lg .middle } **I want to automate my layout**
+- :material-robot:{ .lg .middle } **I want to animate/automate my layout**
 
     ---
 
@@ -61,7 +61,7 @@ You can use the quick links below to find out more about our products, or naviga
 
     Read the latest news from the DCC-EX team.
 
-    [link to news](/news/index.md)
+    [link to news will be invisible](/news/index.md)
 
 - :material-download:{ .lg .middle } **Downloads**
 
@@ -69,7 +69,7 @@ You can use the quick links below to find out more about our products, or naviga
 
     Go here to get our software.
 
-    [link to blah will be invisible](/getting-started/10-downloads.md)
+    [link to downloads will be invisible](/getting-started/10-downloads.md)
 
 </div>
 
@@ -85,6 +85,14 @@ You can use the quick links below to find out more about our products, or naviga
 
     [link to ex-commandstation will be invisible](/products/ex-commandstation/1-overview.md)
 
+- :material-download:{ .lg .middle } **EX-DCCInspector**
+
+    ---
+
+    A diagnostic tool to inspect DCC packets.
+
+    [link to ex-dccinspector will be invisible](#)
+
 - :material-download:{ .lg .middle } **EX-FastClock**
 
     ---
@@ -92,5 +100,29 @@ You can use the quick links below to find out more about our products, or naviga
     An integrated fast clock for your layout.
 
     [link to ex-fastclock will be invisible](/products/ex-fastclock/01-overview.md)
+
+- :material-download:{ .lg .middle } **EX-IOExpander**
+
+    ---
+
+    Use Arduino devices to expand I/O capability.
+
+    [link to ex-ioexpander will be invisible](/products/ex-ioexpander/ex-ioexpander.md)
+
+- :material-download:{ .lg .middle } **EX-Toolbox**
+
+    ---
+
+    An Android app full of useful tools.
+
+    [link to ex-toolbox will be invisible](#)
+
+- :material-download:{ .lg .middle } **EX-Turntable**
+
+    ---
+
+    An integrated turntable/traverser controller using a stepper motor.
+
+    [link to ex-turntable will be invisible](/products/ex-turntable/ex-turntable.md)
 
 </div>
