@@ -23,7 +23,7 @@ You can use the quick links below to find out more about our products, or naviga
 
 <div class="grid cards" markdown>
 
-- :material-clock-start:{ .lg .middle } **Getting Started**
+- :material-clock-start:{ .lg .middle } **Get Started**{ .card-heading }
 
     ---
 
@@ -31,7 +31,7 @@ You can use the quick links below to find out more about our products, or naviga
 
     [link to getting started will be invisible](/getting-started/01-getting-started.md)
 
-- :material-train:{ .lg .middle } **I just want to run my trains**
+- :material-train:{ .lg .middle } **I just want to run my trains**{ .card-heading }
 
     ---
 
@@ -39,7 +39,7 @@ You can use the quick links below to find out more about our products, or naviga
 
     [link to ready to run will be invisible](/products/ex-csb1/1-ex-csb1.md)
 
-- :material-connection:{ .lg .middle } **Connect accessories**
+- :material-connection:{ .lg .middle } **Connect accessories**{ .card-heading }
 
     ---
 
@@ -47,7 +47,7 @@ You can use the quick links below to find out more about our products, or naviga
 
     [link to accessories will be invisible](/products/ex-commandstation/accessories/accessories.md)
 
-- :material-robot:{ .lg .middle } **I want to animate/automate my layout**
+- :material-robot:{ .lg .middle } **I want to animate/automate my layout**{ .card-heading }
 
     ---
 
@@ -55,7 +55,7 @@ You can use the quick links below to find out more about our products, or naviga
 
     [link to exrail will be invisible](/products/ex-commandstation/exrail/1-exrail.md)
 
-- :material-newspaper:{ .lg .middle } **DCC-EX News**
+- :material-newspaper:{ .lg .middle } **DCC-EX News**{ .card-heading }
 
     ---
 
@@ -63,7 +63,7 @@ You can use the quick links below to find out more about our products, or naviga
 
     [link to news will be invisible](/news/index.md)
 
-- :material-download:{ .lg .middle } **Downloads**
+- :material-download:{ .lg .middle } **Downloads**{ .card-heading }
 
     ---
 
@@ -77,7 +77,7 @@ You can use the quick links below to find out more about our products, or naviga
 
 <div class="grid cards" markdown>
 
-- :material-clock-start:{ .lg .middle } **EX-CommandStation**
+- :material-clock-start:{ .lg .middle } **EX-CommandStation**{ .card-heading }
 
     ---
 
@@ -85,7 +85,7 @@ You can use the quick links below to find out more about our products, or naviga
 
     [link to ex-commandstation will be invisible](/products/ex-commandstation/1-overview.md)
 
-- :material-download:{ .lg .middle } **EX-DCCInspector**
+- :material-download:{ .lg .middle } **EX-DCCInspector**{ .card-heading }
 
     ---
 
@@ -93,7 +93,7 @@ You can use the quick links below to find out more about our products, or naviga
 
     [link to ex-dccinspector will be invisible](#)
 
-- :material-download:{ .lg .middle } **EX-FastClock**
+- :material-download:{ .lg .middle } **EX-FastClock**{ .card-heading }
 
     ---
 
@@ -101,7 +101,7 @@ You can use the quick links below to find out more about our products, or naviga
 
     [link to ex-fastclock will be invisible](/products/ex-fastclock/01-overview.md)
 
-- :material-download:{ .lg .middle } **EX-IOExpander**
+- :material-download:{ .lg .middle } **EX-IOExpander**{ .card-heading }
 
     ---
 
@@ -109,7 +109,7 @@ You can use the quick links below to find out more about our products, or naviga
 
     [link to ex-ioexpander will be invisible](/products/ex-ioexpander/ex-ioexpander.md)
 
-- :material-download:{ .lg .middle } **EX-Toolbox**
+- :material-download:{ .lg .middle } **EX-Toolbox**{ .card-heading }
 
     ---
 
@@ -117,7 +117,7 @@ You can use the quick links below to find out more about our products, or naviga
 
     [link to ex-toolbox will be invisible](#)
 
-- :material-download:{ .lg .middle } **EX-Turntable**
+- :material-download:{ .lg .middle } **EX-Turntable**{ .card-heading }
 
     ---
 
