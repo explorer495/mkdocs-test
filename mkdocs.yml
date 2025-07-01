@@ -16,6 +16,7 @@ validation:
 # Theme configuration
 theme:
   name: material
+  custom_dir: overrides
   favicon: _static/images/logos/favicon.ico
   logo: _static/images/logos/logo.png
   language: en
