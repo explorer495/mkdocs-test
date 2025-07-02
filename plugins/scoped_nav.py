@@ -39,9 +39,9 @@ class ScopedNavPlugin(BasePlugin):
 
         # Sort each group by the order in the nav
         for group in self.page_groups.values():
-            print("ScopedNavPlugin Group:")
-            for page in group:
-                print(f"  - {page.file.src_path}")
+            # print("ScopedNavPlugin Group:")
+            # for page in group:
+            #     print(f"  - {page.file.src_path}")
             group.sort(key=lambda p: nav.pages.index(p))
 
         # Return the modified Navigation object
@@ -63,7 +63,7 @@ class ScopedNavPlugin(BasePlugin):
         Returns:
             context (TemplateContext): Modified TemplateContext instance.
         """
-        print(f"ScopedNavPlugin processing: {page.file.src_path}")
+        # print(f"ScopedNavPlugin processing: {page.file.src_path}")
         # Get the group this page is associated with
         dir_path = os.path.dirname(page.file.src_path)
         group = self.page_groups.get(dir_path, [])
@@ -73,9 +73,9 @@ class ScopedNavPlugin(BasePlugin):
             idx = group.index(page)
             # Set to previous page if this isn't the first page, otherwise None
             context['previous_page'] = group[idx - 1] if idx > 0 else None
-            print(f"ScopedNavPlugin prev: {context.get('previous_page')}")
+            # print(f"ScopedNavPlugin prev: {context.get('previous_page')}")
             # Set to next page if this isn't the last page, otherwise None
             context['next_page'] = group[idx + 1] if idx < len(group) - 1 else None
-            print(f"ScopedNavPlugin next: {context.get('next_page')}")
+            # print(f"ScopedNavPlugin next: {context.get('next_page')}")
 
         return context
