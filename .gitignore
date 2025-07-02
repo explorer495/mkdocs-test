@@ -11,7 +11,12 @@ Thumbs.db
 
 # MkDocs build directory
 site/
-__pycache__/main.cpython-313.pyc
+
+# Ignore Python cache
+__pycache__
 
 # some temp files
 SavedFiles
+
+# Ignore Python packages in editable mode
+*.egg-info
