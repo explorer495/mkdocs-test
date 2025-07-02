@@ -11,6 +11,7 @@ Thumbs.db
 
 # MkDocs build directory
 site/
+build/
 
 # Ignore Python cache
 __pycache__

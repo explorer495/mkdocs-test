@@ -6,3 +6,4 @@ mkdocs-open-in-new-tab==1.0.8
 mkdocs-rss-plugin==1.17.3
 pymdown-extensions==10.15
 setuptools==80.9.0
+.

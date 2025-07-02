@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name='mkdocs-scoped-nav',
-    version='0.1',
+    version='0.0.1',
     packages=['plugins'],
     entry_points={
         'mkdocs.plugins': [
