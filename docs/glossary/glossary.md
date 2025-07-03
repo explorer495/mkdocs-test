@@ -29,4 +29,4 @@ A roster is a list of locomotives that are known in advance by the command stati
 
 ## [VPIN](?VPIN)
 
-A VPIN is an Arduino pin numer that has been extended to include pins on external devices or expanders. Once the mapping of VPIN numbers to devices has been done, the commands that set or test pins do not have to care how the electronics works.
+A VPIN is an Arduino pin number that has been extended to include pins on external devices or expanders. Once the mapping of VPIN numbers to devices has been done, the commands that set or test pins do not have to care how the electronics works.

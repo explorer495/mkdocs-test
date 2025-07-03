@@ -6,7 +6,7 @@ The combination of hidden and virtual turnouts makes this easy.
 
 Lets suppose you have a turnout id 100 and to make it look realistic you need to set some signal to stop, wait for the signalman to walk accross the lever frame, throw the turnout, wait again and set another signal to green.
 
-First we need to hide the real turnout from the throttles. This is done by changing the description to the keyword HIDDEN and gining it a different id so we can refer to it later.
+First we need to hide the real turnout from the throttles. This is done by changing the description to the keyword HIDDEN and giving it a different id so we can refer to it later.
 
 ```cpp
   TURNOUTL(100,1,"Coal yard exit")  // for example

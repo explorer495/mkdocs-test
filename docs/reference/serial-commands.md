@@ -14,7 +14,7 @@ Request loco status
 
 ```<t loco tspeed direction>```
 
-Set throttle speed(0..127) and direction (0=reverse, 1=fwd) 
+Set throttle speed(0..127) and direction (0=reverse, 1=fwd)
 
 ```<t ignore loco tspeed direction>```
 
@@ -22,11 +22,11 @@ Set throttle speed(0..127) and direction (0=reverse, 1=fwd)
 
 ```<f loco byte1>```
 
-(Deprecated use F) Set loco function group 
+(Deprecated use F) Set loco function group
 
 ```<f loco group byte2>```
 
-(Deprecated use F) Set loco function group 
+(Deprecated use F) Set loco function group
 
 ```<T>```
 
@@ -100,11 +100,9 @@ get stash value
 
 Clear all stash values
 
-
 ```<J M CLEAR stash_id>```
 
 Clear given stash
-
 
 ```<J M stashId locoId>```
 

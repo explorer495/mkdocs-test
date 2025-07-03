@@ -10,20 +10,19 @@ Unlike sensors and leds, these VPINs are both INPUT and OUTPUT  These can be use
   
 Existing <> and exrail commands for vpins work on these pins.  
 
-## Creating virtiual pins
+## Creating virtual pins
   
   ```cpp
     HAL(Bitmap,firstpin,npins) 
   ```
 
-creates 1 or more virtual pins in software. 
+creates 1 or more virtual pins in software.
 
 e.g. `HAL(Bitmap,1000,20)`  creates pins 1000..1019
 
 ## Use as flags
 
 When used as a digital flag, these pins can be changed or tested with the basic digital pin commands common to all VPINs.  SET, RESET, BLINK, IF, ONBUTTON, ONSENSOR and so forth. Serial commands operate in the same way.  
-
 
 ## Use as counters
 
@@ -37,13 +36,13 @@ Detecting the first increment from 0 to 1 can be done with `ONBUTTON(1013)` and 
 
 Analog values may be set into the virtual pins and tested using the existing analog value commands and exrail macros.
 `<z vpin value>`  `<D ANIN vpin>` etc.
-and in EXRAIL `ANOUT(vpin,value,0,0)` 
+and in EXRAIL `ANOUT(vpin,value,0,0)`
 
 ## Use as binary flag groups (advanced)
 
-Virtual pins (and others that respond to an analog read in order to provide bitmapped digital data, such as SensorCam) can be set and tested with new special EXRAIL commands
+Virtual pins (and others that respond to an analog read in order to provide bit mapped digital data, such as SensorCam) can be set and tested with new special EXRAIL commands
 
-`IFBITMAP_ALL(vpin,mask)`   Bitwise ANDs the  the vpin value with the mask value and is true if ALL the 1 bits in the mask are also 1 bits in the value. 
+`IFBITMAP_ALL(vpin,mask)`   Bitwise ANDs the  the vpin value with the mask value and is true if ALL the 1 bits in the mask are also 1 bits in the value.
     e.g.    `IFBITMAP_ALL(1013,0x0f)`  would be true if ALL the last 4 bits of the value are 1s.
 
 `IFBITMAP_ANY(1013,0x0f)` would be true if ANY of the last 4 bits are 1s.
@@ -51,5 +50,5 @@ Virtual pins (and others that respond to an analog read in order to provide bitm
 ### Modifying bitmap values
 
 `BITMAP_AND(vpin,mask)` performs a bitwise AND operation.
-`BITMAP_OR(vpin,mask)`  performa a bitwise OR operation
+`BITMAP_OR(vpin,mask)`  performs a bitwise OR operation
 `BITMAP_XOR(vpin,mask)` performs a bitwise EXCLUSIVE OR (which is basically a toggle).

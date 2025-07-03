@@ -3,8 +3,6 @@
 DCC Turnouts (or points) operate by listening to DCC messages sent along the track by the command station.
 Each turnout has a DCC address which may be specified as a pair of values (address,subaddress) or a single value linear address. Its generally easier to think in terms of the linear address but it makes no difference whatever to the kind of DCC message sent, other than the conversion from (address,subaddress) to linear is badly thought out and inconsistent between DCC implementations due to historically/histerically ambiguous standards.
 
-## Defining DCC based turnout objects
-
 Define DCC based turnouts using EXRAIL.
 
 ```cpp
@@ -26,4 +24,5 @@ For example:
 ```cpp
 TURNOUTL(123,55,"Up the junction")
 TURNOUT(124,12,3,"Down the mine")
+TURNOUTL(125,56,HIDDEN) // not visible to throttles
 ```

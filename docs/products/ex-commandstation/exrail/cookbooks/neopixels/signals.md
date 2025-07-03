@@ -5,7 +5,7 @@ There are two types possible:
 - a mast with separate fixed colour pixels for each aspect
 - a mast with one multiple colour pixel for all aspects.
 
-Bear in mind that a single multicolour neopixel used above might be physically a mulicolour LED (as in a searchlight signal), or 3 individual LEDS wired to a single [neopixel chip](?ws2812) (as in a 2 or 3 lamp signal).  
+Bear in mind that a single multicolour neopixel used above might be physically a multi-colour LED (as in a searchlight signal), or 3 individual LEDS wired to a single [neopixel chip](?ws2812) (as in a 2 or 3 lamp signal).  
 
 For separate pixels, the colours should be established at startup and a normal SIGNALH macro used.
 
@@ -28,7 +28,7 @@ NEOPIXEL_SIGNAL(vpin,redfx,amberfx,greenfx)
 redfx,amberfx,greenfx = colour values
 
 The fx values above can be created by the NeoRGB macro so a bright red would be ``NeoRGB(255,0,0)``  bright green ``NeoRGB(0,255,0)`` and amber something like ``NeoRGB(255,100,0)``.
-NeoRGB creates a single int32_t value so it can be used in several ways as convenient (but can't ve used in an ALIAS command).
+NeoRGB creates a single int32_t value so it can be used in several ways as convenient (but can't be used in an ALIAS command).
 
 ```cpp
 // create 1-lamp signal with NeoRGB colours

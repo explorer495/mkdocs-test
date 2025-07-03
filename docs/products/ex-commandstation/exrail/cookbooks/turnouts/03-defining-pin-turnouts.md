@@ -2,8 +2,6 @@
 
 PIN Turnouts operate by detecting the state of an output pin.
 
-## Defining PIN based turnout objects
-
 Define pin based turnouts using EXRAIL.
 
 ```cpp

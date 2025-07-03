@@ -1,12 +1,12 @@
 # Latches
 
-Latches were first introduced into EXRAIL as a way of latching a sensor value or pushbutton on, so that once detected it could be checked later and not suffer from bouncing. This use is comparatively rare and has generally been superceeded by the more recent [ONBUTTON](?ONBUTTON) event handler.
+Latches were first introduced into EXRAIL as a way of latching a sensor value or pushbutton on, so that once detected it could be checked later and not suffer from bouncing. This use is comparatively rare and has generally been superseded by the more recent [ONBUTTON](?ONBUTTON) event handler.
 
-Latches were also used as a way of setting a flag that could be read later, for example to remember whether a light had been switched on by a ROUTE so that the next call to the same route could switch it off again. 
+Latches were also used as a way of setting a flag that could be read later, for example to remember whether a light had been switched on by a ROUTE so that the next call to the same route could switch it off again.
 
-Unfortunately, the LATCH implementation was designed in a limited way to support tiny processors like the UNO or NANO so the latch numbers were limited and could only apply to on-board pins and not extended VPINs. It became common to use latch numbers above the real pin numbers but below the artificial software limit (63 on a UNO, 255 on bigger cpus) for various flags in routes and automations.
+Unfortunately, the LATCH implementation was designed in a limited way to support tiny processors like the UNO or NANO so the latch numbers were limited and could only apply to on-board pins and not extended VPINs. It became common to use latch numbers above the real pin numbers but below the artificial software limit (63 on a UNO, 255 on bigger CPUs) for various flags in routes and automations.
 
-Because of these limitations, it is recommended that you use the much simpler [flags](flags.md) feature which provides virtual VPINs that can be set, reset and tested without the limitations of LATCH. 
+Because of these limitations, it is recommended that you use the much simpler [flags](flags.md) feature which provides virtual VPINs that can be set, reset and tested without the limitations of LATCH.
 
 For example:
 
@@ -22,3 +22,5 @@ ROUTE(600,"Shed lights")
   ENDIF
   DONE
 ```
+
+Note that the code cannot use `IF(120)` to test if the light is on because pin 120 is an OUTPUT pin on a physical device.
