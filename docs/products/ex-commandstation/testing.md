@@ -1,4 +1,5 @@
 # Testing your commnd station
+
  (LOTS OF TODO in this file)
 
 The simplest and most direct testing method is to use a serial monitor to talk directly to the USB connection of you command station. This is a fundamental aspect of the Arduino system and thus avoids issues such as wifi connections. Indeed, this is the only way to see what's going wrong if your problems are wifi related.
@@ -7,13 +8,13 @@ The simplest and most direct testing method is to use a serial monitor to talk d
 
 There are several serial monitors available:
 
-- Built in to the [EX-Installer](/docs/getting-started/10-downloads.md)
+- Built in to the [EX-Installer](/getting-started/10-downloads.md)
     ??? TODO EX INSTALLER showing serial log
-- Built in to VSCode is you are using that as an IDE. 
-- Built in to the Arduino IDE (We do not recommend that for development) 
+- Built in to VSCode is you are using that as an IDE.
+- Built in to the Arduino IDE (We do not recommend that for development)
 - Built in to the EX-WebThrottle
 - Built in to JMRI or other train control software.
-(TODO.. above provide links to individual side-pages showing how to get at the serial monitor in each case) 
+(TODO.. above provide links to individual side-pages showing how to get at the serial monitor in each case)
 
 Whichever you use, please ensure the baud rate is set to 115200 so that it matches that used by the command station. (Installer anf WebThrottle do this automatically)
 
@@ -30,6 +31,7 @@ Commands are entered as shown, complete with the `< >` markers. Case is importan
 ```cpp
 <s>
 ```
+
 TODO... pic
 
 - Turn on track power
@@ -43,7 +45,7 @@ This will turn on all 4 leds that lie behind the track optput sockets.
 - Move a loco
 
 You can only drive a loco if you know the loco DCC address. For a brand new loco or decoder this is normally preset to 3.
-If you don't know the loco address, then you can find out using the [simple programming commands](TODO)
+If you don't know the loco address, then you can find out using the [simple programming commands](/reference/serial-commands.md)
 
 Assuming you know the loco address is 3, the following commands may be useful:  
 
