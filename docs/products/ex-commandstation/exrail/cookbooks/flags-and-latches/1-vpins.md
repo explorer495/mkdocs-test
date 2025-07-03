@@ -17,6 +17,7 @@ For Example
     HAL(MCP23017,200,16,0x40) 
 ```
 
+
 This would create VPINs 100 to 115 to represent the 16 servo outputs of a [PCA9685](?PCA9685) servo control board at I2C address 0x20 and VPINS 200 to 215 in an [MCP23017](?MCP23017) i/o expander.  
 Refer to wiring details and fuller list of [supported I2C devices](TODO) elsewhere.
 
@@ -51,4 +52,5 @@ ONBUTTON(202)
 
 `ONSENSOR(200)` triggers when a sensor changes state. This is less useful.
 
+Other more advanced commands are available, see cookbooks.
 Other more advanced commands are available, see cookbooks.

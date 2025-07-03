@@ -16,6 +16,7 @@ validation:
 # Theme configuration
 theme:
   name: material
+  custom_dir: overrides
   favicon: _static/images/logos/favicon.ico
   logo: _static/images/logos/logo.png
   language: en
@@ -117,6 +118,7 @@ plugins:
   - open-in-new-tab: # Automatically causes external links to open in a new tab, and shows an arrow icon
       add_icon: true
   - meta # Enable using .meta.yml to set metadata on all docs in a directory
+  - scoped-nav # Enable scoped navigation to update previous/next buttons correctly
 
 # Copyright info
 copyright: |
