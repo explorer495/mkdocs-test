@@ -77,9 +77,7 @@ You can use the quick links below to find out more about our products, or naviga
 
 <div class="grid cards" markdown>
 
-- :material-clock-start:{ .lg .middle } **EX-CommandStation**{ .card-heading }
-
-    ---
+- ![EX-CommandStation Logo](/_static/images/logos/DCC-EX_product-logo-ex-commandstation.svg)
 
     Our flagship train control and layout automation software.
 
@@ -93,17 +91,13 @@ You can use the quick links below to find out more about our products, or naviga
 
     [link to ex-dccinspector will be invisible](#)
 
-- :material-download:{ .lg .middle } **EX-FastClock**{ .card-heading }
-
-    ---
+- ![EX-FastClock](/_static/images/logos/DCC-EX_product-logo-ex-fastclock.svg)
 
     An integrated fast clock for your layout.
 
     [link to ex-fastclock will be invisible](/products/ex-fastclock/01-overview.md)
 
-- :material-download:{ .lg .middle } **EX-IOExpander**{ .card-heading }
-
-    ---
+- ![EX-IOExpander](/_static/images/logos/DCC-EX_product-logo-ex-IOExpander.svg)
 
     Use Arduino devices to expand I/O capability.
 
@@ -117,9 +111,7 @@ You can use the quick links below to find out more about our products, or naviga
 
     [link to ex-toolbox will be invisible](#)
 
-- :material-download:{ .lg .middle } **EX-Turntable**{ .card-heading }
-
-    ---
+- ![EX-Turntable](/_static/images/logos/DCC-EX_product-logo-ex-turntable.svg)
 
     An integrated turntable/traverser controller using a stepper motor.
 
