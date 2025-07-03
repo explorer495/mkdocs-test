@@ -17,16 +17,24 @@ In this case we want a way of setting a light on or off.
 ## Simple light switch route
 
  This example just has the logic to switch a light on/off with the "Set" button.
- It uses a [LATCH](?LATCH) (or bitmap flag in later versions)to remember whether the light is on or off. Note that the light and latch will default to off.
+ It uses a [Bitmap flag](/products/ex-commandstation/exrail/cookbooks/flags-and-latches/flags.md) to remember whether the light is on or off. Note that the light and flag will default to off.
+
+ A flag or range of flags in created like this:
+
+```cpp
+HAL(Bitmap,800,16)
+```
+
+That creates flags 800..815, we only need one here but if you need more, its better to crete a bank of flags in one go rather than lots of individual flags.
 
 ```cpp
 ROUTE(600,"Shed lights")
-  IF(80)  // is the latch (and light) on? 
+  IF(800)  // is the light on? 
      RESET(120)  // lights off
-     UNLATCH(80)
-  ELSE  // the latch (and light) is off 
+     RESET(800)
+  ELSE  // light is off 
      SET(120)  // lights on
-     LATCH(80)
+     SET(800)
   ENDIF
   DONE
 ```
@@ -37,19 +45,19 @@ The same logic includes changing the button caption from "Set" to "Turn On" or "
 
 ```cpp
 ROUTE(600,"Shed lights")
-  IF(80)  // is the latch (and light) on? 
+  IF(800)  // is the light on? 
      RESET(120)  // lights off
-     UNLATCH(80)
+     RESET(800)
      ROUTE_CAPTION(600,"Turn on") // change button caption
-  ELSE  // the latch (and light) is off 
+  ELSE  // light is off 
      SET(120)  // lights on
-     LATCH(80)
+     SET(800)
      ROUTE_CAPTION(600,"Turn off") // change button caption
   ENDIF
   DONE
 
 AUTOSTART
-  ROUTE_CAPTION(600,"Turn On") // start with lights off (pin and latch will default off)
+  ROUTE_CAPTION(600,"Turn On") // start with lights off (pin and flag will default off)
   DONE
 
 ```
@@ -60,13 +68,13 @@ This example make the "set" button appear active (highlighted) or inactive
 
 ```cpp
 ROUTE(600,"Shed lights")
-  IF(80)  // is the latch (and light) on? 
+  IF(800)  // is the light on? 
      RESET(120)  // lights off
-     UNLATCH(80)
+     RESET(800)
      ROUTE_INACTIVE(600) // change button state to inactive
-  ELSE  // the latch (and light) is off 
+  ELSE  // light is off 
      SET(120)  // lights on
-     LATCH(80)
+     SET(800)
      ROUTE_ACTIVE(600) // button appears highlighted as active
   ENDIF
   DONE
@@ -74,7 +82,7 @@ ROUTE(600,"Shed lights")
 
 ## Two separate routes example
 
-This example has two "routes" to control lights, but only one of them will be visible at a time.
+This example has two "routes" to control lights, but only one of them will be visible at a time so we dont need a flag.
 Each route will have the default "Set" button.
 
 ```cpp

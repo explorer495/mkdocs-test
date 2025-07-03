@@ -21,8 +21,12 @@ A point is another term for a [turnout](#turnout).
 
 ## Switch
 
-A switch is another term for a [turnout](#turnout).
+A switch is another term for a [turnout](#turnout), but may also refer to a physical electronic switch (as in a light switch).
 
 ## [Roster](?roster)
 
-A roster is...
+A roster is a list of locomotives that are known in advance by the command station so that DCC addresses, name, and functions can be used by throttles to configure buttons etc.  
+
+## [VPIN](?VPIN)
+
+A VPIN is an Arduino pin numer that has been extended to include pins on external devices or expanders. Once the mapping of VPIN numbers to devices has been done, the commands that set or test pins do not have to care how the electronics works.
