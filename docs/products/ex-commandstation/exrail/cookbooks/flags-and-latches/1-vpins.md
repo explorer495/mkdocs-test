@@ -53,4 +53,4 @@ ONBUTTON(202)
 `ONSENSOR(200)` triggers when a sensor changes state. This is less useful.
 
 Other more advanced commands are available, see cookbooks.
-Other more advanced commands are available, see cookbooks.
+

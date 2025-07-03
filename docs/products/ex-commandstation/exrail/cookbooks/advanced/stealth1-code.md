@@ -13,16 +13,16 @@ This function displays the first 8 locos in the DCC speed reminders table on LCD
 STEALTH_GLOBAL(
   void updateLocoScreen() {
     for (int i=0; i<8; i++) {
-      if (DCC::speedTable[i].loco > 0) {
-        int speed = DCC::speedTable[i].speedCode;
-        char direction = (speed & 0x80) ? 'F' : 'R';
-        speed = speed & 0x7f;
-        if (speed > 0) speed = speed - 1;
-        StringFormatter::lcd2(2, i+2, F("Loco:%4d %3d %c"), 
-            DCC::speedTable[i].loco,speed, direction);
-            }
-        }
-    }
+      auto loco=DCC::speedTable[i].loco;
+      if (loco<0) break;
+      if (loco==0) continue;   
+      auto speed = DCC::speedTable[i].speedCode;
+      auto direction = (speed & 0x80) ? 'F' : 'R';
+      speed = speed & 0x7f;
+      if (speed > 0) speed = speed - 1;
+      StringFormatter::lcd2(2, i+2, F("Loco:%4d %3d %c"), loco, speed, direction);
+      }
+  }
 )
 ```
 
