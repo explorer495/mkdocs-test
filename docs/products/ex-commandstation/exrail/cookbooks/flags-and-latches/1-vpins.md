@@ -19,7 +19,7 @@ For Example
 
 
 This would create VPINs 100 to 115 to represent the 16 servo outputs of a [PCA9685](?PCA9685) servo control board at I2C address 0x20 and VPINS 200 to 215 in an [MCP23017](?MCP23017) i/o expander.  
-Refer to wiring details and fuller list of [supported I2C devices](TODO) elsewhere.
+Refer to wiring details and fuller list of [supported I2C devices](#) elsewhere.
 
 ## Using OUTPUT VPINS
 
