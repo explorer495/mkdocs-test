@@ -2,9 +2,9 @@
 <svg
    inkscape:export-ydpi="17.060751"
    inkscape:export-xdpi="17.060751"
-   inkscape:export-filename="..\..\docs\_static\images\logos\product-logo-ex-commandstation-dark.png"
+   inkscape:export-filename="..\..\docs\_static\images\logos\product-logo-ex-commandstation-light.png"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
-   sodipodi:docname="DCC-EX_product-logo-ex-commandstation-dark.svg"
+   sodipodi:docname="DCC-EX_product-logo-ex-commandstation-light.svg"
    id="svg40"
    version="1.1"
    fill="none"
@@ -37,8 +37,8 @@
      inkscape:window-maximized="1"
      inkscape:window-y="-9"
      inkscape:window-x="-9"
-     inkscape:cy="560.84029"
-     inkscape:cx="2268.5675"
+     inkscape:cy="380.19511"
+     inkscape:cx="2087.9223"
      inkscape:zoom="0.23803568"
      showgrid="false"
      id="namedview42"
@@ -305,17 +305,7 @@
      inkscape:export-ydpi="18.431187"><tspan
        x="205.2832"
        y="1421.3719"
-       id="tspan11">EX-CommandStation</tspan></text>
-  <rect
-     style="opacity:0.7;mix-blend-mode:normal;fill:#c0c0c0;fill-opacity:1;stroke:none;filter:url(#filter1)"
-     id="rect1"
-     width="4507.7275"
-     height="894.82385"
-     x="-4.2010508"
-     y="-4.2010508"
-     ry="447.41193"
-     transform="matrix(0.94127922,0,0,0.77214085,137.54211,110.20602)"
-     rx="160.67265" />
+       id="tspan1">EX-CommandStation</tspan></text>
   <text
      xml:space="preserve"
      id="text2480-6-0-6-4-2-5"
@@ -326,7 +316,7 @@
      inkscape:export-ydpi="18.431187"><tspan
        x="205.2832"
        y="1421.3719"
-       id="tspan12">DCC-EX</tspan></text>
+       id="tspan2">DCC-EX</tspan></text>
   <path
      d="M 916.02466,472.51298 H 2102.0679"
      stroke="#000000"
@@ -346,7 +336,7 @@
      inkscape:export-ydpi="18.431187"><tspan
        x="205.2832"
        y="1421.3719"
-       id="tspan13">EX-CommandStation</tspan></text>
+       id="tspan3">EX-CommandStation</tspan></text>
   <text
      xml:space="preserve"
      id="text2480-6-0-6-4-2"
@@ -357,7 +347,17 @@
      inkscape:export-ydpi="18.431187"><tspan
        x="205.2832"
        y="1421.3719"
-       id="tspan14">DCC-EX</tspan></text>
+       id="tspan4">DCC-EX</tspan></text>
+  <rect
+     style="opacity:0.25;mix-blend-mode:normal;fill:#00353d;fill-opacity:1;stroke:none;filter:url(#filter1)"
+     id="rect1"
+     width="4507.7275"
+     height="894.82385"
+     x="-4.2010508"
+     y="-4.2010508"
+     ry="447.41193"
+     transform="matrix(0.94127922,0,0,0.77214085,133.74169,107.04948)"
+     rx="160.67265" />
   <rect
      style="fill:none;fill-opacity:1;stroke-width:0.377953;-inkscape-stroke:none;stop-color:#000000;stroke:none"
      id="rect46006"
@@ -379,11 +379,11 @@
      inkscape:export-ydpi="18.431187"><tspan
        x="205.2832"
        y="1421.3719"
-       id="tspan17"><tspan
+       id="tspan7"><tspan
          style="fill:#00a3b9"
-         id="tspan15">EX-</tspan><tspan
+         id="tspan5">EX-</tspan><tspan
          style="fill:#00353d"
-         id="tspan16">CommandStation</tspan></tspan></text>
+         id="tspan6">CommandStation</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text2480-6-0-6-4"
@@ -394,11 +394,11 @@
      inkscape:export-ydpi="18.431187"><tspan
        x="205.2832"
        y="1421.3719"
-       id="tspan20"><tspan
+       id="tspan10"><tspan
          style="fill:#00353d"
-         id="tspan18">DCC-</tspan><tspan
+         id="tspan8">DCC-</tspan><tspan
          style="fill:#00a3b9"
-         id="tspan19">EX</tspan></tspan></text>
+         id="tspan9">EX</tspan></tspan></text>
   <path
      d="M 910.02466,466.51298 H 2096.0679"
      stroke="#000000"
