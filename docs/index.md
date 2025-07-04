@@ -77,7 +77,7 @@ You can use the quick links below to find out more about our products, or naviga
 
 <div class="grid cards" markdown>
 
-- ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation.png)
+- ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation.png){ .logo-style }
   <!-- ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-light.png){ .only-light }
   ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-dark.png){ .only-dark } -->
 
