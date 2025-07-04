@@ -77,42 +77,39 @@ You can use the quick links below to find out more about our products, or naviga
 
 <div class="grid cards" markdown>
 
-- ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-light.png){ .only-light }
-  ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-dark.png){ .only-dark }
+- ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation.png)
+  <!-- ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-light.png){ .only-light }
+  ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-dark.png){ .only-dark } -->
 
     Our flagship train control and layout automation software.
 
     [link to ex-commandstation will be invisible](/products/ex-commandstation/1-overview.md)
 
-- :material-download:{ .lg .middle } **EX-DCCInspector**{ .card-heading }
-
-    ---
+- ![EX-DCCInspector Logo](/_static/images/logos/product-logo-ex-dccinspector.png)
 
     A diagnostic tool to inspect DCC packets.
 
     [link to ex-dccinspector will be invisible](#)
 
-- ![EX-FastClock](/_static/images/logos/DCC-EX_product-logo-ex-fastclock.svg)
+- ![EX-FastClock Logo](/_static/images/logos/product-logo-ex-fastclock.png)
 
     An integrated fast clock for your layout.
 
     [link to ex-fastclock will be invisible](/products/ex-fastclock/01-overview.md)
 
-- ![EX-IOExpander](/_static/images/logos/DCC-EX_product-logo-ex-IOExpander.svg)
+- ![EX-IOExpander Logo](/_static/images/logos/product-logo-ex-ioexpander.png)
 
     Use Arduino devices to expand I/O capability.
 
     [link to ex-ioexpander will be invisible](/products/ex-ioexpander/ex-ioexpander.md)
 
-- :material-download:{ .lg .middle } **EX-Toolbox**{ .card-heading }
-
-    ---
+- ![EX-Toolbox Logo](/_static/images/logos/product-logo-ex-toolbox.png)
 
     An Android app full of useful tools.
 
     [link to ex-toolbox will be invisible](#)
 
-- ![EX-Turntable](/_static/images/logos/DCC-EX_product-logo-ex-turntable.svg)
+- ![EX-Turntable Logo](/_static/images/logos/product-logo-ex-turntable.png)
 
     An integrated turntable/traverser controller using a stepper motor.
 
