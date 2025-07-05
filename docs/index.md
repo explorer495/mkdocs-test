@@ -77,15 +77,16 @@ You can use the quick links below to find out more about our products, or naviga
 
 <div class="grid cards" markdown>
 
-- ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation.png){ .logo-style }
-  <!-- ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-light.png){ .only-light }
-  ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-dark.png){ .only-dark } -->
+<!-- - ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation.png) -->
+- ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-light.png){ .only-light }
+  ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-dark.png){ .only-dark }
 
     Our flagship train control and layout automation software.
 
     [link to ex-commandstation will be invisible](/products/ex-commandstation/1-overview.md)
 
-- ![EX-DCCInspector Logo](/_static/images/logos/product-logo-ex-dccinspector.png)
+- ![EX-DCCInspector Logo](/_static/images/logos/product-logo-ex-dccinspector-light.png){ .only-light }
+  ![EX-DCCInspector Logo](/_static/images/logos/product-logo-ex-dccinspector-dark.png){ .only-dark }
 
     A diagnostic tool to inspect DCC packets.
 
