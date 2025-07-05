@@ -92,7 +92,7 @@ You can use the quick links below to find out more about our products, or naviga
 
     [link to ex-dccinspector will be invisible](#)
 
-- ![EX-FastClock Logo](/_static/images/logos/product-logo-ex-fastclock.png)
+- ![EX-FastClock Logo](/_static/images/logos/product-logo-ex-fastclock-dark.png)
 
     An integrated fast clock for your layout.
 
