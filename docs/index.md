@@ -7,8 +7,6 @@ hide:
 
 # DCC-EX Model Train Control, Animation, and Automation
 
-<div class="grid" markdown>
-
 DCC-EX is a team of dedicated enthusiasts producing open source **DCC** and **DC solutions** to run your model trains and layout.
 
 Our easy to use **ready-to-run** and **do-it-yourself** products use either our own custom hardware or off-the-shelf Arduino and similar technology, and are in use by modellers from all over the world to control their trains and accessories as well as animate and automate their layouts.
@@ -20,8 +18,6 @@ Our **free and open source** EX-CommandStation software is supported by numerous
 We now have a broad "EX"-osystem of other products to enhance your entire layout including an integrated fast clock, integrated turntable controller, and I/O expansion.
 
 You can use the quick links below to find out more about our products, or navigate through the menus above (or at the top left on mobile and small screens).
-
-</div>
 
 ## What do you want to do first?
 
