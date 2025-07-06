@@ -9,8 +9,10 @@ Therefore custom ordering of pages using .nav.yml will cause unexpected results.
 
 from mkdocs.plugins import BasePlugin
 from mkdocs.structure.nav import Navigation
+from mkdocs.structure.files import Files
 from mkdocs.structure.pages import Page
 from mkdocs.utils.templates import TemplateContext
+from mkdocs.config import Config
 from collections import defaultdict
 import os
 
@@ -19,14 +21,14 @@ class ScopedNavPlugin(BasePlugin):
     """
     Extends the MkDocs BasePlugin to create the scoped nav plugin.
     """
-    def on_nav(self, nav: Navigation, config, files) -> Navigation:
+    def on_nav(self, nav: Navigation, config: Config, files: Files) -> Navigation:
         """
         Modifies the global site navigation to sort by parent directory.
 
         Parameters:
             nav (Navigation): Navigation instance containing the pages.
-            config: Global configuration.
-            files: Global files collection.
+            config (Config): Global configuration.
+            files (Files): Global files collection.
 
         Returns:
             nav (Navigation): The modified Navigation instance.
@@ -47,7 +49,7 @@ class ScopedNavPlugin(BasePlugin):
         # Return the modified Navigation object
         return nav
 
-    def on_page_context(self, context: TemplateContext, page: Page, config, nav: Navigation) -> TemplateContext:
+    def on_page_context(self, context: TemplateContext, page: Page, config: Config, nav: Navigation) -> TemplateContext:
         """
         Modifies the context of the Page object to set the previous/next button.
 
@@ -57,7 +59,7 @@ class ScopedNavPlugin(BasePlugin):
         Parameters:
             context (TemmplateContext): Instance of the TemplateContext to modify.
             page (Page): Page object to use for the context.
-            config: Global configuration.
+            config (Config): Global configuration.
             nav (Navigation): Navigation instance.
 
         Returns:
