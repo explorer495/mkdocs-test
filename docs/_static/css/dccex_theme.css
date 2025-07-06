@@ -240,10 +240,17 @@ h5 {
   font-family: Audiowide,Helvetica,Arial,sans-serif !important;
 }
 
-/* GRID CARD STYLING */
+/* GRID CARD STYLING - ALL */
+
+/* Custom card styling - style with { .card-heading } */
+.card-heading {
+  color: var(--md-accent-fg-color--dark);
+}
+
+/* GRID CARD STYLING - CLICKABLE */
 
 /* Override grid card format */
-.md-typeset .grid.cards > ul > li {
+.md-typeset .grid.cards.clickable > ul > li {
   position: relative;
   background-color: var(--md-default-bg-color--light);
   border: 1px solid var(--md-accent-fg-color--dark);
@@ -255,18 +262,18 @@ h5 {
   transition: all 0.2s ease-in-out;
 }
 
-.md-typeset .grid.cards > ul > li:hover {
+.md-typeset .grid.cards.clickable > ul > li:hover {
   box-shadow: var(--md-shadow-z3);
   border: 1px solid var(--md-primary-fg-color--light);
   transform: translateY(-3px);
 }
 
-.md-typeset .grid.cards > ul > li hr {
+.md-typeset .grid.cards.clickable > ul > li hr {
   border-top: 1px solid var(--md-accent-fg-color--dark);
 }
 
 /* Make entire card clickable - utilises Javascript clickable-cards.js */
-.md-typeset .grid.cards > ul > li::after {
+.md-typeset .grid.cards.clickable > ul > li::after {
   content: '';
   position: absolute;
   top: 0;
@@ -277,13 +284,47 @@ h5 {
 }
 
 /* Hide link text on each card as the entire card is now clickable */
-.md-typeset .grid.cards > ul > li p:has(a[href]) {
+.md-typeset .grid.cards.clickable > ul > li p:has(a[href]) {
   display: none;
 }
 
-/* Custom card styling - style with { .card-heading } */
-.card-heading {
-  color: var(--md-accent-fg-color--dark);
+/* GRID CARD STYLING - STATIC */
+
+/* Override grid card format */
+.md-typeset .grid.cards.static > ul > li {
+  position: relative;
+  background-color: var(--md-default-bg-color--light);
+  border: 1px solid var(--md-accent-fg-color--dark);
+  border-radius: 10px;
+  box-shadow: var(--md-shadow-z1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+}
+
+.md-typeset .grid.cards.static > ul > li hr {
+  border-top: 1px solid var(--md-accent-fg-color--dark);
+}
+
+.md-typeset .grid.cards.static > ul > li h2 {
+  margin: 0;
+  padding: 0 0.8rem 0;
+  background-color: var(--md-accent-fg-color--dark);
+  color: var(--md-default-fg-color);
+  font-size: 1rem !important;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.md-typeset .grid.cards.static > ul > li p {
+  padding: 0 0.8rem 0;
+}
+
+.md-typeset .grid.cards.static > ul > li p:last-child {
+  padding-bottom: 0.8rem;
 }
 
 /* BUTTON STYLING */
