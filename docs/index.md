@@ -7,21 +7,27 @@ hide:
 
 # DCC-EX Model Train Control, Animation, and Automation
 
-DCC-EX is a team of dedicated enthusiasts producing open source **DCC** and **DC solutions** to run your model trains and layout.
+<div class="grid cards static" markdown>
 
-Our easy to use **ready-to-run** and **do-it-yourself** products use either our own custom hardware or off-the-shelf Arduino and similar technology, and are in use by modellers from all over the world to control their trains and accessories as well as animate and automate their layouts.
+- ## Welcome to DCC-EX
 
-Our **free and open source** EX-CommandStation software is supported by numerous third party hardware and apps like JMRI, Engine Driver, WiThrottle, Rocrail, and more.
+    DCC-EX is a team of dedicated enthusiasts producing open source **DCC** and **DC solutions** to run your model trains and layout.
 
-**Our mission** is to provide free and open source software and hardware designs to make model trains accessible and affordable to everyone.
+    Our easy to use **ready-to-run** and **do-it-yourself** products use either our own custom hardware or off-the-shelf Arduino and similar technology, and are in use by modellers from all over the world to control their trains and accessories as well as animate and automate their layouts.
 
-We now have a broad "EX"-osystem of other products to enhance your entire layout including an integrated fast clock, integrated turntable controller, and I/O expansion.
+    Our **free and open source** EX-CommandStation software is supported by numerous third party hardware and apps like JMRI, Engine Driver, WiThrottle, Rocrail, and more.
 
-You can use the quick links below to find out more about our products, or navigate through the menus above (or at the top left on mobile and small screens).
+    **Our mission** is to provide free and open source software and hardware designs to make model trains accessible and affordable to everyone.
+
+    We now have a broad "EX"-osystem of other products to enhance your entire layout including an integrated fast clock, integrated turntable controller, and I/O expansion.
+
+    You can use the quick links below to find out more about our products, or navigate through the menus above (or at the top left on mobile and small screens).
+
+</div>
 
 ## What do you want to do first?
 
-<div class="grid cards" markdown>
+<div class="grid cards clickable" markdown>
 
 - :material-clock-start:{ .lg .middle } **Get Started**{ .card-heading }
 
@@ -75,7 +81,7 @@ You can use the quick links below to find out more about our products, or naviga
 
 ## Go straight to our products
 
-<div class="grid cards" markdown>
+<div class="grid cards clickable" markdown>
 
 - ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-light.png){ .only-light }
   ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-dark.png){ .only-dark }
