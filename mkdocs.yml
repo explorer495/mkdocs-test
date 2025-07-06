@@ -119,6 +119,8 @@ plugins:
       add_icon: true
   - meta # Enable using .meta.yml to set metadata on all docs in a directory
   - scoped-nav # Enable scoped navigation to update previous/next buttons correctly
+  - latest-news: # Enable including the latest news excerpts in markdown
+      count: 3
 
 # Copyright info
 copyright: |
