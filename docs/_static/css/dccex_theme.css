@@ -172,31 +172,6 @@
   box-shadow: 0 0 16px 12px rgba(255, 255, 255, 0.15);
 }
 
-/* Footer colour themes for each scheme */
-/* [data-md-color-scheme="dccex-light"] .md-footer__link {
-  background: rgba(0, 53, 61, 0.5);
-  color: white;
-  border: 1px solid rgba(0, 53, 61, 0.2);
-}
-
-[data-md-color-scheme="dccex-light"] .md-footer__link:hover {
-  background: rgba(0, 53, 61, 1);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 53, 61, 0.4);
-}
-
-[data-md-color-scheme="dccex-dark"] .md-footer__link {
-  background: rgba(0, 159, 181, 0.5);
-  color: white;
-  border: 1px solid rgba(0, 206, 247, 0.3);
-}
-
-[data-md-color-scheme="dccex-dark"] .md-footer__link:hover {
-  background: rgba(0, 206, 247, 1);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 206, 247, 0.4);
-} */
-
 /* Reduce footer navigation title font size & margins */
 .md-footer__title {
   font-size: 14px;
@@ -216,123 +191,6 @@
 .md-footer__link {
   margin-top: 1px;
   margin-bottom: 1px;
-}
-
-/* Hide default footer background and make it an overlay */
-/* .md-footer {
-  background: transparent;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
-  pointer-events: none;
-  box-shadow: none;
-} */
-
-/* Meta footer not transparent */
-/* .md-footer-meta__inner {
-  background: var(--md-footer-bg-color);
-  background-color: var(--md-footer-bg-color);
-  width: 100vw;
-  max-width: 100%;
-  margin: 0 auto;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-} */
-
-/* Footer nav button styling */
-/* .md-footer__inner {
-  background: transparent;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-} */
-
-/* Style buttons as floating elements */
-/* .md-footer__link {
-  border-radius: 50px;
-  padding: 2px 5px;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  transition: all 0.3s ease;
-  pointer-events: auto;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  max-width: 200px;
-} */
-
-/* Move previous button away from sidebar */
-/* .md-footer__link--prev {
-  margin-left: 250px;
-} */
-
-/* .md-footer__direction {
-  font-size: 0.7rem;
-  opacity: 0.8;
-  color: inherit;
-} */
-
-/* Add bottom padding to page content */
-/* .md-content {
-  padding-bottom: 100px;
-} */
-
-/* Ensure any pages set to hide the footer continue to do so */
-/* .md-footer__inner[hidden] {
-  display: none !important;
-} */
-
-/* Reduce footer button sizes on small screens */
-@media screen and (max-width: 1220px) {
-  /* Reduce size and padding */
-  /* .md-footer__inner {
-    padding: 8px;
-  } */
-
-  /* .md-footer__link {
-    padding: 8px 16px;
-    min-width: 50px;
-    max-width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  } */
-
-  /* Move previous back to left */
-  /* .md-footer__link--prev {
-    margin-left: 0;
-  } */
-
-  /* Hide all text, just show arrows */
-  /* .md-footer__title {
-    display: none;
-  } */
-
-  /* Arrows visible and sized correctly */
-  /* .md-footer__button {
-    margin: 0;
-    padding: 0;
-  } */
-
-  /* .md-footer__button .md-icon svg {
-    width: 20px;
-    height: 20px;
-  } */
-
-  /* Reduce content bottom padding */
-  /* .md-content {
-    padding-bottom: 100px;
-  } */
-
-  /* Hide Discord icon to reduce footer height */
-  /* .md-social {
-    display: none;
-  } */
 }
 
 /* Horizontal line separator for News articles */
@@ -433,4 +291,9 @@ h5 {
 /* Custom card styling */
 .card-heading {
   color: var(--md-accent-fg-color--dark);
+}
+
+/* Back to top button overrides */
+.md-top {
+  border: solid var(--md-primary-fg-color--light) 1px;
 }
