@@ -310,8 +310,8 @@ h5 {
 .md-typeset .grid.cards.static > ul > li h2 {
   margin: 0;
   padding: 0 0.8rem 0;
-  background-color: var(--md-accent-fg-color--dark);
-  color: var(--md-default-fg-color);
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-default-bg-color--dark);
   font-size: 1rem !important;
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
