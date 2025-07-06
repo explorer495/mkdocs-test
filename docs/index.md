@@ -59,11 +59,11 @@ You can use the quick links below to find out more about our products, or naviga
 
     [link to exrail will be invisible](/products/ex-commandstation/exrail/1-exrail.md)
 
-- :material-newspaper:{ .lg .middle } **DCC-EX News**{ .card-heading }
+- :material-newspaper:{ .lg .middle } **Read the latest DCC-EX News**{ .card-heading }
 
     ---
 
-    Read the latest news from the DCC-EX team.
+<!-- LATEST-NEWS -->
 
     [link to news will be invisible](/news/index.md)
 
