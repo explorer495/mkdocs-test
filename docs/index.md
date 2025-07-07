@@ -9,7 +9,7 @@ hide:
 
 <div class="grid cards static" markdown>
 
-- ## Welcome to DCC-EX
+- ## :material-hand-wave-outline: Welcome to DCC-EX
 
     DCC-EX is a team of dedicated enthusiasts producing open source **DCC** and **DC solutions** to run your model trains and layout.
 
