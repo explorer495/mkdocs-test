@@ -2,7 +2,7 @@
 
 EXRAIL contains a number of basic commands to drive locos and control their functions such as lights and sounds.
 
-All driving speeds are in the range 0 to 127 where 0 is a normal stop (where a loco's decoder will usually stop gently as if the driver were applying the brakes) and speed 1 is an emergency stop where the loco will stop immediately without any semblance of momentum.
+All driving speeds are in the range 0 to 127 where 0 is a normal stop (where a loco's decoder will usually stop gently as if the driver were applying the brakes) and speed 1 is an emergency stop where the loco will stop immediately without any semblance of momentum. The same speed range applies for DC and when running with 28 speed steps. 
 
 
 - `FWD(speed)` will start the loco moving forward at the given speed.
