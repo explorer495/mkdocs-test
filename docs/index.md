@@ -45,7 +45,7 @@ You can use the quick links below to find out more about our products, or naviga
 
     I want to add signals/turnouts/accessories.
 
-    [link to accessories will be invisible](/products/ex-commandstation/accessories/accessories.md)
+    [link to accessories will be invisible](/products/ex-commandstation/accessories/1-accessories.md)
 
 - :material-robot:{ .lg .middle } **I want to animate/automate my layout**{ .card-heading }
 
