@@ -1,4 +1,5 @@
 nav:
+  - index.md
   - EX-CommandStation: ex-commandstation
   - EX-CommandStation Booster 1 (EX-CSB1): ex-csb1
   - EX-FastClock: ex-fastclock
