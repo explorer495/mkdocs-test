@@ -121,6 +121,7 @@ plugins:
   - scoped-nav # Enable scoped navigation to update previous/next buttons correctly
   - latest-news: # Enable including the latest news excerpts in markdown
       count: 3
+      list-class: news-headline-list
 
 # Copyright info
 copyright: |

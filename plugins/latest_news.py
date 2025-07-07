@@ -1,5 +1,40 @@
 """
-This plugin is used to grab the latest 2 DCC-EX news article excerpts to be displayed.
+This plugin is used to grab the latest DCC-EX news article titles to be displayed.
+
+These are used to create an unordered list which can be used in markdown files.
+
+To include it in a file, include this text on its own line with a blank line above and below:
+
+<! -- LATEST-NEWS -->
+
+NOTE: You may need to indent this line to suit the nesting of lists etc.
+
+This is included as a plugin in mkdocs.yml:
+
+plugins:
+  - latest-news
+
+By default, the latest 2 articles are included, this can be changed with:
+
+plugins:
+  - latest-news:
+      count: 3
+
+To customise the list styling, either create the default class "news-list" or define your own:
+
+plugins:
+  - latest-news:
+      list-class: my-list-class
+
+
+To ensure your CSS class correctly overrides MkDocs Material classes, make it specific, eg:
+
+.md-typeset li.news-headline-list {
+  font-family: Audiowide,Helvetica,Arial,sans-serif;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0 !important;
+}
 """
 
 from mkdocs.plugins import BasePlugin
@@ -21,13 +56,21 @@ class LatestNewsPlugin(BasePlugin):
       - latest-news
 
     By default, the latest 2 articles are included, this can be changed with:
+
     plugins:
       - latest-news:
           count: 3
+
+    To customise the list styling, either create the default class "news-list" or define your own:
+
+    plugins:
+      - latest-news:
+          list-class: my-list-class
     """
     # Allow mkdocs.yml configuration of the number of articles, default is 2
     config_scheme = (
         ('count', config_options.Type(int, default=2)),
+        ('list-class', config_options.Type(str, default='news-list')),
     )
 
     def on_page_markdown(self, markdown: str, page: Page, config: Config, files: Files) -> str:
@@ -54,6 +97,7 @@ class LatestNewsPlugin(BasePlugin):
         # Set up local variables from the global config and plugin config
         news_dir = os.path.join(config["docs_dir"], "news", "articles")
         article_count = self.config.get('count')
+        list_class = self.config.get('list-class')
         posts = []
 
         # Iterate through the files in the news directory
@@ -88,7 +132,8 @@ class LatestNewsPlugin(BasePlugin):
         # Build Markdown block
         news_block = ""
         for post in latest_posts:
-            news_block += f"    <span class='news-headline'>- :material-newspaper: {post['title']}</span>\n"
+            news_block += f"- :material-newspaper: {post['title']}\n"
+            news_block += f"{{ .{list_class} }}\n"
         # print(news_block)
 
         # Inject at placeholder

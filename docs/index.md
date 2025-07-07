@@ -66,7 +66,7 @@ hide:
 - ![DCC-EX News](/_static/images/logos/product-logo-news-light.png){ .only-light }
   ![DCC-EX News](/_static/images/logos/product-logo-news-dark.png){ .only-dark }
 
-<!-- LATEST-NEWS -->
+    <!-- LATEST-NEWS -->
 
     [link to news will be invisible](/news/index.md)
 
