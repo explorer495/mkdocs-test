@@ -7,6 +7,8 @@ hide:
 
 # DCC-EX Model Train Control, Animation, and Automation
 
+<div class="grid" markdown>
+
 <div class="grid cards static" markdown>
 
 - ## :material-hand-wave-outline: Welcome to DCC-EX
@@ -25,7 +27,7 @@ hide:
 
 </div>
 
-## What do you want to do first?
+<!-- ## What do you want to do first? -->
 
 <div class="grid cards clickable" markdown>
 
@@ -61,9 +63,8 @@ hide:
 
     [link to exrail will be invisible](/products/ex-commandstation/exrail/1-exrail.md)
 
-- :material-newspaper:{ .lg .middle } **Read the latest DCC-EX News**{ .card-heading }
-
-    ---
+- ![DCC-EX News](/_static/images/logos/product-logo-news-light.png){ .only-light }
+  ![DCC-EX News](/_static/images/logos/product-logo-news-dark.png){ .only-dark }
 
 <!-- LATEST-NEWS -->
 
@@ -79,7 +80,7 @@ hide:
 
 </div>
 
-## Go straight to our products
+<!-- ## Go straight to our products -->
 
 <div class="grid cards clickable" markdown>
 
@@ -124,5 +125,7 @@ hide:
     An integrated turntable/traverser controller using a stepper motor.
 
     [link to ex-turntable will be invisible](/products/ex-turntable/ex-turntable.md)
+
+</div>
 
 </div>
