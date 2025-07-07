@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name='dccex-mkdocs-plugins',
-    version='0.0.2',
+    version='0.0.3',
     packages=['plugins'],
     entry_points={
         'mkdocs.plugins': [

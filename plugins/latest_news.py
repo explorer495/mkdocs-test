@@ -88,7 +88,7 @@ class LatestNewsPlugin(BasePlugin):
         # Build Markdown block
         news_block = ""
         for post in latest_posts:
-            news_block += f"    - **{post['title']}**\n"
+            news_block += f"    <span class='news-headline'>- :material-newspaper: {post['title']}</span>\n"
         # print(news_block)
 
         # Inject at placeholder
