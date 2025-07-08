@@ -165,6 +165,70 @@
   display: block;
 }
 
+/* GENERAL STYLING OVERRIDES */
+.md-main__inner {
+  margin-top: 0;
+}
+
+.md-content__inner {
+  padding-top: 0;
+}
+
+.md-typeset p {
+  line-height: 1.4;
+}
+
+/* CUSTOM HEADER STYLES */
+.md-typeset h1 {
+  font-family: Audiowide,Helvetica,Arial,sans-serif !important;
+  font-size: 180% !important;
+}
+
+.md-typeset h2 {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 160% !important;
+  color: var(--md-default-fg-color--dark);
+}
+
+.md-typeset h3 {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 140% !important;
+  font-style: italic !important;
+  color: var(--md-default-fg-color--dark);
+}
+
+.md-typeset h4 {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 120% !important;
+  color: var(--md-default-fg-color--dark);
+}
+
+.md-typeset h5 {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 100% !important;
+  color: var(--md-default-fg-color--dark);
+}
+
+/* Set spacing to other elements consistently */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5 {
+  line-height: 1.2;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+}
+
+/* Override header topic font */
+.md-header__topic {
+  font-family: Audiowide,Helvetica,Arial,sans-serif !important;
+}
+
 /* FOOTER MODIFICATIONS */
 
 /* Reduce footer navigation title font size & margins */
@@ -206,46 +270,6 @@
   list-style: none;
   padding-left: 0;
   margin-left: 0 !important;
-}
-
-/* CUSTOM HEADER STYLES */
-h1 {
-  font-family: Audiowide,Helvetica,Arial,sans-serif !important;
-  font-size: 180% !important;
-}
-
-h2 {
-  font-family: Roboto,Helvetica,Arial,sans-serif !important;
-  font-weight: 600 !important;
-  font-size: 160% !important;
-  color: var(--md-default-fg-color--dark);
-}
-
-h3 {
-  font-family: Roboto,Helvetica,Arial,sans-serif !important;
-  font-weight: 600 !important;
-  font-size: 140% !important;
-  font-style: italic !important;
-  color: var(--md-default-fg-color--dark);
-}
-
-h4 {
-  font-family: Roboto,Helvetica,Arial,sans-serif !important;
-  font-weight: 600 !important;
-  font-size: 120% !important;
-  color: var(--md-default-fg-color--dark);
-}
-
-h5 {
-  font-family: Roboto,Helvetica,Arial,sans-serif !important;
-  font-weight: 600 !important;
-  font-size: 100% !important;
-  color: var(--md-default-fg-color--dark);
-}
-
-/* Override header topic font */
-.md-header__topic {
-  font-family: Audiowide,Helvetica,Arial,sans-serif !important;
 }
 
 /* GRID CARD STYLING - ALL */
@@ -317,10 +341,10 @@ h5 {
 
 .md-typeset .grid.cards.static > ul > li h2 {
   margin: 0;
-  padding: 0 0.8rem 0;
+  padding: 0.2rem 0.8rem 0.2rem;
   background-color: var(--md-primary-fg-color);
   color: var(--md-default-bg-color--dark);
-  font-size: 1rem !important;
+  font-size: 0.9rem !important;
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
   width: 100%;
