@@ -5,6 +5,8 @@ hide:
 
 # Download Our Software
 
+## EX-Installer
+
 Download the latest [EX-Installer](#){ .md-button #download-ex-installer-link }
 
 If for some reason that link doesn't work for you, download the appropriate version:

@@ -1,5 +1,6 @@
 nav:
   - Home: index.md
+  - Grid: grid-test.md
   - Getting Started: getting-started
   - News: news
   - Products: products
