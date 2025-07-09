@@ -7,21 +7,29 @@ hide:
 
 # DCC-EX Model Train Control, Animation, and Automation
 
-DCC-EX is a team of dedicated enthusiasts producing open source **DCC** and **DC solutions** to run your model trains and layout.
+<div class="grid cards static home-top-row" markdown>
 
-Our easy to use **ready-to-run** and **do-it-yourself** products use either our own custom hardware or off-the-shelf Arduino and similar technology, and are in use by modellers from all over the world to control their trains and accessories as well as animate and automate their layouts.
+- ## :material-hand-wave-outline: Welcome to DCC-EX
 
-Our **free and open source** EX-CommandStation software is supported by numerous third party hardware and apps like JMRI, Engine Driver, WiThrottle, Rocrail, and more.
+    DCC-EX is a team of dedicated enthusiasts producing open source **DCC** and **DC** solutions to run your model trains and layout, with the mission to provide free and open source software and hardware designs that make model trains accessible and affordable to everyone.
 
-**Our mission** is to provide free and open source software and hardware designs to make model trains accessible and affordable to everyone.
+    Our easy to use software products use either our own custom hardware or off-the-shelf Arduino and similar technologies, are in use by modellers from all over the world, and are supported by numerous third party hardware and apps like JMRI, Engine Driver, WiThrottle, Rocrail, and more.
 
-We now have a broad "EX"-osystem of other products to enhance your entire layout including an integrated fast clock, integrated turntable controller, and I/O expansion.
+    We now have a [broad "EX"-osystem of products](/products/index.md) to enhance your entire layout including an integrated fast clock, integrated turntable controller, and I/O expansion.
 
-You can use the quick links below to find out more about our products, or navigate through the menus above (or at the top left on mobile and small screens).
+- ## :material-help-box-multiple-outline: Getting Help or Support
 
-## What do you want to do first?
+    To get help or support with our products, we highly recommend joining our [Discord](https://discord.gg/y2sB4Fp) server where you can chat directly with the team and other users.
 
-<div class="grid cards" markdown>
+    For alternative methods to get help or support, check out our [Help and Support](/support/index.md) information.
+
+</div>
+
+<div class="grid main-clickable-cards-grid" markdown>
+
+<div class="main-grid-column-1" markdown>
+
+<div class="grid cards clickable inner-column-card-grid" markdown>
 
 - :material-clock-start:{ .lg .middle } **Get Started**{ .card-heading }
 
@@ -39,6 +47,14 @@ You can use the quick links below to find out more about our products, or naviga
 
     [link to ready to run will be invisible](/products/ex-csb1/1-ex-csb1.md)
 
+</div> <!-- inner-column-card-grid -->
+
+</div> <!-- main-grid-column-1 -->
+
+<div class="main-grid-column-2" markdown>
+
+<div class="grid cards clickable inner-column-card-grid" markdown>
+
 - :material-connection:{ .lg .middle } **Connect accessories**{ .card-heading }
 
     ---
@@ -55,68 +71,37 @@ You can use the quick links below to find out more about our products, or naviga
 
     [link to exrail will be invisible](/products/ex-commandstation/exrail/1-exrail.md)
 
-- :material-newspaper:{ .lg .middle } **DCC-EX News**{ .card-heading }
+</div> <!-- inner-column-card-grid -->
 
-    ---
+</div> <!-- main-grid-column-2 -->
 
-    Read the latest news from the DCC-EX team.
+<div class="main-grid-column-3" markdown>
+
+<div class="grid cards clickable inner-column-card-grid" markdown>
+
+- ![DCC-EX News](/_static/images/logos/product-logo-news-light.png){ .only-light width=300px }
+  ![DCC-EX News](/_static/images/logos/product-logo-news-dark.png){ .only-dark width=300px }
+
+    <!-- LATEST-NEWS -->
 
     [link to news will be invisible](/news/index.md)
 
-- :material-download:{ .lg .middle } **Downloads**{ .card-heading }
+- ![EX-Installer](/_static/images/logos/product-logo-ex-installer-light.png){ .only-light width=300px }
+  ![EX-Installer](/_static/images/logos/product-logo-ex-installer-dark.png){ .only-dark width=300px }
 
-    ---
+    Get EX-Installer to install our software.
+
+    [link to downloads will be invisible](/getting-started/10-downloads.md#ex-installer)
+
+- ![DCC-EX Downloads](/_static/images/logos/product-logo-download-light.png){ .only-light width=300px }
+  ![DCC-EX Downloads](/_static/images/logos/product-logo-download-dark.png){ .only-dark width=300px }
 
     Go here to get our software.
 
     [link to downloads will be invisible](/getting-started/10-downloads.md)
 
-</div>
+</div> <!-- inner-column-card-grid -->
 
-## Go straight to our products
+</div> <!-- main-grid-column-3 -->
 
-<div class="grid cards" markdown>
-
-- ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-light.png){ .only-light }
-  ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-dark.png){ .only-dark }
-
-    Our flagship train control and layout automation software.
-
-    [link to ex-commandstation will be invisible](/products/ex-commandstation/1-overview.md)
-
-- ![EX-DCCInspector Logo](/_static/images/logos/product-logo-ex-dccinspector-light.png){ .only-light }
-  ![EX-DCCInspector Logo](/_static/images/logos/product-logo-ex-dccinspector-dark.png){ .only-dark }
-
-    A diagnostic tool to inspect DCC packets.
-
-    [link to ex-dccinspector will be invisible](#)
-
-- ![EX-FastClock Logo](/_static/images/logos/product-logo-ex-fastclock-light.png){ .only-light }
-  ![EX-FastClock Logo](/_static/images/logos/product-logo-ex-fastclock-dark.png){ .only-dark }
-
-    An integrated fast clock for your layout.
-
-    [link to ex-fastclock will be invisible](/products/ex-fastclock/01-overview.md)
-
-- ![EX-IOExpander Logo](/_static/images/logos/product-logo-ex-ioexpander-light.png){ .only-light }
-  ![EX-IOExpander Logo](/_static/images/logos/product-logo-ex-ioexpander-dark.png){ .only-dark }
-
-    Use Arduino devices to expand I/O capability.
-
-    [link to ex-ioexpander will be invisible](/products/ex-ioexpander/ex-ioexpander.md)
-
-- ![EX-Toolbox Logo](/_static/images/logos/product-logo-ex-toolbox-light.png){ .only-light }
-  ![EX-Toolbox Logo](/_static/images/logos/product-logo-ex-toolbox-dark.png){ .only-dark }
-
-    An Android app full of useful tools.
-
-    [link to ex-toolbox will be invisible](#)
-
-- ![EX-Turntable Logo](/_static/images/logos/product-logo-ex-turntable-light.png){ .only-light }
-  ![EX-Turntable Logo](/_static/images/logos/product-logo-ex-turntable-dark.png){ .only-dark }
-
-    An integrated turntable/traverser controller using a stepper motor.
-
-    [link to ex-turntable will be invisible](/products/ex-turntable/ex-turntable.md)
-
-</div>
+</div> <!-- main-clickable-cards-grid -->
