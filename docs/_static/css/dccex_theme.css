@@ -279,6 +279,11 @@
   color: var(--md-accent-fg-color--dark);
 }
 
+.md-typeset .grid {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
 /* GRID CARD STYLING - CLICKABLE */
 
 /* Override grid card format */
@@ -323,11 +328,62 @@
 /* Clickable card grid overrides for index.md only */
 .md-typeset .grid.main-clickable-cards-grid {
   grid-template-columns: 1fr 1fr 1fr;
+}
 
-  @media screen and (max-width: 76.1875em) {
+/* Two columns for smaller screens */
+@media screen and (max-width: 76.1875em) {
+  .md-typeset .grid.main-clickable-cards-grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "left-group right-group";
+    grid-template-areas: "left-column right-column";
   }
+
+  /* Combine two left columns into one, right column stays there */
+  .md-typeset .grid.main-clickable-cards-grid .main-grid-column-1 {
+    grid-area: left-column;
+    order: -1;
+  }
+
+  .md-typeset .grid.main-clickable-cards-grid .main-grid-column-2 {
+    grid-area: left-column;
+    order: 0;
+  }
+
+  .md-typeset .grid.main-clickable-cards-grid .main-grid-column-3 {
+    grid-area: right-column;
+  }
+}
+
+/* Single column for smallest screens */
+@media screen and (max-width: 60em) {
+  .md-typeset .grid.main-clickable-cards-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: none;
+  }
+
+  /* Reorder with right column on top */
+  .md-typeset .grid.main-clickable-cards-grid .main-grid-column-3 {
+    order: -1;
+  }
+
+  .md-typeset .grid.main-clickable-cards-grid .main-grid-column-1 {
+    order: 0;
+  }
+
+  .md-typeset .grid.main-clickable-cards-grid .main-grid-column-2 {
+    order: 1;
+  }
+}
+
+/* Ensure cards within columns stack vertically */
+.md-typeset .grid.cards.clickable.inner-column-grid-card {
+  grid-template-columns: 1fr;
+  margin: 0;
+  padding: 0;
+}
+
+/* Add margin between the inner grid card blocks when they stack in a single column */
+.md-typeset .main-grid-column-1 .grid.cards.clickable.inner-column-card-grid + .grid.cards.clickable.inner-column-card-grid {
+    margin-top: 1.5rem; /* Add spacing between the two blocks that end up in the same logical column */
 }
 
 /* GRID CARD STYLING - STATIC */
