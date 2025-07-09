@@ -344,7 +344,7 @@
   padding: 0.2rem 0.8rem 0.2rem;
   background-color: var(--md-primary-fg-color);
   color: var(--md-default-bg-color--dark);
-  font-size: 0.9rem !important;
+  font-size: 0.8rem !important;
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
   width: 100%;
@@ -365,6 +365,19 @@
 
 .md-typeset .grid.cards.static > ul > li p:last-child {
   padding-bottom: 0.8rem;
+}
+
+/* Static card grid overrides for index.md only */
+.md-typeset .grid.cards.static.home-top-row {
+  grid-template-columns: 3fr 1fr;
+
+  @media screen and (max-width: 76.1875em) {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  @media screen and (max-width: 60em) {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* BUTTON STYLING */
