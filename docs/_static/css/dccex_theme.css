@@ -328,6 +328,8 @@
 /* Clickable card grid overrides for index.md only */
 .md-typeset .grid.main-clickable-cards-grid {
   grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* Two columns for smaller screens */
@@ -341,6 +343,8 @@
   .md-typeset .grid.main-clickable-cards-grid .main-grid-column-1 {
     grid-area: left-column;
     order: -1;
+    display: flex;
+    flex-direction: column;
   }
 
   .md-typeset .grid.main-clickable-cards-grid .main-grid-column-2 {
@@ -350,6 +354,8 @@
 
   .md-typeset .grid.main-clickable-cards-grid .main-grid-column-3 {
     grid-area: right-column;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -358,19 +364,25 @@
   .md-typeset .grid.main-clickable-cards-grid {
     grid-template-columns: 1fr;
     grid-template-areas: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 
   /* Reorder with right column on top */
   .md-typeset .grid.main-clickable-cards-grid .main-grid-column-3 {
     order: -1;
+    display: block;
   }
 
   .md-typeset .grid.main-clickable-cards-grid .main-grid-column-1 {
     order: 0;
+    display: block;
   }
 
   .md-typeset .grid.main-clickable-cards-grid .main-grid-column-2 {
     order: 1;
+    display: block;
   }
 }
 
