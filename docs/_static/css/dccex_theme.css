@@ -320,6 +320,16 @@
   display: none;
 }
 
+/* Clickable card grid overrides for index.md only */
+.md-typeset .grid.main-clickable-cards-grid {
+  grid-template-columns: 1fr 1fr 1fr;
+
+  @media screen and (max-width: 76.1875em) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "left-group right-group";
+  }
+}
+
 /* GRID CARD STYLING - STATIC */
 
 /* Override grid card format */
