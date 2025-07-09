@@ -27,9 +27,9 @@ hide:
 
 <div class="grid main-clickable-cards-grid" markdown>
 
-<div class="cards-group-left" markdown>
+<div class="main-grid-column-1" markdown>
 
-<div class="grid cards clickable column-left" markdown>
+<div class="grid cards clickable inner-column-card-grid" markdown>
 
 - :material-clock-start:{ .lg .middle } **Get Started**{ .card-heading }
 
@@ -47,9 +47,13 @@ hide:
 
     [link to ready to run will be invisible](/products/ex-csb1/1-ex-csb1.md)
 
-</div> <!-- column-left -->
+</div> <!-- inner-column-card-grid -->
 
-<div class="grid cards clickable column-right" markdown>
+</div> <!-- main-grid-column-1 -->
+
+<div class="main-grid-column-2" markdown>
+
+<div class="grid cards clickable inner-column-card-grid" markdown>
 
 - :material-connection:{ .lg .middle } **Connect accessories**{ .card-heading }
 
@@ -67,17 +71,13 @@ hide:
 
     [link to exrail will be invisible](/products/ex-commandstation/exrail/1-exrail.md)
 
-</div> <!-- column-right -->
+</div> <!-- inner-column-card-grid -->
 
-</div> <!-- cards-group-left -->
+</div> <!-- main-grid-column-2 -->
 
-<div class="cards-group-middle" markdown>
-<!-- Empty column for three column structure -->
-</div> <!-- cards-group-middle -->
+<div class="main-grid-column-3" markdown>
 
-<div class="cards-group-right" markdown>
-
-<div class="grid cards clickable column-news-download" markdown>
+<div class="grid cards clickable inner-column-card-grid" markdown>
 
 - ![DCC-EX News](/_static/images/logos/product-logo-news-light.png){ .only-light width=300px }
   ![DCC-EX News](/_static/images/logos/product-logo-news-dark.png){ .only-dark width=300px }
@@ -100,8 +100,8 @@ hide:
 
     [link to downloads will be invisible](/getting-started/10-downloads.md)
 
-</div> <!-- column-news-download -->
+</div> <!-- inner-column-card-grid -->
 
-</div> <!-- cards-group-right -->
+</div> <!-- main-grid-column-3 -->
 
 </div> <!-- main-clickable-cards-grid -->
