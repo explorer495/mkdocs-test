@@ -15,7 +15,7 @@ hide:
 
     Our easy to use software products use either our own custom hardware or off-the-shelf Arduino and similar technologies, are in use by modellers from all over the world, and are supported by numerous third party hardware and apps like JMRI, Engine Driver, WiThrottle, Rocrail, and more.
 
-    We now have a [broad "EX"-osystem of products](/products/index.md) to enhance your entire layout including an integrated fast clock, integrated turntable controller, and I/O expansion.
+    We now have a [broad "EX"-osystem of products](/products/products.md) to enhance your entire layout including an integrated fast clock, integrated turntable controller, and I/O expansion.
 
 - ## :material-help-box-multiple-outline: Getting Help or Support
 
