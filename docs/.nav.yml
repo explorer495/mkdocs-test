@@ -1,8 +1,9 @@
 nav:
   - Home: index.md
   - Getting Started: getting-started
-  - News: news
   - Products: products
+  - Purchasing: purchasing
+  - News: news
   - Support: support
   - Reference : reference
   - Glossary: glossary
