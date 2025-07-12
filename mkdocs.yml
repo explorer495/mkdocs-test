@@ -146,6 +146,7 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist: # Task list with checkbox capability
       custom_checkbox: true
+      clickable_checkbox: true
   - toc: # Table of Contents extension
       permalink: true # Add a permanent link to headings
 
