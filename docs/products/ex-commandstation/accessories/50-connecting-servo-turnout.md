@@ -26,24 +26,24 @@ You will need the following for up to 16 servos.
 
 ## Define your Turnouts
 
-1. In EX-Installer, edit myAutomation.h and define each turnout to give an id of your choice, the VPIN of the servo, the closed and open servo values you have discovered by experimentation and a suitable decription to show on your throttle. 
+1. In EX-Installer, edit myAutomation.h and define each turnout to give an id of your choice, the VPIN of the servo, the closed and open servo values you have discovered by experimentation and a suitable description to show on your throttle.
 
- For example 
+ For example
 
  ```cpp
  SERVO_TURNOUT(1,100,350,720,"Coal yard exit")
  SERVO_TURNOUT(2,101,400,800,"Branch line siding")
  ```
 
- 2. Reload the command station from the installer.
+2. Reload the command station from the installer.
 
 ## Test your turnout definitions
 
-1. Using the serial monitor as before, enter the commands ```<T 1 T>``` to throw turnout 1, ```<T 2 C>``` to close turnout 2 and so on. 
+1. Using the serial monitor as before, enter the commands ```<T 1 T>``` to throw turnout 1, ```<T 2 C>``` to close turnout 2 and so on.
 2. With your Wifi throttle (Typically Engine Driver) navigate to the turnouts page where you will see the two turnouts listed. From there you can throw or close them as required.
 
 ## Connect your servos to turnouts
 
-There are many ways of mounting servos both above and below the baseboard using 3D printed mounts or a strip of plastic L shape. You will probably want to use microswitches to switch frog polarity or use more expensive frog juicers or EXRAIL driven relays. 
+There are many ways of mounting servos both above and below the baseboard using 3D printed mounts or a strip of plastic L shape. You will probably want to use microswitches to switch frog polarity or use more expensive frog juicers or EXRAIL driven relays.
 
 We recommend that whatever mechanical connection you make allows for protection of you turnout from excess servo movement.

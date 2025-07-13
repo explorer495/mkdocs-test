@@ -3,7 +3,7 @@
 Actuators are devices that you can add to make things happen under the control of the Command station. For example throwing a turnout, setting a signal or switching lights. There are basically two types of actuator that will commonly be used:
 
 - PWM output used for Servo movement of turnouts, semaphore signals, crossing gates, fancy animations and LED fading.
-- Digital output (On/Off) mostly used for LEDs, relays and some turnout types. 
+- Digital output (On/Off) mostly used for LEDs, relays and some turnout types.
 
 Other actuator types include:
 
@@ -13,7 +13,7 @@ Other actuator types include:
 
 ## Servo actuators
 
-Servo actuators generally use a [PCA9685](?PCA9685) device which can connect up to 16 Servos or LEDs over a single I2C connection. This device also acts to provide servo movement power separately from the movement control signal. 
+Servo actuators generally use a [PCA9685](?PCA9685) device which can connect up to 16 Servos or LEDs over a single I2C connection. This device also acts to provide servo movement power separately from the movement control signal.
 
 [EXRAIL](?EXRAIL) is used to
 
@@ -30,4 +30,3 @@ EXRAIL is used to
 
 - Define the MCP23017 connection and its address so that each output can be given a unique [VPIN](?VPIN) to control it.
 - Set or reset the pin output when appropriate
-
