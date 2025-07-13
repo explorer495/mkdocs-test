@@ -58,6 +58,7 @@ extra_javascript:
   - _static/scripts/platform.js
   - _static/scripts/ex-installer-download-helper.js
   - _static/scripts/clickable-cards.js
+  - _static/scripts/legacy-docs-new-tab.js
 
 extra:
   social:
@@ -104,6 +105,8 @@ plugins:
         - EX-FastClock
         - EX-DCCInspector
         - EX-CSB1
+        - EX-Motorshield8874
+        - EX-WiFiShield8266
         - DCCEXProtocol
   - rss: # Enable RSS feed for the blog/DCC-EX News articles
       match_path: "news/articles/.*"
