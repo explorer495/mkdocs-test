@@ -45,7 +45,7 @@ hide:
 
     Link to a ready-to-run page here
 
-    [link to ready to run will be invisible](/products/ex-csb1/1-ex-csb1.md)
+    [link to ready to run will be invisible](/products/ex-commandstation/1-ex-csb1.md)
 
 </div> <!-- inner-column-card-grid -->
 

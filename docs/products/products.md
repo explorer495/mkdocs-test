@@ -20,7 +20,7 @@
 
     Our flagship train control and layout animation and automation software.
 
-    [link to ex-commandstation will be invisible](/products/ex-commandstation/1-overview.md)
+    [link to ex-commandstation will be invisible](/products/ex-commandstation/0-overview.md)
 
 - ![EX-FastClock Logo](/_static/images/logos/product-logo-ex-fastclock-light.png){ .only-light }
   ![EX-FastClock Logo](/_static/images/logos/product-logo-ex-fastclock-dark.png){ .only-dark }
@@ -80,7 +80,7 @@
 
     A ready-to-run, all in one Command Station, Booster with built-in WiFi.
 
-    [link to ex-csb1 will be invisible](/products/ex-csb1/1-ex-csb1.md)
+    [link to ex-csb1 will be invisible](/products/ex-commandstation/1-ex-csb1.md)
 
 - ![EX-8874 Logo](/_static/images/logos/product-logo-ex-motorshield8874-light.png){ .only-light }
   ![EX-8874 Logo](/_static/images/logos/product-logo-ex-motorshield8874-dark.png){ .only-dark }
