@@ -31,6 +31,14 @@ hide:
 
 <div class="grid cards clickable inner-column-card-grid" markdown>
 
+- :material-list-status:{ .lg .middle } **To Do Items for Release**{ .card-heading }
+
+    ---
+
+    Go here to see what is outstanding before being able to release this new doco.
+
+    [link to list](/contributing/99-release-todo.md)
+
 - :material-clock-start:{ .lg .middle } **Get Started**{ .card-heading }
 
     ---
