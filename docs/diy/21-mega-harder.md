@@ -40,7 +40,7 @@ Non-shield Ethernet adapters have other wiring requirements. Search our help for
 
 FAILURE TO DO THIS CAN DESTROY YOUR MEGA.
 
-1. You MUST prevent the shield from feeding track voltage into your Mega. This is done by cutting the VIN trace and/or removing the pin that feeds the Mega.
+1. Unless you are using an EX8874 shield, you MUST prevent the shield from feeding track voltage into your Mega. This is done by cutting the VIN trace and/or removing the pin that feeds the Mega.
 TODO See pictures applicable to the various supported shields.
 
 2. Ensure shield pins are straight and correctly aligned.
@@ -57,7 +57,8 @@ Check your work. Look under and through where the boards connect, make sure no p
 ### Connect your track
 
 Don't skip this step if you don't yet have any track because the WiFi shield will cover the connectors.
-Create fly leads with a suitable pluggable connector for later.
+
+It's best to create fly leads with a suitable pluggable connectors for later. It makes it much easier to detach your command station from your layout when you need to fiddle with it or throw it against the wall out of sheer frustration.
 
 If you only have one piece of track for testing, wire it to the PROG track plug.
 
@@ -66,7 +67,7 @@ If you only have one piece of track for testing, wire it to the PROG track plug.
 
 ### Connect your track power supply
 
-1. Wire your track power supply to the input turrets of the motor shield, observing polarity. It may be convenient to attach a short wire with a female barrel connector.
+1. Wire your track power supply to the input turrets of the motor shield, observing polarity. It is best to create short wire with a female barrel connector.
 
 ### Optionally install a Wifi Shield
 
@@ -76,7 +77,7 @@ If you only have one piece of track for testing, wire it to the PROG track plug.
 3. Mount the WiFi shield on the motor shield.
 4. Use two male-female Dupont wires to connect the shields TX pin to the Mega RX1 pin, and the shield RX pin to the Mega TX1 pin.  
 
-TODO Photo. 
+TODO Photo.
 
 ### Load the software
 
