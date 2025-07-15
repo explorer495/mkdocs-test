@@ -8,8 +8,8 @@ The most complicated part is likely to be some assembly required, no soldering o
 
 <div class="grid cards clickable" markdown>
 
-- ![EX-Installer Logo](/_static/images/logos/product-logo-ex-installer-light.png){ .only-light }
-  ![EX-Installer Logo](/_static/images/logos/product-logo-ex-installer-dark.png){ .only-dark }
+- ![EX-Installer Logo](/_static/images/logos/product-logo-ex-installer-only-light.png){ .only-light }
+  ![EX-Installer Logo](/_static/images/logos/product-logo-ex-installer-only-dark.png){ .only-dark }
 
     ---
 
@@ -17,8 +17,8 @@ The most complicated part is likely to be some assembly required, no soldering o
 
     [link to ex-installer will be invisible](#)
 
-- ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-light.png){ .only-light }
-  ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-dark.png){ .only-dark }
+- ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-only-light.png){ .only-light }
+  ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-only-dark.png){ .only-dark }
 
     ---
 
