@@ -1,6 +1,6 @@
 # DCC-EX Product Overview
 
-## Conductor level
+## Conductor Level ![Conductor Icon](/_static/images/levels/conductor.png){ .header-img }
 
 These are our easy to use, get up and running quickly type products that do not require any specific knowledge of electronics or software.
 
@@ -64,7 +64,7 @@ The most complicated part is likely to be some assembly required, no soldering o
 
 </div>
 
-## Tinkerer level
+## Tinkerer level ![Conductor Icon](/_static/images/levels/tinkerer.png){ .header-img }
 
 These products are more involved to get up and running. These will require some software configuration and potentially some more involved assembly and possibly some basic soldering.
 
@@ -90,7 +90,7 @@ These products are more involved to get up and running. These will require some 
 
 </div>
 
-## Engineer level
+## Engineer level ![Conductor Icon](/_static/images/levels/engineer.png){ .header-img }
 
 These products are complicated to get up and running, likely need a good amount of software and hardware configuration, and should be utilised by people very comfortable with electronics and/or software.
 
