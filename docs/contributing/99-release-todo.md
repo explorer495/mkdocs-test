@@ -6,6 +6,7 @@ This is a list of to do items that will allow us to release this new documentati
 
     - [ ] General getting started page - link from home page
     - [ ] General EX-CommandStation page
+    - [ ] Clarity on what you need including **good and recommended** power supplies
     - [ ] EXRAIL under EX-CS
     - [ ] TrackManager under EX-CS - need for waveform/DC details, they can be a reference later
     - [ ] EX-CSB1 RTR information - must be complete
