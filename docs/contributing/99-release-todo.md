@@ -8,7 +8,7 @@ This is a list of to do items that will allow us to release this new documentati
     - [ ] General EX-CommandStation page
     - [ ] Clarity on what you need including **good and recommended** power supplies
     - [ ] EXRAIL under EX-CS
-    - [ ] TrackManager under EX-CS - need for waveform/DC details, they can be a reference later
+    - [ ] TrackManager under EX-CS - no waveform/DC PWM details, they can be a reference later, just focus on config and use
     - [ ] EX-CSB1 RTR information - must be complete
     - [ ] Mega DIY stack page - Mega + EX8874/Arduino R3 + WiFiShield8266 only (no hardware mods, plug n play only)
 
