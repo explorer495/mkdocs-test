@@ -10,6 +10,8 @@ Of course you will also need
 - a “Programming” track, aka "PROG" or “Service” track - an isolated short section of track that you will use to program locomotives
 - a Train - Specifically, a locomotive equipped with a DCC decoder (either a standard or sound decoder). Ideally, it should be a loco already proven to work on DCC. Otherwise, if you have a problem, you may not be able to tell if the problem is the decoder or the EX-CommandStation
 
+Like any command station, you will want some kind of throttle but you can start to drive trains with just the basic system and your PC.
+
 ## Quick and Easy
 
 If you build our standard Mega-based Command station and use our EX-MotorShield8874  and, optionally, the EX-WiFiShield8266 which have been specifically designed to meet our requirements, then you will be up and running quickly. [Easy Build Instructions](20-mega-easy.md) 

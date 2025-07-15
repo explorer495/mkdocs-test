@@ -1,6 +1,9 @@
-# Alternative build with an Arduino Mega
+# Alternative build - Arduino Mega
 
 TODO This page needs pictures inserting.
+
+
+These instructions assume a slightly more competent user who has made the decision to trade simplicity for price. It is assumed that you are comfortable modifying devices, soldering etc. and are not going to make costly mistakes such as mixing up the power supplies.
 
 There are a limited number of suitable motor or WiFi shields available and each has its own quirks.
 
@@ -18,10 +21,6 @@ To build a basic DIY Command Station you will need:
     - a female barrel connector to match the plug on your chosen track power supply
     - a suitable WiFi shield to use WiFi throttles (Recommended) with 2 suitable M-F Dupont wires.
     - OR an Ethernet Shield
-
-## Important Notes
-
-These instructions assume a slightly more competent user who has made the decision to trade simplicity for price. It is assumed that you are comfortable modifying devices, soldering etc. and are not going to make costly mistakes such as mixing up the power supplies.
 
 ## Step By Step Build
 

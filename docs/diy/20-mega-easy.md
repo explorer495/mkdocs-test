@@ -2,6 +2,10 @@
 
 TODO This page needs pictures inserting.
 
+The instructions below detail the steps required to use an EX8874 motor shield.
+
+DO NOT USE ANY OTHER SHIELD TYPE WITHOUT FIRST CHECKING OUR DETAILED INSTRUCTIONS FOR THAT SHIELD.
+
 ## What you need
 
 To build a basic DIY Command Station in easy steps you will need:
@@ -12,14 +16,6 @@ To build a basic DIY Command Station in easy steps you will need:
 - an EX-MotorShield8874 to power the track.
 - A double-insulated DC power supply with a voltage suitable for your layout/locos.  
 - Optionally.. an EX-WiFiSheild8266 to use Wifi throttles.
-
-Like any command station, you will want some kind of throttle but you can start to drive trains with just the basic system and your PC.
-
-## Alternative shields
-
-The instructions below detail the steps required to use an EX8874 motor shield.DO NOT USE ANY OTHER SHIELD TYPE WITHOUT FIRST CHECKING OUR DETAILED INSTRUCTIONS FOR THAT SHIELD.
-
-Other motor and WiFi shields are supported but they require additional setup, sometimes requiring extra wires, hardware modifications or third party software downloads. See here(TODO link)
 
 ## Step By Step Build
 
@@ -70,6 +66,10 @@ TODO Photo.
 ### Connect your power supply
 
 Plug in to the barrel connector on the EX8874 shield (NOT the mega).
+
+### Connect to your PC
+
+Using a suitable USB cable (must carry Data and Power, not all cables do this!) connect the Mega USB to your PC.
 
 ### Load the software
 
