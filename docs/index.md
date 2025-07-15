@@ -96,8 +96,8 @@ hide:
 
     [link to news will be invisible](/news/index.md)
 
-- ![EX-Installer](/_static/images/logos/product-logo-ex-installer-light.png){ .only-light width=300px }
-  ![EX-Installer](/_static/images/logos/product-logo-ex-installer-dark.png){ .only-dark width=300px }
+- ![EX-Installer](/_static/images/logos/product-logo-ex-installer-only-light.png){ .only-light width=300px }
+  ![EX-Installer](/_static/images/logos/product-logo-ex-installer-only-dark.png){ .only-dark width=300px }
 
     ---
 
