@@ -7,7 +7,7 @@ Buttons and switches are connected to an input vpin, usually on an expander such
 The ONBUTTON(x) sequence is started when the vpin x is made HIGH by a button press or other sensor being triggered.
 
 ```cpp
-ONBUTTON(102)
+ONBUTTON(172)
   PRINT("Moooving on")
   SERVO(135,417) // move cow out of the way
   DELAY(4000)  // wait 
@@ -23,12 +23,12 @@ Repeated pressing of the button will be ignored until the DONE has completed.
 The ONSENSOR(x) sequence is started when an input vpin changes state between HIGH and LOW. You will probabaly need to check the state inside the sequence using an IF(x) command.
 
 ```cpp
-ONSENSOR(106)
-  IF(106) 
-    PRINT("Sensor 106 gone HIGH")
+ONSENSOR(176)
+  IF(176) 
+    PRINT("Sensor 176 gone HIGH")
     GREEN(110) // set signal
   ELSE
-    PRINT("Sensor 106 gone LOW")
+    PRINT("Sensor 176 gone LOW")
     RED(110)  // set signal
   ENDIF
   DONE
@@ -39,12 +39,12 @@ Note: Switches are not suitable for controlling turnouts because the command sta
 You can toggle a turnout with a single button
 
 ```cpp
-ONBUTTON(122) TOGGLE_TURNOUT(7) DONE
+ONBUTTON(172) TOGGLE_TURNOUT(7) DONE
 ```
 
 Or have 2 buttons
 
 ```cpp
-ONBUTTON(122) THROW(7) DONE
-ONBUTTON(123) CLOSE(7) DONE
+ONBUTTON(172) THROW(7) DONE
+ONBUTTON(173) CLOSE(7) DONE
 ```

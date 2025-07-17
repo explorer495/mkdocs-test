@@ -56,11 +56,11 @@ e.g.
 ```cpp
   AUTOMATION(17,"Depart to Byeckaslike")
     FWD(20) // start slowly
-    AT(107) // when we reach sensor 107
+    AT(167) // when we reach sensor 167
     SPEED(55)
-    AT(108) // approaching station
+    AT(168) // approaching station
     SPEED(10) // slow down
-    AT(109) // at the terminus
+    AT(169) // at the terminus
     ESTOP // stop dead
     DONE
 ```
@@ -68,7 +68,7 @@ e.g.
 - ON-handler - a sequence that is automatically started when some event happens. For example when a button is pressed (ONBUTTON) or a turnout is changed (ONTHROW / ONCLOSE) so you can intercept turnout/point changes to automatically adjust signals or other turnouts.
 
 ```cpp
-ONBUTTON(127)
+ONBUTTON(167)
   RED(108)
   THROW(6)
   GREEN(112)
