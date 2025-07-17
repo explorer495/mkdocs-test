@@ -8,14 +8,14 @@ The most complicated part is likely to be some assembly required, no soldering o
 
 <div class="grid cards clickable" markdown>
 
-- ![EX-Installer Logo](/_static/images/logos/product-logo-ex-installer-only-light.png){ .only-light }
-  ![EX-Installer Logo](/_static/images/logos/product-logo-ex-installer-only-dark.png){ .only-dark }
+- ![EX-CSB1 Logo](/_static/images/logos/product-logo-ex-csb1-only-light.png){ .only-light }
+  ![EX-CSB1 Logo](/_static/images/logos/product-logo-ex-csb1-only-dark.png){ .only-dark }
 
     ---
 
-    Easily configure and install EX-CommandStation, EX-IOExpander, and EX-Turntable.
+    A ready-to-run, all in one Command Station, Booster with built-in WiFi.
 
-    [link to ex-installer will be invisible](#)
+    [link to ex-csb1 will be invisible](/products/ex-commandstation/1-ex-csb1.md)
 
 - ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-only-light.png){ .only-light }
   ![EX-CommandStation Logo](/_static/images/logos/product-logo-ex-commandstation-only-dark.png){ .only-dark }
@@ -26,23 +26,25 @@ The most complicated part is likely to be some assembly required, no soldering o
 
     [link to ex-commandstation will be invisible](/products/ex-commandstation/0-overview.md)
 
-- ![EX-CSB1 Logo](/_static/images/logos/product-logo-ex-csb1-only-light.png){ .only-light }
-  ![EX-CSB1 Logo](/_static/images/logos/product-logo-ex-csb1-only-dark.png){ .only-dark }
+- ![EX-Installer Logo](/_static/images/logos/product-logo-ex-installer-only-light.png){ .only-light }
+  ![EX-Installer Logo](/_static/images/logos/product-logo-ex-installer-only-dark.png){ .only-dark }
 
     ---
 
-    A ready-to-run, all in one Command Station, Booster with built-in WiFi.
+    Easily configure and install EX-CommandStation, EX-IOExpander, and EX-Turntable.
 
-    [link to ex-csb1 will be invisible](/products/ex-commandstation/1-ex-csb1.md)
+    [link to ex-installer will be invisible](#) 
+
+---
 
 - ![EX-WebThrottle Logo](/_static/images/logos/product-logo-ex-webthrottle-only-light.png){ .only-light }
   ![EX-WebThrottle Logo](/_static/images/logos/product-logo-ex-webthrottle-only-dark.png){ .only-dark }
 
     ---
 
-    An Android app full of useful tools.
+    Connect to EX‑CommandStation via the USB port of a computer.
 
-    [link to ex-toolbox will be invisible](#)
+    [link to WebThrottle will be invisible](https://dcc-ex.com/ex-webthrottle/index.html#ex-webthrottle)
 
 - ![EX-Toolbox Logo](/_static/images/logos/product-logo-ex-toolbox-only-light.png){ .only-light }
   ![EX-Toolbox Logo](/_static/images/logos/product-logo-ex-toolbox-only-dark.png){ .only-dark }
