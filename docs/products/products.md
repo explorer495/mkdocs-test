@@ -35,6 +35,32 @@ The most complicated part is likely to be some assembly required, no soldering o
 
     [link to ex-csb1 will be invisible](/products/ex-commandstation/1-ex-csb1.md)
 
+- ![EX-WebThrottle Logo](/_static/images/logos/product-logo-ex-webthrottle-only-light.png){ .only-light }
+  ![EX-WebThrottle Logo](/_static/images/logos/product-logo-ex-webthrottle-only-dark.png){ .only-dark }
+
+    ---
+
+    An Android app full of useful tools.
+
+    [link to ex-toolbox will be invisible](#)
+
+- ![EX-Toolbox Logo](/_static/images/logos/product-logo-ex-toolbox-only-light.png){ .only-light }
+  ![EX-Toolbox Logo](/_static/images/logos/product-logo-ex-toolbox-only-dark.png){ .only-dark }
+
+    ---
+
+    An Android app full of useful tools.
+
+    [link to ex-toolbox will be invisible](#)
+
+</div>
+
+## Tinkerer level ![Conductor Icon](/_static/images/levels/tinkerer.png){ .header-img }
+
+These products are more involved to get up and running. These will require some software configuration and potentially some more involved assembly and possibly some basic soldering.
+
+<div class="grid cards clickable" markdown>
+
 - ![EX-8874 Logo](/_static/images/logos/product-logo-ex-motorshield8874-only-light.png){ .only-light }
   ![EX-8874 Logo](/_static/images/logos/product-logo-ex-motorshield8874-only-dark.png){ .only-dark }
 
@@ -53,20 +79,11 @@ The most complicated part is likely to be some assembly required, no soldering o
 
     [link to ex-8266 will be invisible](#)
 
-- ![EX-Toolbox Logo](/_static/images/logos/product-logo-ex-toolbox-only-light.png){ .only-light }
-  ![EX-Toolbox Logo](/_static/images/logos/product-logo-ex-toolbox-only-dark.png){ .only-dark }
-
-    ---
-
-    An Android app full of useful tools.
-
-    [link to ex-toolbox will be invisible](#)
-
 </div>
 
-## Tinkerer level ![Conductor Icon](/_static/images/levels/tinkerer.png){ .header-img }
+## Engineer level ![Conductor Icon](/_static/images/levels/engineer.png){ .header-img }
 
-These products are more involved to get up and running. These will require some software configuration and potentially some more involved assembly and possibly some basic soldering.
+These products are complicated to get up and running, likely need a good amount of software and hardware configuration, and should be utilised by people very comfortable with electronics and/or software.
 
 <div class="grid cards clickable" markdown>
 
@@ -88,16 +105,8 @@ These products are more involved to get up and running. These will require some 
 
     [link to ex-turntable will be invisible](/products/ex-turntable/ex-turntable.md)
 
-</div>
-
-## Engineer level ![Conductor Icon](/_static/images/levels/engineer.png){ .header-img }
-
-These products are complicated to get up and running, likely need a good amount of software and hardware configuration, and should be utilised by people very comfortable with electronics and/or software.
-
-<div class="grid cards clickable" markdown>
-
-- ![EX-DCCInspector Logo](/_static/images/logos/product-logo-ex-dccinspector-light.png){ .only-light }
-  ![EX-DCCInspector Logo](/_static/images/logos/product-logo-ex-dccinspector-dark.png){ .only-dark }
+- ![EX-DCCInspector Logo](/_static/images/logos/product-logo-ex-dccinspector-only-light.png){ .only-light }
+  ![EX-DCCInspector Logo](/_static/images/logos/product-logo-ex-dccinspector-only-dark.png){ .only-dark }
 
     ---
 
@@ -105,8 +114,8 @@ These products are complicated to get up and running, likely need a good amount 
 
     [link to ex-dccinspector will be invisible](#)
 
-- ![EX-IOExpander Logo](/_static/images/logos/product-logo-ex-ioexpander-light.png){ .only-light }
-  ![EX-IOExpander Logo](/_static/images/logos/product-logo-ex-ioexpander-dark.png){ .only-dark }
+- ![EX-IOExpander Logo](/_static/images/logos/product-logo-ex-ioexpander-only-light.png){ .only-light }
+  ![EX-IOExpander Logo](/_static/images/logos/product-logo-ex-ioexpander-only-dark.png){ .only-dark }
 
     ---
 
