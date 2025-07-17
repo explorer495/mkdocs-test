@@ -63,6 +63,15 @@ These products are more involved to get up and running. These will require some 
 
 <div class="grid cards clickable" markdown>
 
+- ![CS DIY Logo](/_static/images/logos/product-logo-ex-cs-diy-only-light.png){ .only-light }
+  ![CS DIY Logo](/_static/images/logos/product-logo-ex-cs-diy-only-dark.png){ .only-dark }
+
+    ---
+
+    A supported DIY stack for EX-CommandStation using Arduino Mega + EX-MotorShield8874 (or Arduino R3 Motor Shield) + EX-WiFiShield8266 (optional).
+
+    [link to diy mega will be invisible](#)
+
 - ![EX-8874 Logo](/_static/images/logos/product-logo-ex-motorshield8874-only-light.png){ .only-light }
   ![EX-8874 Logo](/_static/images/logos/product-logo-ex-motorshield8874-only-dark.png){ .only-dark }
 
@@ -88,6 +97,15 @@ These products are more involved to get up and running. These will require some 
 These products are complicated to get up and running, likely need a good amount of software and hardware configuration, and should be utilised by people very comfortable with electronics and/or software.
 
 <div class="grid cards clickable" markdown>
+
+- ![CS DIY Logo](/_static/images/logos/product-logo-ex-cs-diy-only-light.png){ .only-light }
+  ![CS DIY Logo](/_static/images/logos/product-logo-ex-cs-diy-only-dark.png){ .only-dark }
+
+    ---
+
+    A more complex DIY stack for EX-CommandStation using ESP32/Nucleo.
+
+    [link to diy complex will be invisible](#)
 
 - ![EX-FastClock Logo](/_static/images/logos/product-logo-ex-fastclock-only-light.png){ .only-light }
   ![EX-FastClock Logo](/_static/images/logos/product-logo-ex-fastclock-only-dark.png){ .only-dark }

@@ -2,9 +2,9 @@
 <svg
    inkscape:export-ydpi="17.060751"
    inkscape:export-xdpi="17.060751"
-   inkscape:export-filename="..\..\docs\_static\images\logos\product-logo-ex-csb1-only-dark.png"
+   inkscape:export-filename="..\..\docs\_static\images\logos\product-logo-ex-cs-diy-only-light.png"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
-   sodipodi:docname="DCC-EX_product-logo-ex-dsb1-only-dark.svg"
+   sodipodi:docname="DCC-EX_product-logo-ex-cs-diy-only-light.svg"
    id="svg40"
    version="1.1"
    fill="none"
@@ -36,14 +36,14 @@
      inkscape:current-layer="svg40"
      inkscape:window-maximized="1"
      inkscape:window-y="-9"
-     inkscape:window-x="-9"
+     inkscape:window-x="1911"
      inkscape:cy="680.26548"
-     inkscape:cx="2563.6206"
+     inkscape:cx="2569.5617"
      inkscape:zoom="0.16831664"
      showgrid="false"
      id="namedview42"
-     inkscape:window-height="1261"
-     inkscape:window-width="2400"
+     inkscape:window-height="991"
+     inkscape:window-width="1920"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
      guidetolerance="10"
@@ -284,24 +284,20 @@
   </defs>
   <text
      xml:space="preserve"
-     id="text4021"
-     style="font-size:14.6667px;line-height:2px;font-family:'Adobe Gothic Std';-inkscape-font-specification:'Adobe Gothic Std';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect4023);display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-  <text
-     xml:space="preserve"
      id="text2480-6-0-6"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:88.1171px;line-height:1.25;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2482-4-7-6);display:inline;fill:#000000;fill-opacity:1;stroke:none"
      transform="matrix(3.4802183,0,0,3.4802183,-287.44754,-4606.5347)"
      inkscape:export-filename="D:\users\akers\documents\_personal -D\DCC-EX\product-logo-ex-commandstation.png"
      inkscape:export-xdpi="18.431187"
      inkscape:export-ydpi="18.431187"
-     inkscape:label="EX-CSB1"><tspan
+     inkscape:label="EX-CS-DIY"><tspan
        x="205.2832"
        y="1421.3719"
-       id="tspan6"><tspan
-         style="fill:#00daf4"
-         id="tspan4">EX-</tspan><tspan
-         style="fill:#0088a4"
-         id="tspan5">CSB1</tspan></tspan></text>
+       id="tspan3"><tspan
+         style="fill:#00a3b9"
+         id="tspan1">EX-</tspan><tspan
+         style="fill:#00353d"
+         id="tspan2">CS-DIY</tspan></tspan></text>
   <g
      id="g5370-3"
      transform="matrix(0.47670011,0,0,0.47670011,-101.17668,73.522661)"
