@@ -36,9 +36,9 @@
      inkscape:current-layer="svg40"
      inkscape:window-maximized="1"
      inkscape:window-y="-9"
-     inkscape:window-x="2391"
-     inkscape:cy="674.32428"
-     inkscape:cx="2560.6499"
+     inkscape:window-x="1911"
+     inkscape:cy="674.3243"
+     inkscape:cx="2563.6206"
      inkscape:zoom="0.16831664"
      showgrid="false"
      id="namedview42"
@@ -282,13 +282,6 @@
        height="174.87143"
        id="rect2482-4-7-6-0-1" />
   </defs>
-  <rect
-     style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.377953;-inkscape-stroke:none;stop-color:#000000"
-     id="rect46006"
-     width="4501.5605"
-     height="901.94586"
-     x="-49.014759"
-     y="-225.97293" />
   <text
      xml:space="preserve"
      id="text4021"
@@ -304,11 +297,11 @@
      inkscape:label="EX-Installer"><tspan
        x="205.2832"
        y="1421.3719"
-       id="tspan6"><tspan
+       id="tspan3"><tspan
          style="fill:#00a3b9"
-         id="tspan4">EX-</tspan><tspan
+         id="tspan1">EX-</tspan><tspan
          style="fill:#00353d"
-         id="tspan5">Installer</tspan></tspan></text>
+         id="tspan2">Installer</tspan></tspan></text>
   <g
      id="g5370-3"
      transform="matrix(0.47670011,0,0,0.47670011,-101.17668,73.522661)"

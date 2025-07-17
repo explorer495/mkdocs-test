@@ -87,8 +87,9 @@ hide:
 
 <div class="grid cards clickable inner-column-card-grid" markdown>
 
-- ![DCC-EX News](/_static/images/logos/product-logo-news-light.png){ .only-light width=300px }
-  ![DCC-EX News](/_static/images/logos/product-logo-news-dark.png){ .only-dark width=300px }
+<!-- - ![DCC-EX News](/_static/images/logos/product-logo-news-only-light.png){ .only-light }
+  ![DCC-EX News](/_static/images/logos/product-logo-news-only-dark.png){ .only-dark } -->
+- :material-newspaper-variant-outline:{ .lg .middle } **Latest News**{ .card-heading }
 
     ---
 
@@ -96,8 +97,8 @@ hide:
 
     [link to news will be invisible](/news/index.md)
 
-- ![EX-Installer](/_static/images/logos/product-logo-ex-installer-light.png){ .only-light width=300px }
-  ![EX-Installer](/_static/images/logos/product-logo-ex-installer-dark.png){ .only-dark width=300px }
+- ![EX-Installer](/_static/images/logos/product-logo-ex-installer-only-light.png){ .only-light }
+  ![EX-Installer](/_static/images/logos/product-logo-ex-installer-only-dark.png){ .only-dark }
 
     ---
 
@@ -105,8 +106,9 @@ hide:
 
     [link to downloads will be invisible](/getting-started/10-downloads.md#ex-installer)
 
-- ![DCC-EX Downloads](/_static/images/logos/product-logo-download-light.png){ .only-light width=300px }
-  ![DCC-EX Downloads](/_static/images/logos/product-logo-download-dark.png){ .only-dark width=300px }
+<!-- - ![DCC-EX Downloads](/_static/images/logos/product-logo-download-light.png){ .only-light }
+  ![DCC-EX Downloads](/_static/images/logos/product-logo-download-dark.png){ .only-dark } -->
+- :material-download:{ .lg .middle } **Downloads**{ .card-heading }
 
     ---
 

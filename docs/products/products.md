@@ -26,8 +26,8 @@ The most complicated part is likely to be some assembly required, no soldering o
 
     [link to ex-commandstation will be invisible](/products/ex-commandstation/0-overview.md)
 
-- ![EX-CSB1 Logo](/_static/images/logos/product-logo-ex-csb1-light.png){ .only-light }
-  ![EX-CSB1 Logo](/_static/images/logos/product-logo-ex-csb1-dark.png){ .only-dark }
+- ![EX-CSB1 Logo](/_static/images/logos/product-logo-ex-csb1-only-light.png){ .only-light }
+  ![EX-CSB1 Logo](/_static/images/logos/product-logo-ex-csb1-only-dark.png){ .only-dark }
 
     ---
 
@@ -35,8 +35,8 @@ The most complicated part is likely to be some assembly required, no soldering o
 
     [link to ex-csb1 will be invisible](/products/ex-commandstation/1-ex-csb1.md)
 
-- ![EX-8874 Logo](/_static/images/logos/product-logo-ex-motorshield8874-light.png){ .only-light }
-  ![EX-8874 Logo](/_static/images/logos/product-logo-ex-motorshield8874-dark.png){ .only-dark }
+- ![EX-8874 Logo](/_static/images/logos/product-logo-ex-motorshield8874-only-light.png){ .only-light }
+  ![EX-8874 Logo](/_static/images/logos/product-logo-ex-motorshield8874-only-dark.png){ .only-dark }
 
     ---
 
@@ -44,8 +44,8 @@ The most complicated part is likely to be some assembly required, no soldering o
 
     [link to ex-8874 will be invisible](#)
 
-- ![EX-8266 Logo](/_static/images/logos/product-logo-ex-wifishield8266-light.png){ .only-light }
-  ![EX-8266 Logo](/_static/images/logos/product-logo-ex-wifishield8266-dark.png){ .only-dark }
+- ![EX-8266 Logo](/_static/images/logos/product-logo-ex-wifishield8266-only-light.png){ .only-light }
+  ![EX-8266 Logo](/_static/images/logos/product-logo-ex-wifishield8266-only-dark.png){ .only-dark }
 
     ---
 
@@ -53,8 +53,8 @@ The most complicated part is likely to be some assembly required, no soldering o
 
     [link to ex-8266 will be invisible](#)
 
-- ![EX-Toolbox Logo](/_static/images/logos/product-logo-ex-toolbox-light.png){ .only-light }
-  ![EX-Toolbox Logo](/_static/images/logos/product-logo-ex-toolbox-dark.png){ .only-dark }
+- ![EX-Toolbox Logo](/_static/images/logos/product-logo-ex-toolbox-only-light.png){ .only-light }
+  ![EX-Toolbox Logo](/_static/images/logos/product-logo-ex-toolbox-only-dark.png){ .only-dark }
 
     ---
 
@@ -70,8 +70,8 @@ These products are more involved to get up and running. These will require some 
 
 <div class="grid cards clickable" markdown>
 
-- ![EX-FastClock Logo](/_static/images/logos/product-logo-ex-fastclock-light.png){ .only-light }
-  ![EX-FastClock Logo](/_static/images/logos/product-logo-ex-fastclock-dark.png){ .only-dark }
+- ![EX-FastClock Logo](/_static/images/logos/product-logo-ex-fastclock-only-light.png){ .only-light }
+  ![EX-FastClock Logo](/_static/images/logos/product-logo-ex-fastclock-only-dark.png){ .only-dark }
 
     ---
 
@@ -79,8 +79,8 @@ These products are more involved to get up and running. These will require some 
 
     [link to ex-fastclock will be invisible](/products/ex-fastclock/01-overview.md)
 
-- ![EX-Turntable Logo](/_static/images/logos/product-logo-ex-turntable-light.png){ .only-light }
-  ![EX-Turntable Logo](/_static/images/logos/product-logo-ex-turntable-dark.png){ .only-dark }
+- ![EX-Turntable Logo](/_static/images/logos/product-logo-ex-turntable-only-light.png){ .only-light }
+  ![EX-Turntable Logo](/_static/images/logos/product-logo-ex-turntable-only-dark.png){ .only-dark }
 
     ---
 
