@@ -4,7 +4,7 @@
 
 ## Important considerations for servo operation
 
-Servo turnouts are driven through a [PCA9685](?PCA9685) servo control board on an [EX-IOExpander](?ioexpander).
+Servo turnouts are driven through a [PCA9685](?PCA9685) servo control board or an [EX-IOExpander](?ioexpander).
 
 Test, test, test your servo parameters prior to connecting to an actual turnout/point. If you have defined angles that exceed the physical limits of your turnout, you will likely damage it and/or the servo mechanism.
 
