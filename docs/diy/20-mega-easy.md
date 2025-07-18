@@ -25,7 +25,7 @@ To build a basic DIY Command Station in easy steps you will need:
 
 2. Use sticky tape or similar to cover the top of the USB connector on the mega. This prevents any accidental contact with the underside of the motor shield.  
 
-### Prepare your EX9974 shield
+### Prepare your EX8874 shield
 
 Sight down both rows of pins on the EX8874 board and make sure they are all straight. They should all line up in a row and not be bent in any plane, just like the teeth on a comb. If any look like the photo below, bend them with your fingers and/or needle nose pliers.
 
