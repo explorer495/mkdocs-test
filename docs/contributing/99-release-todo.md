@@ -14,10 +14,27 @@ This is a list of to do items that will allow us to release this new documentati
 
 - [ ] Product pages for EX-Installer, EX-CommandStation (includes EXRAIL and TrackManager), EX-CSB1, EX-Motorshield8874, and EX-WiFiShield8266
 - [ ] Better how to get help and support info
+
+    - [ ] How to use Discord, code snippets, upload files, raise a ticket
+    - [ ] What are the logs/file required, how to get them
+
 - [ ] EX-CommandStation troubleshooting steps
+
+    - [ ] USB issues - drivers, cables, ports, permissions, other programs open
+    - [ ] WiFi/serial interfering
+    - [ ] WiFi issues
+    - [ ] EX-Installer common issues
+    - [ ] Not seeing roster/routes/turnouts in throttles/JMRI
+
 - [ ] Purchasing information for hardware
 - [ ] About Us page - combine with contributing or separate?
 - [ ] Proof-reading all pages but not by original author
 - [ ] EXRAIL command reference from doxyGen
 - [ ] Address all TODO markers
+- [ ] Levels - decide on more generic ones: Beginner, Intermediate, Advanced
+- [ ] User journeys to guide users through the site
 
+    - [ ] Brand new users no knowledge
+    - [ ] Running trains?
+    - [ ] Accessories?
+    - [ ] Animation/automation?
