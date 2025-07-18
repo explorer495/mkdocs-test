@@ -1,6 +1,6 @@
 # I2C Wiring
 
-working on content - - trying to figure out how to present/explain some of the I2C details
+I2C expansion modules provide accessory pins, but I2C wiring requires some attention to detail.
 
 <strong>I2C concepts</strong>  
     * Keep I2C wiring short  
@@ -29,6 +29,10 @@ This table shows the parallel resistance values with multiple I2C modules.
 Note that Mega has 10k onboard; EX-CSB1 has 5.1k; others are weak or disabled.  
 I2C modules, such as PCA9685, MCP23017 and LCD will generally have 10k pullups. OLED may have none.  
 Add/remove pullups to result in 2.5-3.0 mA.  
-With LTC4311 the need to adjust resistance may be less important.  
+With LTC4311 the need to adjust resistance may be less important, unless resistance is too low.  
 
-[todo Table of parallel resistance]  
+![I2C Resistance](/_static/images/i2c-devices/i2c-pullup-resistance.png){: style="width: 70%"}
+
+<strong>Wiring pattern for lower capacitance</strong>  
+[https://www.nxp.com/docs/en/user-guide/UM10204.pdf](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)  
+![I2C Wiring Pattern](/_static/images/i2c-devices/i2c-wiring-pattern.jpg){: style="width: 70%"}
