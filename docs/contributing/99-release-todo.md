@@ -17,3 +17,7 @@ This is a list of to do items that will allow us to release this new documentati
 - [ ] EX-CommandStation troubleshooting steps
 - [ ] Purchasing information for hardware
 - [ ] About Us page - combine with contributing or separate?
+- [ ] Proof-reading all pages but not by original author
+- [ ] EXRAIL command reference from doxyGen
+- [ ] Address all TODO markers
+
