@@ -1,6 +1,6 @@
 # I2C Wiring
 
-I2C expansion modules provide accessory pins, but I2C wiring requires some attention to detail.
+I2C expansion modules provide accessory pins, but I2C wiring requires a lot of attention to detail.
 
 <strong>I2C concepts</strong>  
     * Keep I2C wiring short  
