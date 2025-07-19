@@ -4,7 +4,7 @@ A DCC Command Station powers your track and sends digital signals to the locos a
 
 Our primary solution is the [EX-CSB1](1-ex-csb1.md) CommandStation which provides a ready-to-run system with integrated WiFi. You can start running trains from your Android phone in a couple of minutes if you plug your track in one end and a power supply in the other.
 
-- If ou want to buy a ready built command station, see [Purchase a Command Station](?Purchase) and come back here to learn about it while you are waiting for the delivery.
+- If you want to buy a ready built command station, see [Purchase a Command Station](?Purchase) and come back here to learn about it while you are waiting for the delivery.
 
 - If you want to build your own command station and are prepared to learn about Arduinos see [Building your own Command station](?DIY) but you are advised to read the basic guidance that follows so you will have a better understanding of what you want to achieve, and what will be possible.
 

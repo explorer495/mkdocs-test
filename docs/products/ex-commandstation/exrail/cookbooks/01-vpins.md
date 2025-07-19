@@ -8,30 +8,35 @@ The vast majority of VPINs are either output (e.g. LEDs and servos) or input (e.
 
 ## Creating virtual pins
 
-Virtual pins are normally defined by specifying the Hardware Driver that is used to connect to an external device. There is no way for the command station to know for sure what devices are connected so it must be told. This is done by including HAL commands in myAutomation.h
+Virtual pins are normally defined by specifying the Hardware Driver that is used to connect to an external device. There is no way for the command station to know for sure what devices are connected so it must be told. This is done by including HAL commands in myAutomation.h which configure the device.
 
 For Example
 
 ```cpp
-    HAL(PCA9685,100,16,0x20) 
-    HAL(MCP23017,200,16,0x40) 
+    HAL(PCA9685, 100, 16, 0x40) 
+    HAL(PCA9685, 116, 16, 0x41) 
+    HAL(PCA9685, 132, 16, 0x42) 
+    HAL(PCA9685, 148, 16, {I2CMux_0,SubBus_4,0x43})
+
+    HAL(MCP23017, 164, 16, 0x20) 
+    HAL(MCP23017, 180, 16, 0x21) 
 ```
 
-
-This would create VPINs 100 to 115 to represent the 16 servo outputs of a [PCA9685](?PCA9685) servo control board at I2C address 0x20 and VPINS 200 to 215 in an [MCP23017](?MCP23017) i/o expander.  
+This would create VPINs 100 to 115 to represent the 16 servo outputs on the first [PCA9685](?PCA9685) servo control board at I2C address 0x40 and VPINs 164 to 179 on the first [MCP23017](?MCP23017) i/o expander.  
+VPINs for two PCA9685 and two MCP23017 are pre-defined, except for PCA9685 used with Nucleo-144.  
 Refer to wiring details and fuller list of [supported I2C devices](#) elsewhere.
 
 ## Using OUTPUT VPINS
 
 Pin values can be changed with basic digital pin commands common to all VPINs.  In EXRAIL
 
-`SET(113)` `RESET(113)`  sets value HIGH or LOW.
+`SET(180)` `RESET(180)`  sets value HIGH or LOW.
 
-`SET(100,5)` or `RESET(100,5)`  sets/resets a range of pins (100..104 in this case).
+`SET(181,5)` or `RESET(181,5)`  sets/resets a range of pins (181..185 in this case).
 
-`BLINK(201,250,750)` sets pin 201 blinking for 250mS on and 750mS off. Blinking is stopped by a SET or RESET of the pin.
+`BLINK(180,250,750)` sets pin 201 blinking for 250mS on and 750mS off. Blinking is stopped by a SET or RESET of the pin.
 
-Serial commands can set HIGH/LOW values to VPINs using <z 201> <z -201> as for any digital output.
+Serial commands can set HIGH/LOW values to VPINs using `<z 180> <z -180>` as for any digital output.
 
 ## Using INPUT VPINs
 
@@ -53,4 +58,3 @@ ONBUTTON(202)
 `ONSENSOR(200)` triggers when a sensor changes state. This is less useful.
 
 Other more advanced commands are available, see cookbooks.
-
