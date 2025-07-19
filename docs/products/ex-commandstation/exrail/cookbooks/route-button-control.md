@@ -17,7 +17,7 @@ In this case we want a way of setting a light on or off.
 ## Simple light switch route
 
  This example just has the logic to switch a light on/off with the "Set" button.
- It uses a [Bitmap flag](/products/ex-commandstation/exrail/cookbooks/flags-and-latches/flags.md) to remember whether the light is on or off. Note that the light and flag will default to off.
+ It uses a [Bitmap flag](/products/ex-commandstation/EXRAIL/cookbooks/flags-and-latches/flags.md) to remember whether the light is on or off. Note that the light and flag will default to off.
 
  A flag or range of flags in created like this:
 
