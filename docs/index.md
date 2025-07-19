@@ -77,7 +77,7 @@ hide:
 
     Get into EXRAIL
 
-    [link to exrail will be invisible](/products/ex-commandstation/exrail/1-exrail.md)
+    [link to exrail will be invisible](/products/ex-commandstation/EXRAIL/1-exrail.md)
 
 </div> <!-- inner-column-card-grid -->
 

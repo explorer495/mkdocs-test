@@ -15,7 +15,7 @@ and
 ONCLOCKMINS( mins )
 ```
 
-For details of how to use these commands see the [Clock Control Cookbook](/products/ex-commandstation/exrail/cookbooks/timecontrol.md).
+For details of how to use these commands see the [Clock Control Cookbook](/products/ex-commandstation/EXRAIL/cookbooks/timecontrol.md).
 
 ## Testing Timed Sequences
 
@@ -25,4 +25,4 @@ If one is testing out a sequence using a timed command it can be done quickly wi
 <JC mmmm ss> 
 ```
 
-Details are again on the [Clock Control Cookbook](/products/ex-commandstation/exrail/cookbooks/timecontrol.md).
+Details are again on the [Clock Control Cookbook](/products/ex-commandstation/EXRAIL/cookbooks/timecontrol.md).
