@@ -26,6 +26,12 @@ This is a list of to do items that will allow us to release this new documentati
     - [ ] EX-Installer common issues
     - [ ] Not seeing roster/routes/turnouts in throttles/JMRI
 
+- [ ] I2C more accessible information
+
+    - [ ] Wiring/pullups/distance in layman's terms
+    - [ ] Default device addresses and how to disable
+    - [ ] Troubleshooting steps
+
 - [ ] Purchasing information for hardware
 - [ ] About Us page - combine with contributing or separate?
 - [ ] Proof-reading all pages but not by original author
