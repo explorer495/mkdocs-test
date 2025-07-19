@@ -8,6 +8,8 @@ The simplest and most direct testing method is to use a serial monitor to talk d
 
 There are several serial monitors available:
 
+--8<-- "includes/ex-installer/device-monitor.md"
+
 - Built in to the [EX-Installer](/getting-started/10-downloads.md)
     ??? TODO EX INSTALLER showing serial log
 - Built in to VSCode is you are using that as an IDE.
