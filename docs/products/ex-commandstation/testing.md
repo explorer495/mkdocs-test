@@ -4,6 +4,9 @@
 
  ## In Summary
 
+We hope your Command Station works out of the box. If it doesn't don't worry, we're here to help you get it working. This guide is your first port of call. 
+
+If you have tried these steps
 The simplest and most direct testing method is to use a serial monitor to talk directly to the USB connection of you command station. This is a fundamental aspect of the Arduino system and thus avoids issues such as wifi connections. Indeed, this is the only way to see what's going wrong if your problems are wifi related.
 
 ## Serial Monitors
