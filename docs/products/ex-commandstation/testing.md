@@ -4,9 +4,13 @@
 
  ## In Summary
 
-We hope your Command Station works out of the box. If it doesn't don't worry, we're here to help you get it working. This guide is your first port of call. 
+We hope your Command Station works out of the box. If it doesn't don't worry, we're here to help you get it working. This guide is your first port of call. The key steps to check first, in this order, are:
+1. Is the LED on the circuitboard showing a functioning microcontroller? (if it isn't try unplugging from power and plugging it back in again)
+2. Have you been able to assemble it all together OK or are you worried that something "doesn't look right"? Double check here: to see the visuals. If you're using a CSB1, then you can skip this step.
+3. 
 
-If you have tried these steps
+If you have tried these steps and you still can't get the Command Station to work, head over to our Discord server and chat to the community and the suppor team.
+
 The simplest and most direct testing method is to use a serial monitor to talk directly to the USB connection of you command station. This is a fundamental aspect of the Arduino system and thus avoids issues such as wifi connections. Indeed, this is the only way to see what's going wrong if your problems are wifi related.
 
 ## Serial Monitors
