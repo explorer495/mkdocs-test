@@ -44,3 +44,14 @@ This is a list of to do items that will allow us to release this new documentati
     - [ ] Running trains?
     - [ ] Accessories?
     - [ ] Animation/automation?
+
+- [ ] Ensure MkDocs contributor guide covers all customisations
+
+    - [ ] How to use our logos
+    - [ ] Grid cards
+    - [ ] CSS/JS customisations
+    - [ ] Custom plugins
+    - [ ] Custom footer
+    - [ ] How we use Material extensions
+    - [ ] Icons/emojis
+    - [ ] Snippets?
