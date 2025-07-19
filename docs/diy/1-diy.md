@@ -12,11 +12,11 @@ Of course you will also need
 
 Like any command station, you will want some kind of throttle but you can start to drive trains with just the basic system and your PC.
 
-## Quick and Easy
+## Quick and Easy Arduino Mega
 
-If you build our standard Mega-based Command station and use our EX-MotorShield8874  and, optionally, the EX-WiFiShield8266 which have been specifically designed to meet our requirements, then you will be up and running quickly. [Easy Build Instructions](20-mega-easy.md) 
+If you build our standard Mega-based Command station and use our EX-MotorShield8874  and, optionally, the EX-WiFiShield8266 which have been specifically designed to meet our requirements, then you will be up and running quickly. [Easy Build Instructions](20-mega-easy.md)
 
-## Slightly more difficult
+## Slightly more difficult Mega
 
 Using other supported motor or WiFi shields requires a slightly [more complex setup](21-mega-harder.md).
 
