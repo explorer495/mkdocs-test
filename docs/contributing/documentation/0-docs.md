@@ -48,7 +48,7 @@ Follow the appropriate section below to setup MkDocs in Python for your operatin
 
 ```bash
 cd mkdocs-test
-python 3 -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
