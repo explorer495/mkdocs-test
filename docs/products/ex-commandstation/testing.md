@@ -10,7 +10,7 @@ There are several serial monitors available:
 
 --8<-- "includes/ex-installer/device-monitor.md"
 
-- Built in to the [EX-Installer](/getting-started/10-downloads.md)
+- Built in to the [EX-Installer](?EX-Installer)
     ??? TODO EX INSTALLER showing serial log
 - Built in to VSCode is you are using that as an IDE.
 - Built in to the Arduino IDE (We do not recommend that for development)

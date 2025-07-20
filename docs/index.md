@@ -104,7 +104,7 @@ hide:
 
     Get EX-Installer to install our software.
 
-    [link to downloads will be invisible](/getting-started/10-downloads.md#ex-installer)
+    [link to downloads will be invisible](/getting-started/01-getting-started.md)
 
 <!-- - ![DCC-EX Downloads](/_static/images/logos/product-logo-download-light.png){ .only-light }
   ![DCC-EX Downloads](/_static/images/logos/product-logo-download-dark.png){ .only-dark } -->
@@ -114,7 +114,7 @@ hide:
 
     Go here to get our software.
 
-    [link to downloads will be invisible](/getting-started/10-downloads.md)
+    [link to downloads will be invisible](/getting-started/01-getting-started.md)
 
 </div> <!-- inner-column-card-grid -->
 
