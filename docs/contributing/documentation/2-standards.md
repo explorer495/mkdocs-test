@@ -21,7 +21,7 @@ So:
 
 - All directory and page names must be in lower case and use "-" instead of spaces.
 - If specific page ordering is required, simply preface with the appropriate page number eg. "1-standards-formatting.md".
-- The page title is determined by the top level heading, see [Headings](/contributing/3-formatting-guide.md#headings).
+- The page title is determined by the top level heading, see [Headings](/contributing/documentation/3-formatting-guide.md#headings).
 
 ## Directory Structure
 
