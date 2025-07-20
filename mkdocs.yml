@@ -56,7 +56,7 @@ extra_css:
 extra_javascript:
   - _static/scripts/search-helper.js
   - _static/scripts/platform.js
-  - _static/scripts/ex-installer-download-helper.js
+  - _static/scripts/ex-installer-run-helper.js
   - _static/scripts/clickable-cards.js
   - _static/scripts/legacy-docs-new-tab.js
 
@@ -153,6 +153,7 @@ markdown_extensions:
       clickable_checkbox: true
   - toc: # Table of Contents extension
       permalink: true # Add a permanent link to headings
+  - pymdownx.extra # markdown in div
 
 watch:
   - includes
