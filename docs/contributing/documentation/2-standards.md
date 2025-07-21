@@ -21,7 +21,7 @@ So:
 
 - All directory and page names must be in lower case and use "-" instead of spaces.
 - If specific page ordering is required, simply preface with the appropriate page number eg. "1-standards-formatting.md".
-- The page title is determined by the top level heading, see [Headings](/contributing/3-formatting-guide.md#headings).
+- The page title is determined by the top level heading, see [Headings](/contributing/documentation/3-formatting-guide.md#headings).
 
 ## Directory Structure
 
@@ -32,39 +32,3 @@ The top level directories under the "docs" directory determine the tabs or horiz
 **Do not adjust the top level directories without consulting the DCC-EX Documenter team, as these fundamentally adjust the user experience.**
 
 If a new top level directory is to be added, it needs to be added to the "/docs/.nav.yml" file in the appropriate order. Files and directories created within existing top level directories will automatically be added to the menus (see [Page Naming and Titles](#directory-naming-page-naming-and-titles) for page ordering).
-
-### Suggested Directory Structure
-
-- Home
-    - index.md - Contains intro information and user journey start points
-    - downloads.md - Maybe downloads here?
-- News
-    - index.md - DCC-EX News articles
-- Getting Started
-    - Choose your level
-    - RTR
-    - DIY
-    - EX-Installer
-- Products
-    - EX-CommandStation
-        - EXRAIL
-            - Cookbooks
-        - TrackManager
-    - EX-CommandStation Booster 1 (EX-CSB1)
-    - EX-Motorshield8874
-    - EX-WifiShield-8266
-    - EX-FastClock
-    - EX-IOExpander
-    - EX-Turntable
-- Support
-    - Troubleshooting
-    - Getting Help
-    - Videos
-    - Case Studies
-        - The Big Picture
-- Reference
-    - Throttle commands
-    - EXRAIL commands
-- About
-    - The Team
-    - Contributing

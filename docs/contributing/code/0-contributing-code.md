@@ -1,6 +1,6 @@
 # Contributing to the public domain code
 
-Thanks for considering contributing to our project. Here is a guide for how to get started and and a list of our conventions. We will also walk you through the Github command line and Desktop commands necessary to download the code, make changes, and get it included in a next version of the sofware.
+Thanks for considering contributing to our project. Here is a guide for how to get started and and a list of our conventions. We will also walk you through the Github command line and Desktop commands necessary to download the code, make changes, and get it included in a next version of the software.
 
 Before contributing to this repository, please first discuss the change you wish to make via issue, or any other method with the owners of this repository before making a change.
 
@@ -16,13 +16,13 @@ We recommend using PlatformIO IDE for VSCode. If you haven't yet used it, it is 
 * Download and install the latest version of Visual Studio Code from Microsoft
 * Run VSCode and click on the "extensions" icon on the left. Install "PlatformIO IDE for VSCode" and the "Arduino Framework" support
 
-If you don't see C/C++ Installed in the list, install that too. We also recomment installing the Gitlens extension to make working with Git and GitHub even easier.
+If you don't see C/C++ Installed in the list, install that too. We also recommend installing the Gitlens extension to make working with Git and GitHub even easier.
 
 You may ask if you can use the Arduino IDE, Visual Studio, or even a text editor and the answer is "of course" if you know what you are doing. Since you are just changing text files, you can use whatever you like as long as your commits and pull requests can be merged in GitHub. However, it will be much easier to follow our coding standards if you have an IDE that can automatically format things for you.
 
 ## Coding Style Guidelines
 
-We have adopted the Google style guidlines. In particular please make sure to adhere to these standards:
+We have adopted the Google style guidelines. In particular please make sure to adhere to these standards:
 
 1. All header files should have ``#define`` guards to prevent multiple inclusion. (EXCEPT .h files containing EXRAIL scripts!)
 2. Use Unix style line endings
@@ -35,7 +35,7 @@ For more information just check our code or read the [style guide](https://googl
 
 1. Clone the repository on your local machine
 2. Create a working branch using the format "username-featurename" ex: "git branch -b frightrisk-turnouts"
-3. Commit offen, ex: "git add ." and then "git commit -m "description of your changes"
+3. Commit often, ex: "git add ." and then "git commit -m "description of your changes"
 4. Push your changes to our repository "git push"
 5. When you are ready, issue a pull request for your changes to be merged into the main branch
 

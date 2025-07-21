@@ -10,7 +10,7 @@ There are three types of links you can use:
 - Document links - link to another document, or a section heading on another document
 - External links - link to an external website
 
-All internal links to other pages and sections should be relative to the docs directory. We have enabled a setting to ensure links are correctly copnverted to the correct html href, and enable permalinks for headings to support this.
+All internal links to other pages and sections should be relative to the docs directory. We have enabled a setting to ensure links are correctly converted to the correct html href, and enable permalinks for headings to support this.
 
 ### Section Links
 
@@ -25,18 +25,18 @@ Results in: [Link to this section](#page-and-section-links)
 ### Document Links
 
 ```markdown
-[Link to Contributing to Documentation Page](/contributing/1-contribute-docs.md)
+[Link to Contributing to Documentation Page](/contributing/documentation/0-docs.md)
 ```
 
-Results in: [Link to Contributing to Documentation Page](/contributing/1-contribute-docs.md)
+Results in: [Link to Contributing to Documentation Page](/contributing/documentation/0-docs.md)
 
 ```markdown
-[Link to How to Contribute Section](/contributing/1-contribute-docs.md#how-to-contribute)
+[Link to How to Contribute Section](/contributing/documentation/0-docs.md#how-to-contribute)
 ```
 
-Results in: [Link to How to Contribute Section](/contributing/1-contribute-docs.md#how-to-contribute)
+Results in: [Link to How to Contribute Section](/contributing/documentation/0-docs.md#how-to-contribute)
 
-Note: when typing a link in VSCode, the intellisense dropdown will help you complete the link by following the path from the project directory. This creates links that start with "/docs" (for example "/docs/contributing/1-contribute-docs.md" ). These links will not work unless you manually detele the /docs prefix.  Its a pain but we have raised a PR for VScode and mkDocs on this.
+Note: when typing a link in VSCode, the intellisense dropdown will help you complete the link by following the path from the project directory. This creates links that start with "/docs" (for example "/docs/contributing/1-contribute-docs.md" ). These links will not work unless you manually delete the /docs prefix.  Its a pain but we have raised a PR for VScode and mkDocs on this.
 
 ### External Links
 

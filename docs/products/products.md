@@ -33,7 +33,7 @@ The most complicated part is likely to be some assembly required, no soldering o
 
     Easily configure and install EX-CommandStation, EX-IOExpander, and EX-Turntable.
 
-    [link to ex-installer will be invisible](https://dcc-ex.com/ex-installer/index.html#ex-installer) 
+    [link to ex-installer will be invisible](/products/ex-installer/0-overview.md)
 
 ---
 

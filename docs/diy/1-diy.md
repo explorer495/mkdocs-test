@@ -12,11 +12,15 @@ Of course you will also need
 
 Like any command station, you will want some kind of throttle but you can start to drive trains with just the basic system and your PC.
 
-## Quick and Easy
+## Getting the DCC-EX Software
 
-If you build our standard Mega-based Command station and use our EX-MotorShield8874  and, optionally, the EX-WiFiShield8266 which have been specifically designed to meet our requirements, then you will be up and running quickly. [Easy Build Instructions](20-mega-easy.md) 
+All builds will require the DCC-EX software to be configured and loaded onto the Arduino processor from your PC. This is best done using the EX-Installer and the following build instructions assume you have already downloaded and installed this by following the [getting started](/getting-started/01-getting-started.md) instructions.
 
-## Slightly more difficult
+## Quick and Easy Arduino Mega
+
+If you build our standard Mega-based Command station and use our EX-MotorShield8874  and, optionally, the EX-WiFiShield8266 which have been specifically designed to meet our requirements, then you will be up and running quickly. [Easy Build Instructions](20-mega-easy.md)
+
+## Slightly more difficult Mega
 
 Using other supported motor or WiFi shields requires a slightly [more complex setup](21-mega-harder.md).
 
